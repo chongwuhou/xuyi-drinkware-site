@@ -1,0 +1,3396 @@
+{
+  "media": [
+    {
+      "path": "/media/blog/wholesale-water-bottle-handle-strap-test-20261123.webp",
+      "contentType": "image/webp",
+      "sourcePath": "assets/blog/wholesale-water-bottle-handle-strap-test-20261123.webp"
+    },
+    {
+      "path": "/media/blog/wholesale-water-bottle-cap-fit-check-20261123.webp",
+      "contentType": "image/webp",
+      "sourcePath": "assets/blog/wholesale-water-bottle-cap-fit-check-20261123.webp"
+    },
+    {
+      "path": "/media/blog/car-cup-holder-water-bottle-fit-20261123.webp",
+      "contentType": "image/webp",
+      "sourcePath": "assets/blog/car-cup-holder-water-bottle-fit-20261123.webp"
+    }
+  ],
+  "posts": [
+    {
+      "slug": "wholesale-water-bottle-handle-strap-test",
+      "title": "What Should Importers Test on a Reusable Water Bottle Handle Before Bulk Buying?",
+      "description": "A practical B2B checklist for testing reusable bottle handles and carry straps by exact SKU, attachment point, filled use, wear and approved sample.",
+      "intro": "A handle can look secure in a product photo and still fail at the joint, twist under a filled load or feel uncomfortable in daily use. This guide turns a carry-handle review into a repeatable bulk-order decision.",
+      "category": "WHOLESALE BUYER TESTING",
+      "cover": "/media/blog/wholesale-water-bottle-handle-strap-test-20261123.webp",
+      "coverAlt": "Wholesale buyer checking a reusable water bottle handle and strap beside sample bottles in a warehouse",
+      "updated": "2026-11-23",
+      "sections": [
+        [
+          "Define what the handle must carry",
+          "Start with the real use case: short hand carry, bag attachment, gym use or repeated warehouse handling. Do not promise a universal load rating from appearance. Record empty, partial or agreed filled condition and keep it identical across samples."
+        ],
+        [
+          "Map the attachment points by SKU",
+          "Record bottle model, cap version, handle or strap part, factory material description, color and revision. A 500ml and a 1000ml bottle may use different attachment geometry. Treat each body-cap-handle combination as its own approval line."
+        ],
+        [
+          "Inspect the joint before testing",
+          "Check the eyelet, stitching, rivet, molded bridge or screw. Look for flash, sharp edges, whitening, cracks, loose threads and uneven contact. Photograph the same reference points on the approved sample for receiving inspection."
+        ],
+        [
+          "Run a repeatable filled-bottle hold test",
+          "Use the agreed fill level and a written sequence: lift, carry, set down, repeat and inspect. Record hand position, duration, surface and sample identity. The goal is the buyer's stated use, not an invented laboratory rating."
+        ],
+        [
+          "Check twisting, swinging and contact",
+          "A handle can survive a straight lift but loosen when the bottle swings, hits a carton or is pulled sideways. Test channel-specific motions and inspect the joint, cap, seal and wall. Record contact with artwork or a hinge."
+        ],
+        [
+          "Separate comfort from strength",
+          "Strength and comfort are different decisions. Check pinch points, hand pressure, awkward bottle angle and cap access. Include glove use or carrying other goods when that matches the target buyer."
+        ],
+        [
+          "Freeze the approved handle version",
+          "Save body, cap, handle, color, decoration, packing and revision. Put the accepted photo or sample reference on the purchase order. Any change to attachment, strap, resin, mold or cap triggers a new review."
+        ]
+      ],
+      "checklist": [
+        "Record exact body, cap, handle or strap SKU and revision.",
+        "State empty, partial or agreed filled test condition.",
+        "Photograph every attachment point before and after.",
+        "Check flash, cracks, whitening, loose threads, sharp edges and gaps.",
+        "Repeat the same lift, carry, set-down and inspection sequence.",
+        "Include the sideways pull or swing expected in the sales channel.",
+        "Inspect cap, seal, bottle wall and artwork after handle contact.",
+        "Review finger comfort, glove use and drinking-opening access.",
+        "Keep approved sample and reference photos with the purchase order.",
+        "Require review after any handle, mold, material or cap revision."
+      ],
+      "faqs": [
+        [
+          "Does a handle that feels strong when empty prove it is ready for bulk buying?",
+          "No. Empty handling can hide the agreed fill level, sideways movement and repeated use. Approve the exact configuration under a documented buyer scenario."
+        ],
+        [
+          "Can the same strap be used across every bottle capacity?",
+          "Not automatically. Attachment geometry, body shape and filled weight can change by model. Confirm every body-cap-strap combination that will be sold."
+        ],
+        [
+          "Should buyers publish a kilogram load rating?",
+          "Only when a competent test method and traceable result support that claim. Otherwise describe the approved use and conditions instead of inventing a universal rating."
+        ],
+        [
+          "What if the supplier changes the strap or attachment point?",
+          "Pause the reorder, compare the new part with the approved sample and repeat handling and leak checks before accepting the change."
+        ]
+      ],
+      "related": [
+        "wholesale-water-bottle-receiving-inspection",
+        "wholesale-water-bottle-quality-control-checklist",
+        "wholesale-water-bottle-purchase-order-approved-sample-substitution"
+      ],
+      "product_notes": [
+        {
+          "section": 1,
+          "sku": "2095",
+          "label": {
+            "en": "500ml / 16.9 oz class sports bottle model 2095",
+            "es": "botella deportiva de 500 ml / clase 16,9 oz modelo 2095",
+            "pt": "garrafa esportiva de 500 ml / classe 16,9 oz modelo 2095",
+            "ru": "спортивная бутылка 500 мл / класс 16,9 oz, модель 2095",
+            "tr": "500 ml / 16,9 oz sınıfı spor şişesi model 2095"
+          },
+          "text": {
+            "en": "Use an exact sample such as {product} when the handle and body are approved together.",
+            "es": "Use una muestra exacta como {product} cuando se aprueban juntos el asa y el cuerpo.",
+            "pt": "Use uma amostra exata como {product} quando a alça e o corpo forem aprovados juntos.",
+            "ru": "Используйте точный образец, например {product}, когда ручка и корпус утверждаются вместе.",
+            "tr": "Sap ve gövde birlikte onaylanırken {product} gibi kesin bir numune kullanın."
+          }
+        },
+        {
+          "section": 3,
+          "sku": "2100",
+          "label": {
+            "en": "650ml / 22 oz class PP/PC sports bottle model 2100",
+            "es": "botella deportiva PP/PC de 650 ml / clase 22 oz modelo 2100",
+            "pt": "garrafa esportiva PP/PC de 650 ml / classe 22 oz modelo 2100",
+            "ru": "спортивная бутылка PP/PC 650 мл / класс 22 oz, модель 2100",
+            "tr": "650 ml / 22 oz sınıfı PP/PC spor şişesi model 2100"
+          },
+          "text": {
+            "en": "Compare the filled-use sequence on {product} with the buyer's approved handle condition.",
+            "es": "Compare la secuencia de uso lleno de {product} con la condición de asa aprobada por el comprador.",
+            "pt": "Compare a sequência de uso cheio de {product} com a condição de alça aprovada pelo comprador.",
+            "ru": "Сравните последовательность использования наполненной {product} с утвержденным условием ручки.",
+            "tr": "Dolu kullanım sırasını {product} üzerinde alıcının onayladığı sap koşuluyla karşılaştırın."
+          }
+        },
+        {
+          "section": 5,
+          "sku": "2516",
+          "label": {
+            "en": "1000ml / 32 oz class gradient sports bottle model 2516",
+            "es": "botella deportiva degradada de 1000 ml / clase 32 oz modelo 2516",
+            "pt": "garrafa esportiva degradê de 1000 ml / classe 32 oz modelo 2516",
+            "ru": "спортивная градиентная бутылка 1000 мл / класс 32 oz, модель 2516",
+            "tr": "1000 ml / 32 oz sınıfı degradeli spor şişesi model 2516"
+          },
+          "text": {
+            "en": "Review comfort and contact clearance on the larger {product} before repeating the same strap promise.",
+            "es": "Revise comodidad y espacio de contacto de la {product} grande antes de repetir la misma promesa de correa.",
+            "pt": "Revise conforto e espaço de contato da {product} maior antes de repetir a mesma promessa de alça.",
+            "ru": "Проверьте удобство и зазоры у более крупной {product}, прежде чем повторять обещание по ремню.",
+            "tr": "Aynı askı vaadini tekrarlamadan önce daha büyük {product} üzerindeki rahatlığı ve boşluğu kontrol edin."
+          }
+        }
+      ],
+      "buyerDecisionTable": {
+        "title": "Handle and strap approval matrix",
+        "intro": "Separate identity, physical condition, use scenario and change control.",
+        "head": [
+          "Decision area",
+          "Buyer check",
+          "Safe record"
+        ],
+        "rows": [
+          [
+            "Identity",
+            "Body, cap, handle, strap and revision",
+            "Approved only for the listed combination."
+          ],
+          [
+            "Joint",
+            "Eyelet, stitch, rivet, bridge, gap and finish",
+            "No visible damage before the use test."
+          ],
+          [
+            "Use",
+            "Agreed fill level, lift, carry, swing and set-down",
+            "Passed the stated buyer sequence."
+          ],
+          [
+            "Comfort",
+            "Grip, pinch points, glove use and cap access",
+            "User context recorded; no universal claim."
+          ],
+          [
+            "Reorder",
+            "Sample, photos, artwork, packaging and change owner",
+            "Repeat the approved revision or re-test."
+          ]
+        ]
+      },
+      "evidence": {
+        "insight": "A carry handle is a component interface and a use claim, not just a visual feature. Food-contact and consumer-product guidance still requires buyers to verify exact construction, intended use and market obligations.",
+        "next_step": "Attach the approved body-cap-handle combination, photos and test conditions to the purchase order before releasing a bulk reorder.",
+        "sources": [
+          {
+            "label": "Información de la FDA sobre envases y contacto con alimentos",
+            "url": "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers"
+          },
+          {
+            "label": "Materiales en contacto con alimentos de la Comisión Europea",
+            "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en"
+          },
+          {
+            "label": "Resumen de requisitos de etiquetado de la CPSC",
+            "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/CPSC-Labeling-Requirements-Overview"
+          }
+        ]
+      },
+      "locales": {
+        "es": {
+          "category": "PRUEBAS PARA COMPRADORES MAYORISTAS",
+          "title": "¿Qué deben probar los importadores en el asa de una botella reutilizable antes de comprar al por mayor?",
+          "description": "Lista B2B para probar asas y correas por SKU, punto de unión, uso con la botella llena, desgaste y muestra aprobada.",
+          "intro": "Un asa puede parecer segura y aun así fallar en la unión, girarse con la botella llena o resultar incómoda. Esta guía convierte la revisión en una decisión repetible de compra.",
+          "sections": [
+            [
+              "Defina qué debe soportar el asa",
+              "Empiece por el uso real: transporte, bolsa, gimnasio o almacén. Registre la condición vacía o llena y no prometa una carga universal por apariencia."
+            ],
+            [
+              "Mapee los puntos de unión por SKU",
+              "Anote modelo, tapa, asa, material indicado por la fábrica, color y revisión. Apruebe cada combinación cuerpo-tapa-asa por separado."
+            ],
+            [
+              "Inspeccione la unión antes de probar",
+              "Revise ojal, costura, remache o puente; busque rebabas, grietas, hilos sueltos y contacto desigual. Fotografie los mismos puntos de la muestra."
+            ],
+            [
+              "Haga una prueba repetible con la botella llena",
+              "Use el nivel acordado y la secuencia levantar, llevar, apoyar, repetir e inspeccionar. Registre mano, duración, superficie e identidad."
+            ],
+            [
+              "Compruebe torsión, balanceo y contacto",
+              "Pruebe el movimiento lateral del canal y revise unión, tapa, junta y pared. Registre contacto con impresión o bisagra."
+            ],
+            [
+              "Separe comodidad de resistencia",
+              "Compruebe presión en dedos, ángulo, apertura y uso con guantes cuando corresponda. No confunda comodidad con resistencia."
+            ],
+            [
+              "Congele la versión aprobada",
+              "Guarde cuerpo, tapa, asa, color, decoración, embalaje y revisión. Cualquier cambio activa una nueva revisión."
+            ]
+          ],
+          "checklist": [
+            "Registre el SKU y revisión exactos del cuerpo, tapa, asa o correa.",
+            "Indique la condición vacía, parcial o llena acordada.",
+            "Fotografie cada punto de unión antes y después.",
+            "Busque rebabas, grietas, hilos, bordes y holguras.",
+            "Repita levantar, llevar, apoyar e inspeccionar.",
+            "Incluya tirón lateral o balanceo del canal.",
+            "Revise tapa, junta, pared y decoración después.",
+            "Compruebe comodidad, guantes y acceso a la abertura.",
+            "Guarde muestra y fotos con la orden.",
+            "Vuelva a revisar tras cambiar asa, molde, material o tapa."
+          ],
+          "faqs": [
+            [
+              "¿Una asa fuerte en vacío demuestra que está lista?",
+              "No. El vacío oculta llenado, movimiento lateral y uso repetido. Apruebe la configuración exacta."
+            ],
+            [
+              "¿La misma correa sirve para todas las capacidades?",
+              "No automáticamente. Geometría y peso cambian por modelo; confirme cada combinación."
+            ],
+            [
+              "¿Debe publicarse una carga en kilogramos?",
+              "Solo con método competente y resultado trazable. De lo contrario describa el uso aprobado."
+            ],
+            [
+              "¿Qué hacer si cambia la unión?",
+              "Pause la reposición, compare con la muestra y repita manejo y fugas."
+            ]
+          ],
+          "matrix": {
+            "title": "Matriz de aprobación de asa y correa",
+            "intro": "Separe identidad, estado físico, uso y cambios.",
+            "head": [
+              "Área",
+              "Comprobación",
+              "Registro seguro"
+            ],
+            "rows": [
+              [
+                "Identidad",
+                "Cuerpo, tapa, asa, correa y revisión",
+                "Solo la combinación indicada."
+              ],
+              [
+                "Unión",
+                "Ojal, costura, remache, holgura y acabado",
+                "Sin daño antes de usar."
+              ],
+              [
+                "Uso",
+                "Llenado, levantar, llevar, balancear y apoyar",
+                "Secuencia superada."
+              ],
+              [
+                "Comodidad",
+                "Agarre, presión, guantes y acceso",
+                "Contexto registrado."
+              ],
+              [
+                "Reposición",
+                "Muestra, fotos, embalaje y responsable",
+                "Repetir o volver a probar."
+              ]
+            ]
+          },
+          "sourceLabels": [
+            "Información de la FDA sobre envases y contacto con alimentos",
+            "Materiales en contacto con alimentos de la Comisión Europea",
+            "Resumen de requisitos de etiquetado de la CPSC"
+          ],
+          "evidence": {
+            "insight": "Un asa es una interfaz de componentes y una afirmación de uso, no solo un rasgo visual. Verifique construcción, uso previsto y obligaciones del mercado.",
+            "next_step": "Adjunte combinación aprobada, fotos y condiciones de prueba a la orden antes de liberar la reposición.",
+            "sources": [
+              {
+                "label": "Información de la FDA sobre envases y contacto con alimentos",
+                "url": "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers"
+              },
+              {
+                "label": "Materiales en contacto con alimentos de la Comisión Europea",
+                "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en"
+              },
+              {
+                "label": "Resumen de requisitos de etiquetado de la CPSC",
+                "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/CPSC-Labeling-Requirements-Overview"
+              }
+            ]
+          },
+          "ui": {
+            "home": "Inicio",
+            "blog": "Blog",
+            "buyingGuide": "Guía de compra",
+            "inThisGuide": "EN ESTA GUÍA",
+            "articleSections": "Secciones del artículo",
+            "discussProject": "Hablar sobre su proyecto →",
+            "beforeOrder": "Antes de liberar el pedido mayorista",
+            "sourceCheckedNotes": "NOTAS DE COMPRA CON FUENTES",
+            "practicalNextStep": "Siguiente paso práctico:",
+            "primaryReferences": "Fuentes principales",
+            "evidenceCaveat": "Estas fuentes independientes no certifican una botella, fábrica, material o prueba de XUYI. Verifique el modelo exacto, el mercado de destino y los requisitos vigentes.",
+            "matrixNote": "Son criterios de decisión del comprador, no certificación XUYI, MOQ publicado ni plazo garantizado. Verifique el modelo y el mercado.",
+            "buyerChecklist": "Lista de control del comprador",
+            "faqHeading": "Preguntas frecuentes",
+            "quoteHeading": "¿Necesita precio para un modelo concreto?",
+            "quoteBody": "Envíe el modelo, la cantidad prevista, la personalización y el mercado de destino para revisar el alcance confirmado.",
+            "quoteButton": "Solicitar cotización de botella plástica →",
+            "continueReading": "SEGUIR LEYENDO",
+            "relatedGuides": "Guías de compra relacionadas",
+            "readArticle": "Leer artículo →"
+          },
+          "related": [
+            {
+              "slug": "wholesale-water-bottle-receiving-inspection",
+              "title": "¿Cómo pueden los distribuidores inspeccionar botellas reutilizables al recibirlas?",
+              "description": "Controle identidad, cantidad, tapa, fugas, acabado y embalaje antes de aceptar la entrega."
+            },
+            {
+              "slug": "wholesale-water-bottle-quality-control-checklist",
+              "title": "Lista de control de calidad para botellas reutilizables al por mayor",
+              "description": "Nueve verificaciones prácticas antes de liberar una producción mayorista."
+            },
+            {
+              "slug": "wholesale-water-bottle-purchase-order-approved-sample-substitution",
+              "title": "Qué debe decir una orden mayorista sobre muestras aprobadas y sustituciones",
+              "description": "Proteja la referencia aprobada antes de permitir cambios de componentes."
+            }
+          ],
+          "product_notes": [
+            {
+              "section": 1,
+              "sku": "2095",
+              "label": {
+                "en": "500ml / 16.9 oz class sports bottle model 2095",
+                "es": "botella deportiva de 500 ml / clase 16,9 oz modelo 2095",
+                "pt": "garrafa esportiva de 500 ml / classe 16,9 oz modelo 2095",
+                "ru": "спортивная бутылка 500 мл / класс 16,9 oz, модель 2095",
+                "tr": "500 ml / 16,9 oz sınıfı spor şişesi model 2095"
+              },
+              "text": {
+                "en": "Use an exact sample such as {product} when the handle and body are approved together.",
+                "es": "Use una muestra exacta como {product} cuando se aprueban juntos el asa y el cuerpo.",
+                "pt": "Use uma amostra exata como {product} quando a alça e o corpo forem aprovados juntos.",
+                "ru": "Используйте точный образец, например {product}, когда ручка и корпус утверждаются вместе.",
+                "tr": "Sap ve gövde birlikte onaylanırken {product} gibi kesin bir numune kullanın."
+              }
+            },
+            {
+              "section": 3,
+              "sku": "2100",
+              "label": {
+                "en": "650ml / 22 oz class PP/PC sports bottle model 2100",
+                "es": "botella deportiva PP/PC de 650 ml / clase 22 oz modelo 2100",
+                "pt": "garrafa esportiva PP/PC de 650 ml / classe 22 oz modelo 2100",
+                "ru": "спортивная бутылка PP/PC 650 мл / класс 22 oz, модель 2100",
+                "tr": "650 ml / 22 oz sınıfı PP/PC spor şişesi model 2100"
+              },
+              "text": {
+                "en": "Compare the filled-use sequence on {product} with the buyer's approved handle condition.",
+                "es": "Compare la secuencia de uso lleno de {product} con la condición de asa aprobada por el comprador.",
+                "pt": "Compare a sequência de uso cheio de {product} com a condição de alça aprovada pelo comprador.",
+                "ru": "Сравните последовательность использования наполненной {product} с утвержденным условием ручки.",
+                "tr": "Dolu kullanım sırasını {product} üzerinde alıcının onayladığı sap koşuluyla karşılaştırın."
+              }
+            },
+            {
+              "section": 5,
+              "sku": "2516",
+              "label": {
+                "en": "1000ml / 32 oz class gradient sports bottle model 2516",
+                "es": "botella deportiva degradada de 1000 ml / clase 32 oz modelo 2516",
+                "pt": "garrafa esportiva degradê de 1000 ml / classe 32 oz modelo 2516",
+                "ru": "спортивная градиентная бутылка 1000 мл / класс 32 oz, модель 2516",
+                "tr": "1000 ml / 32 oz sınıfı degradeli spor şişesi model 2516"
+              },
+              "text": {
+                "en": "Review comfort and contact clearance on the larger {product} before repeating the same strap promise.",
+                "es": "Revise comodidad y espacio de contacto de la {product} grande antes de repetir la misma promesa de correa.",
+                "pt": "Revise conforto e espaço de contato da {product} maior antes de repetir a mesma promessa de alça.",
+                "ru": "Проверьте удобство и зазоры у более крупной {product}, прежде чем повторять обещание по ремню.",
+                "tr": "Aynı askı vaadini tekrarlamadan önce daha büyük {product} üzerindeki rahatlığı ve boşluğu kontrol edin."
+              }
+            }
+          ]
+        },
+        "pt": {
+          "category": "TESTE PARA COMPRADORES ATACADISTAS",
+          "title": "O que importadores devem testar na alça de uma garrafa reutilizável antes de comprar em volume?",
+          "description": "Checklist B2B para testar alças e tiras por SKU, fixação, uso cheio, desgaste e amostra aprovada.",
+          "intro": "Uma alça pode parecer segura e falhar na união, girar com a garrafa cheia ou ficar desconfortável. Este guia transforma a revisão em decisão repetível.",
+          "sections": [
+            [
+              "Defina o que a alça deve suportar",
+              "Comece pelo uso real: mão, bolsa, academia ou armazém. Registre a condição vazia ou cheia e não prometa carga universal."
+            ],
+            [
+              "Mapeie a fixação por SKU",
+              "Anote modelo, tampa, alça, material informado pela fábrica, cor e revisão. Aprove cada combinação corpo-tampa-alça."
+            ],
+            [
+              "Inspecione a união antes do teste",
+              "Observe ilhós, costura, rebite ou ponte; procure rebarbas, trincas, fios e contato irregular. Fotografe os mesmos pontos."
+            ],
+            [
+              "Faça teste repetível com garrafa cheia",
+              "Use o nível combinado e a sequência levantar, carregar, apoiar, repetir e inspecionar. Registre mão, duração, superfície e amostra."
+            ],
+            [
+              "Verifique torção, balanço e contato",
+              "Teste o movimento lateral esperado e revise união, tampa, vedação e parede. Registre contato com impressão ou dobradiça."
+            ],
+            [
+              "Separe conforto de resistência",
+              "Confira pressão nos dedos, ângulo, abertura e uso com luvas quando aplicável. Conforto não é resistência."
+            ],
+            [
+              "Congele a versão aprovada",
+              "Guarde corpo, tampa, alça, cor, decoração, embalagem e revisão. Qualquer mudança gera nova revisão."
+            ]
+          ],
+          "checklist": [
+            "Registre SKU e revisão exatos do corpo, tampa, alça ou tira.",
+            "Indique a condição vazia, parcial ou cheia combinada.",
+            "Fotografe cada fixação antes e depois.",
+            "Verifique rebarbas, trincas, fios, bordas e folgas.",
+            "Repita levantar, carregar, apoiar e inspecionar.",
+            "Inclua tração lateral ou balanço do canal.",
+            "Inspecione tampa, vedação, parede e decoração.",
+            "Avalie conforto, luvas e acesso à abertura.",
+            "Guarde amostra e fotos junto do pedido.",
+            "Revise após mudar alça, molde, material ou tampa."
+          ],
+          "faqs": [
+            [
+              "Uma alça forte vazia está pronta?",
+              "Não. O vazio esconde enchimento, movimento lateral e repetição. Aprove a configuração exata."
+            ],
+            [
+              "A mesma tira serve para todas as capacidades?",
+              "Não automaticamente. Geometria e peso mudam por modelo; confirme cada combinação."
+            ],
+            [
+              "Devo publicar carga em quilogramas?",
+              "Somente com método competente e resultado rastreável. Caso contrário descreva o uso aprovado."
+            ],
+            [
+              "O que fazer se a fixação mudar?",
+              "Pause a reposição, compare com a amostra e repita manuseio e vazamento."
+            ]
+          ],
+          "matrix": {
+            "title": "Matriz de aprovação de alça e tira",
+            "intro": "Separe identidade, condição física, uso e mudanças.",
+            "head": [
+              "Área",
+              "Verificação",
+              "Registro seguro"
+            ],
+            "rows": [
+              [
+                "Identidade",
+                "Corpo, tampa, alça, tira e revisão",
+                "Apenas a combinação indicada."
+              ],
+              [
+                "União",
+                "Ilhós, costura, rebite, folga e acabamento",
+                "Sem dano antes do uso."
+              ],
+              [
+                "Uso",
+                "Enchimento, levantar, carregar, balançar e apoiar",
+                "Sequência aprovada."
+              ],
+              [
+                "Conforto",
+                "Pegada, pressão, luvas e acesso",
+                "Contexto registrado."
+              ],
+              [
+                "Reposição",
+                "Amostra, fotos, embalagem e responsável",
+                "Repetir ou testar novamente."
+              ]
+            ]
+          },
+          "sourceLabels": [
+            "Informações da FDA sobre embalagens e contato com alimentos",
+            "Materiais em contato com alimentos da Comissão Europeia",
+            "Resumo dos requisitos de rotulagem da CPSC"
+          ],
+          "evidence": {
+            "insight": "Uma alça é uma interface de componentes e uma afirmação de uso. Verifique construção, uso previsto e obrigações do mercado.",
+            "next_step": "Anexe combinação aprovada, fotos e condições de teste ao pedido antes da reposição.",
+            "sources": [
+              {
+                "label": "Informações da FDA sobre embalagens e contato com alimentos",
+                "url": "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers"
+              },
+              {
+                "label": "Materiais em contato com alimentos da Comissão Europeia",
+                "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en"
+              },
+              {
+                "label": "Resumo dos requisitos de rotulagem da CPSC",
+                "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/CPSC-Labeling-Requirements-Overview"
+              }
+            ]
+          },
+          "ui": {
+            "home": "Início",
+            "blog": "Blog",
+            "buyingGuide": "Guia de compra",
+            "inThisGuide": "NESTE GUIA",
+            "articleSections": "Seções do artigo",
+            "discussProject": "Fale sobre seu projeto →",
+            "beforeOrder": "Antes de liberar o pedido atacadista",
+            "sourceCheckedNotes": "NOTAS DE COMPRA COM FONTES",
+            "practicalNextStep": "Próximo passo prático:",
+            "primaryReferences": "Fontes principais",
+            "evidenceCaveat": "Estas fontes independentes não certificam uma garrafa, fábrica, material ou teste da XUYI. Confirme o modelo exato, o mercado de destino e os requisitos atuais.",
+            "matrixNote": "São critérios de decisão do comprador, não certificação XUYI, MOQ publicado nem prazo garantido. Confirme o modelo e o mercado.",
+            "buyerChecklist": "Checklist do comprador",
+            "faqHeading": "Perguntas frequentes",
+            "quoteHeading": "Precisa de preço para um modelo específico?",
+            "quoteBody": "Envie o modelo, a quantidade prevista, a personalização e o mercado de destino para que a equipe confirme o escopo.",
+            "quoteButton": "Solicitar cotação de garrafa plástica →",
+            "continueReading": "CONTINUE LENDO",
+            "relatedGuides": "Guias de compra relacionados",
+            "readArticle": "Ler artigo →"
+          },
+          "related": [
+            {
+              "slug": "wholesale-water-bottle-receiving-inspection",
+              "title": "Como distribuidores podem inspecionar garrafas reutilizáveis no recebimento?",
+              "description": "Confira identidade, quantidade, tampa, vazamento, acabamento e embalagem antes de aceitar a entrega."
+            },
+            {
+              "slug": "wholesale-water-bottle-quality-control-checklist",
+              "title": "Checklist de qualidade para garrafas reutilizáveis no atacado",
+              "description": "Nove verificações práticas antes de liberar uma produção atacadista."
+            },
+            {
+              "slug": "wholesale-water-bottle-purchase-order-approved-sample-substitution",
+              "title": "O que o pedido atacadista deve dizer sobre amostra aprovada e substituições?",
+              "description": "Proteja a referência aprovada antes de permitir mudanças de componentes."
+            }
+          ],
+          "product_notes": [
+            {
+              "section": 1,
+              "sku": "2095",
+              "label": {
+                "en": "500ml / 16.9 oz class sports bottle model 2095",
+                "es": "botella deportiva de 500 ml / clase 16,9 oz modelo 2095",
+                "pt": "garrafa esportiva de 500 ml / classe 16,9 oz modelo 2095",
+                "ru": "спортивная бутылка 500 мл / класс 16,9 oz, модель 2095",
+                "tr": "500 ml / 16,9 oz sınıfı spor şişesi model 2095"
+              },
+              "text": {
+                "en": "Use an exact sample such as {product} when the handle and body are approved together.",
+                "es": "Use una muestra exacta como {product} cuando se aprueban juntos el asa y el cuerpo.",
+                "pt": "Use uma amostra exata como {product} quando a alça e o corpo forem aprovados juntos.",
+                "ru": "Используйте точный образец, например {product}, когда ручка и корпус утверждаются вместе.",
+                "tr": "Sap ve gövde birlikte onaylanırken {product} gibi kesin bir numune kullanın."
+              }
+            },
+            {
+              "section": 3,
+              "sku": "2100",
+              "label": {
+                "en": "650ml / 22 oz class PP/PC sports bottle model 2100",
+                "es": "botella deportiva PP/PC de 650 ml / clase 22 oz modelo 2100",
+                "pt": "garrafa esportiva PP/PC de 650 ml / classe 22 oz modelo 2100",
+                "ru": "спортивная бутылка PP/PC 650 мл / класс 22 oz, модель 2100",
+                "tr": "650 ml / 22 oz sınıfı PP/PC spor şişesi model 2100"
+              },
+              "text": {
+                "en": "Compare the filled-use sequence on {product} with the buyer's approved handle condition.",
+                "es": "Compare la secuencia de uso lleno de {product} con la condición de asa aprobada por el comprador.",
+                "pt": "Compare a sequência de uso cheio de {product} com a condição de alça aprovada pelo comprador.",
+                "ru": "Сравните последовательность использования наполненной {product} с утвержденным условием ручки.",
+                "tr": "Dolu kullanım sırasını {product} üzerinde alıcının onayladığı sap koşuluyla karşılaştırın."
+              }
+            },
+            {
+              "section": 5,
+              "sku": "2516",
+              "label": {
+                "en": "1000ml / 32 oz class gradient sports bottle model 2516",
+                "es": "botella deportiva degradada de 1000 ml / clase 32 oz modelo 2516",
+                "pt": "garrafa esportiva degradê de 1000 ml / classe 32 oz modelo 2516",
+                "ru": "спортивная градиентная бутылка 1000 мл / класс 32 oz, модель 2516",
+                "tr": "1000 ml / 32 oz sınıfı degradeli spor şişesi model 2516"
+              },
+              "text": {
+                "en": "Review comfort and contact clearance on the larger {product} before repeating the same strap promise.",
+                "es": "Revise comodidad y espacio de contacto de la {product} grande antes de repetir la misma promesa de correa.",
+                "pt": "Revise conforto e espaço de contato da {product} maior antes de repetir a mesma promessa de alça.",
+                "ru": "Проверьте удобство и зазоры у более крупной {product}, прежде чем повторять обещание по ремню.",
+                "tr": "Aynı askı vaadini tekrarlamadan önce daha büyük {product} üzerindeki rahatlığı ve boşluğu kontrol edin."
+              }
+            }
+          ]
+        },
+        "ru": {
+          "category": "ПРОВЕРКА ДЛЯ ОПТОВЫХ ПОКУПАТЕЛЕЙ",
+          "title": "Что импортерам проверить в ручке многоразовой бутылки перед оптовой закупкой?",
+          "description": "B2B-чек-лист проверки ручки и ремня по SKU, креплению, наполнению, износу и утвержденному образцу.",
+          "intro": "Ручка может выглядеть надежной, но ослабнуть, повернуть наполненную бутылку или быть неудобной. Руководство делает проверку повторяемой.",
+          "sections": [
+            [
+              "Определите, что должна выдерживать ручка",
+              "Начните с переноски, сумки, тренировки или склада. Запишите пустое или наполненное состояние и не обещайте универсальную нагрузку."
+            ],
+            [
+              "Составьте карту креплений по SKU",
+              "Зафиксируйте модель, крышку, ручку, материал от фабрики, цвет и ревизию. Утверждайте комбинации отдельно."
+            ],
+            [
+              "Осмотрите соединение до испытания",
+              "Проверьте проушину, шов, заклепку или перемычку; ищите облой, трещины, нити и зазоры. Сфотографируйте точки."
+            ],
+            [
+              "Проведите тест наполненной бутылки",
+              "Используйте согласованный уровень и последовательность поднять, перенести, поставить, повторить и осмотреть. Запишите руку, время, поверхность и образец."
+            ],
+            [
+              "Проверьте скручивание, качание и контакт",
+              "Проверьте боковое движение и осмотрите соединение, крышку, прокладку и стенку. Запишите контакт с печатью или шарниром."
+            ],
+            [
+              "Отделите удобство от прочности",
+              "Проверьте давление на пальцы, угол, открытие и работу в перчатках. Удобство не равно прочности."
+            ],
+            [
+              "Зафиксируйте утвержденную версию",
+              "Сохраните корпус, крышку, ручку, цвет, декор, упаковку и ревизию. Любое изменение требует новой проверки."
+            ]
+          ],
+          "checklist": [
+            "Укажите точные SKU и ревизию корпуса, крышки, ручки или ремня.",
+            "Укажите пустое, частичное или согласованное наполнение.",
+            "Сфотографируйте каждое крепление до и после.",
+            "Проверьте облой, трещины, нити, края и зазоры.",
+            "Повторите подъем, переноску, постановку и осмотр.",
+            "Добавьте боковой рывок или качание канала.",
+            "Осмотрите крышку, прокладку, стенку и декор.",
+            "Проверьте удобство, перчатки и доступ к отверстию.",
+            "Храните образец и фото с заказом.",
+            "Повторите проверку после изменения ручки, формы, материала или крышки."
+          ],
+          "faqs": [
+            [
+              "Доказывает ли прочная ручка на пустой бутылке готовность?",
+              "Нет. Пустая бутылка скрывает наполнение, боковое движение и повторность. Утверждайте точную конфигурацию."
+            ],
+            [
+              "Можно ли использовать один ремень для всех объемов?",
+              "Не автоматически. Геометрия и вес различаются; проверьте каждую комбинацию."
+            ],
+            [
+              "Нужно ли публиковать нагрузку в килограммах?",
+              "Только при компетентной методике и прослеживаемом результате. Иначе описывайте сценарий."
+            ],
+            [
+              "Что делать при изменении крепления?",
+              "Остановите повторный заказ, сравните образец и повторите переноску и проверку утечки."
+            ]
+          ],
+          "matrix": {
+            "title": "Матрица утверждения ручки и ремня",
+            "intro": "Разделяйте идентичность, состояние, использование и изменения.",
+            "head": [
+              "Область",
+              "Проверка",
+              "Безопасная запись"
+            ],
+            "rows": [
+              [
+                "Идентичность",
+                "Корпус, крышка, ручка, ремень и ревизия",
+                "Только указанная комбинация."
+              ],
+              [
+                "Соединение",
+                "Проушина, шов, заклепка, зазор и отделка",
+                "До испытания повреждений нет."
+              ],
+              [
+                "Использование",
+                "Наполнение, подъем, переноска, качание и постановка",
+                "Последовательность пройдена."
+              ],
+              [
+                "Удобство",
+                "Захват, давление, перчатки и доступ",
+                "Контекст записан."
+              ],
+              [
+                "Повторный заказ",
+                "Образец, фото, упаковка и ответственный",
+                "Повторить или испытать заново."
+              ]
+            ]
+          },
+          "sourceLabels": [
+            "Информация FDA об упаковке и контакте с пищей",
+            "Материалы для контакта с пищей Европейской комиссии",
+            "Обзор требований CPSC к маркировке"
+          ],
+          "evidence": {
+            "insight": "Ручка — это соединение компонентов и заявление об использовании. Проверьте конструкцию, назначение и требования рынка.",
+            "next_step": "Приложите утвержденную комбинацию, фото и условия проверки к заказу до повторной партии.",
+            "sources": [
+              {
+                "label": "Информация FDA об упаковке и контакте с пищей",
+                "url": "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers"
+              },
+              {
+                "label": "Материалы для контакта с пищей Европейской комиссии",
+                "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en"
+              },
+              {
+                "label": "Обзор требований CPSC к маркировке",
+                "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/CPSC-Labeling-Requirements-Overview"
+              }
+            ]
+          },
+          "ui": {
+            "home": "Главная",
+            "blog": "Блог",
+            "buyingGuide": "Руководство по закупке",
+            "inThisGuide": "В ЭТОМ РУКОВОДСТВЕ",
+            "articleSections": "Разделы статьи",
+            "discussProject": "Обсудить проект →",
+            "beforeOrder": "До выпуска оптового заказа",
+            "sourceCheckedNotes": "ЗАМЕТКИ ПО ЗАКУПКЕ С ИСТОЧНИКАМИ",
+            "practicalNextStep": "Практический следующий шаг:",
+            "primaryReferences": "Основные источники",
+            "evidenceCaveat": "Эти независимые источники не являются сертификатом бутылки, фабрики, материала или испытания XUYI. Проверьте точную модель, рынок назначения и действующие требования.",
+            "matrixNote": "Это критерии решения покупателя, а не сертификация XUYI, опубликованный MOQ или гарантированный срок. Проверьте модель и рынок.",
+            "buyerChecklist": "Чек-лист покупателя",
+            "faqHeading": "Частые вопросы",
+            "quoteHeading": "Нужна цена на конкретную модель?",
+            "quoteBody": "Отправьте модель, планируемое количество, персонализацию и рынок назначения для проверки подтвержденного объема.",
+            "quoteButton": "Запросить цену на пластиковую бутылку →",
+            "continueReading": "ПРОДОЛЖИТЬ ЧТЕНИЕ",
+            "relatedGuides": "Связанные руководства по закупке",
+            "readArticle": "Читать статью →"
+          },
+          "related": [
+            {
+              "slug": "wholesale-water-bottle-receiving-inspection",
+              "title": "Как дистрибьютору проверить многоразовые бутылки при приемке?",
+              "description": "Проверьте модель, количество, крышку, герметичность, отделку и упаковку до приемки поставки."
+            },
+            {
+              "slug": "wholesale-water-bottle-quality-control-checklist",
+              "title": "Чек-лист контроля качества многоразовых бутылок оптом",
+              "description": "Девять практических проверок перед выпуском оптовой партии."
+            },
+            {
+              "slug": "wholesale-water-bottle-purchase-order-approved-sample-substitution",
+              "title": "Что указать в оптовом заказе об утвержденном образце и заменах?",
+              "description": "Зафиксируйте утвержденную версию до разрешения изменений компонентов."
+            }
+          ],
+          "product_notes": [
+            {
+              "section": 1,
+              "sku": "2095",
+              "label": {
+                "en": "500ml / 16.9 oz class sports bottle model 2095",
+                "es": "botella deportiva de 500 ml / clase 16,9 oz modelo 2095",
+                "pt": "garrafa esportiva de 500 ml / classe 16,9 oz modelo 2095",
+                "ru": "спортивная бутылка 500 мл / класс 16,9 oz, модель 2095",
+                "tr": "500 ml / 16,9 oz sınıfı spor şişesi model 2095"
+              },
+              "text": {
+                "en": "Use an exact sample such as {product} when the handle and body are approved together.",
+                "es": "Use una muestra exacta como {product} cuando se aprueban juntos el asa y el cuerpo.",
+                "pt": "Use uma amostra exata como {product} quando a alça e o corpo forem aprovados juntos.",
+                "ru": "Используйте точный образец, например {product}, когда ручка и корпус утверждаются вместе.",
+                "tr": "Sap ve gövde birlikte onaylanırken {product} gibi kesin bir numune kullanın."
+              }
+            },
+            {
+              "section": 3,
+              "sku": "2100",
+              "label": {
+                "en": "650ml / 22 oz class PP/PC sports bottle model 2100",
+                "es": "botella deportiva PP/PC de 650 ml / clase 22 oz modelo 2100",
+                "pt": "garrafa esportiva PP/PC de 650 ml / classe 22 oz modelo 2100",
+                "ru": "спортивная бутылка PP/PC 650 мл / класс 22 oz, модель 2100",
+                "tr": "650 ml / 22 oz sınıfı PP/PC spor şişesi model 2100"
+              },
+              "text": {
+                "en": "Compare the filled-use sequence on {product} with the buyer's approved handle condition.",
+                "es": "Compare la secuencia de uso lleno de {product} con la condición de asa aprobada por el comprador.",
+                "pt": "Compare a sequência de uso cheio de {product} com a condição de alça aprovada pelo comprador.",
+                "ru": "Сравните последовательность использования наполненной {product} с утвержденным условием ручки.",
+                "tr": "Dolu kullanım sırasını {product} üzerinde alıcının onayladığı sap koşuluyla karşılaştırın."
+              }
+            },
+            {
+              "section": 5,
+              "sku": "2516",
+              "label": {
+                "en": "1000ml / 32 oz class gradient sports bottle model 2516",
+                "es": "botella deportiva degradada de 1000 ml / clase 32 oz modelo 2516",
+                "pt": "garrafa esportiva degradê de 1000 ml / classe 32 oz modelo 2516",
+                "ru": "спортивная градиентная бутылка 1000 мл / класс 32 oz, модель 2516",
+                "tr": "1000 ml / 32 oz sınıfı degradeli spor şişesi model 2516"
+              },
+              "text": {
+                "en": "Review comfort and contact clearance on the larger {product} before repeating the same strap promise.",
+                "es": "Revise comodidad y espacio de contacto de la {product} grande antes de repetir la misma promesa de correa.",
+                "pt": "Revise conforto e espaço de contato da {product} maior antes de repetir a mesma promessa de alça.",
+                "ru": "Проверьте удобство и зазоры у более крупной {product}, прежде чем повторять обещание по ремню.",
+                "tr": "Aynı askı vaadini tekrarlamadan önce daha büyük {product} üzerindeki rahatlığı ve boşluğu kontrol edin."
+              }
+            }
+          ]
+        },
+        "tr": {
+          "category": "TOPTAN ALICI TESTİ",
+          "title": "İthalatçılar toplu alımdan önce yeniden kullanılabilir şişe sapında neyi test etmeli?",
+          "description": "SKU, bağlantı noktası, dolu kullanım, aşınma ve onaylı numuneye göre sap ve askı testleri için B2B liste.",
+          "intro": "Bir sap fotoğrafta sağlam görünebilir ama bağlantıda gevşeyebilir, dolu şişeyi çevirebilir veya rahatsız olabilir. Bu rehber kontrolü tekrarlanabilir karara dönüştürür.",
+          "sections": [
+            [
+              "Sapın neyi taşıması gerektiğini tanımlayın",
+              "Elde taşıma, çanta, spor veya depo kullanımını yazın. Boş ya da dolu koşulu kaydedin ve evrensel yük sözü vermeyin."
+            ],
+            [
+              "Bağlantıyı SKU'ya göre haritalayın",
+              "Model, kapak, sap, fabrika malzeme açıklaması, renk ve revizyonu yazın. Kombinasyonları ayrı onaylayın."
+            ],
+            [
+              "Bağlantıyı testten önce inceleyin",
+              "Göz, dikiş, perçin veya köprüyü kontrol edin; çapak, çatlak, iplik ve boşluk arayın. Aynı noktaları fotoğraflayın."
+            ],
+            [
+              "Dolu şişeyle tekrarlanabilir test yapın",
+              "Kararlaştırılan doluluk ve kaldır, taşı, bırak, tekrarla, incele sırasını kullanın. El, süre, yüzey ve numuneyi kaydedin."
+            ],
+            [
+              "Burulma, sallanma ve teması kontrol edin",
+              "Beklenen yana hareketi deneyin; bağlantı, kapak, conta ve gövdeyi inceleyin. Baskı veya menteşe temasını yazın."
+            ],
+            [
+              "Rahatlığı dayanımdan ayırın",
+              "Parmak baskısı, açı, açma ve eldiven kullanımını kontrol edin. Rahatlık dayanım değildir."
+            ],
+            [
+              "Onaylı sürümü sabitleyin",
+              "Gövde, kapak, sap, renk, dekorasyon, ambalaj ve revizyonu saklayın. Değişiklikte yeniden kontrol yapın."
+            ]
+          ],
+          "checklist": [
+            "Kesin gövde, kapak, sap veya askı SKU ve revizyonunu yazın.",
+            "Boş, kısmi veya kararlaştırılmış dolu koşulu belirtin.",
+            "Her bağlantıyı önce ve sonra fotoğraflayın.",
+            "Çapak, çatlak, iplik, keskin kenar ve boşlukları kontrol edin.",
+            "Kaldırma, taşıma, bırakma ve inceleme sırasını tekrarlayın.",
+            "Satış kanalındaki yana çekme veya sallanmayı ekleyin.",
+            "Temas sonrasında kapak, conta, gövde ve dekorasyonu inceleyin.",
+            "Rahatlığı, eldiven kullanımını ve açıklığa erişimi değerlendirin.",
+            "Numuneyi ve fotoğrafları siparişle saklayın.",
+            "Sap, kalıp, malzeme veya kapak değişince yeniden inceleyin."
+          ],
+          "faqs": [
+            [
+              "Boşken sağlam sap toplu alıma hazır olduğunu kanıtlar mı?",
+              "Hayır. Boş test doluluk, yana hareket ve tekrarlı kullanımı gizleyebilir. Kesin konfigürasyonu onaylayın."
+            ],
+            [
+              "Aynı askı her kapasitede kullanılabilir mi?",
+              "Otomatik olarak değil. Geometri ve ağırlık değişir; her kombinasyonu doğrulayın."
+            ],
+            [
+              "Alıcı kilogram yük değeri yayımlamalı mı?",
+              "Yalnızca yetkin yöntem ve izlenebilir sonuç varsa. Aksi halde kullanım koşulunu açıklayın."
+            ],
+            [
+              "Bağlantı değişirse ne yapılmalı?",
+              "Tekrar siparişini durdurun, numuneyi karşılaştırın ve taşıma ile kaçak kontrollerini tekrarlayın."
+            ]
+          ],
+          "matrix": {
+            "title": "Sap ve askı onay matrisi",
+            "intro": "Kimliği, fiziksel durumu, kullanımı ve değişiklikleri ayırın.",
+            "head": [
+              "Alan",
+              "Alıcı kontrolü",
+              "Güvenli kayıt"
+            ],
+            "rows": [
+              [
+                "Kimlik",
+                "Gövde, kapak, sap, askı ve revizyon",
+                "Yalnızca belirtilen kombinasyon."
+              ],
+              [
+                "Bağlantı",
+                "Göz, dikiş, perçin, boşluk ve yüzey",
+                "Testten önce hasar yok."
+              ],
+              [
+                "Kullanım",
+                "Doluluk, kaldırma, taşıma, sallama ve bırakma",
+                "Sıra tamamlandı."
+              ],
+              [
+                "Rahatlık",
+                "Tutuş, baskı, eldiven ve erişim",
+                "Bağlam kaydedildi."
+              ],
+              [
+                "Tekrar sipariş",
+                "Numune, fotoğraf, ambalaj ve sorumlu",
+                "Tekrarlayın veya yeniden test edin."
+              ]
+            ]
+          },
+          "sourceLabels": [
+            "FDA gıda ambalajı ve gıda teması bilgileri",
+            "Avrupa Komisyonu gıda temas malzemeleri",
+            "CPSC etiketleme gereklilikleri özeti"
+          ],
+          "evidence": {
+            "insight": "Sap yalnızca görsel özellik değil, bileşen arayüzü ve kullanım iddiasıdır. Yapıyı, amacı ve pazar şartlarını doğrulayın.",
+            "next_step": "Onaylı kombinasyonu, fotoğrafları ve test koşullarını siparişe ekleyin.",
+            "sources": [
+              {
+                "label": "FDA gıda ambalajı ve gıda teması bilgileri",
+                "url": "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers"
+              },
+              {
+                "label": "Avrupa Komisyonu gıda temas malzemeleri",
+                "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en"
+              },
+              {
+                "label": "CPSC etiketleme gereklilikleri özeti",
+                "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/CPSC-Labeling-Requirements-Overview"
+              }
+            ]
+          },
+          "ui": {
+            "home": "Ana sayfa",
+            "blog": "Blog",
+            "buyingGuide": "Satın alma rehberi",
+            "inThisGuide": "BU REHBERDE",
+            "articleSections": "Makale bölümleri",
+            "discussProject": "Projenizi konuşun →",
+            "beforeOrder": "Toptan siparişi açmadan önce",
+            "sourceCheckedNotes": "KAYNAKLI ALICI NOTLARI",
+            "practicalNextStep": "Pratik sonraki adım:",
+            "primaryReferences": "Temel kaynaklar",
+            "evidenceCaveat": "Bu bağımsız kaynaklar XUYI şişesi, fabrikası, malzemesi veya testi için sertifika değildir. Kesin modeli, hedef pazarı ve güncel şartları doğrulayın.",
+            "matrixNote": "Bunlar alıcı karar kriterleridir; XUYI sertifikası, yayımlanmış MOQ veya garantili teslim süresi değildir. Modeli ve pazarı doğrulayın.",
+            "buyerChecklist": "Alıcı kontrol listesi",
+            "faqHeading": "Sık sorulan sorular",
+            "quoteHeading": "Belirli bir model için fiyat mı gerekiyor?",
+            "quoteBody": "Onaylı kapsamın incelenmesi için model, tahmini miktar, kişiselleştirme ve hedef pazarı gönderin.",
+            "quoteButton": "Plastik şişe teklifi isteyin →",
+            "continueReading": "OKUMAYA DEVAM ET",
+            "relatedGuides": "İlgili satın alma rehberleri",
+            "readArticle": "Makaleyi oku →"
+          },
+          "related": [
+            {
+              "slug": "wholesale-water-bottle-receiving-inspection",
+              "title": "Distribütörler toptan yeniden kullanılabilir şişeleri teslim alırken nasıl denetlemeli?",
+              "description": "Teslimatı kabul etmeden model, adet, kapak, sızdırmazlık, yüzey ve ambalajı kontrol edin."
+            },
+            {
+              "slug": "wholesale-water-bottle-quality-control-checklist",
+              "title": "Toptan yeniden kullanılabilir şişe kalite kontrol listesi",
+              "description": "Toptan üretimi serbest bırakmadan önce uygulanacak dokuz pratik kontrol."
+            },
+            {
+              "slug": "wholesale-water-bottle-purchase-order-approved-sample-substitution",
+              "title": "Toptan siparişte onaylı numune ve değişiklikler nasıl yazılmalı?",
+              "description": "Bileşen değişikliğine izin vermeden önce onaylı sürümü kayda alın."
+            }
+          ],
+          "product_notes": [
+            {
+              "section": 1,
+              "sku": "2095",
+              "label": {
+                "en": "500ml / 16.9 oz class sports bottle model 2095",
+                "es": "botella deportiva de 500 ml / clase 16,9 oz modelo 2095",
+                "pt": "garrafa esportiva de 500 ml / classe 16,9 oz modelo 2095",
+                "ru": "спортивная бутылка 500 мл / класс 16,9 oz, модель 2095",
+                "tr": "500 ml / 16,9 oz sınıfı spor şişesi model 2095"
+              },
+              "text": {
+                "en": "Use an exact sample such as {product} when the handle and body are approved together.",
+                "es": "Use una muestra exacta como {product} cuando se aprueban juntos el asa y el cuerpo.",
+                "pt": "Use uma amostra exata como {product} quando a alça e o corpo forem aprovados juntos.",
+                "ru": "Используйте точный образец, например {product}, когда ручка и корпус утверждаются вместе.",
+                "tr": "Sap ve gövde birlikte onaylanırken {product} gibi kesin bir numune kullanın."
+              }
+            },
+            {
+              "section": 3,
+              "sku": "2100",
+              "label": {
+                "en": "650ml / 22 oz class PP/PC sports bottle model 2100",
+                "es": "botella deportiva PP/PC de 650 ml / clase 22 oz modelo 2100",
+                "pt": "garrafa esportiva PP/PC de 650 ml / classe 22 oz modelo 2100",
+                "ru": "спортивная бутылка PP/PC 650 мл / класс 22 oz, модель 2100",
+                "tr": "650 ml / 22 oz sınıfı PP/PC spor şişesi model 2100"
+              },
+              "text": {
+                "en": "Compare the filled-use sequence on {product} with the buyer's approved handle condition.",
+                "es": "Compare la secuencia de uso lleno de {product} con la condición de asa aprobada por el comprador.",
+                "pt": "Compare a sequência de uso cheio de {product} com a condição de alça aprovada pelo comprador.",
+                "ru": "Сравните последовательность использования наполненной {product} с утвержденным условием ручки.",
+                "tr": "Dolu kullanım sırasını {product} üzerinde alıcının onayladığı sap koşuluyla karşılaştırın."
+              }
+            },
+            {
+              "section": 5,
+              "sku": "2516",
+              "label": {
+                "en": "1000ml / 32 oz class gradient sports bottle model 2516",
+                "es": "botella deportiva degradada de 1000 ml / clase 32 oz modelo 2516",
+                "pt": "garrafa esportiva degradê de 1000 ml / classe 32 oz modelo 2516",
+                "ru": "спортивная градиентная бутылка 1000 мл / класс 32 oz, модель 2516",
+                "tr": "1000 ml / 32 oz sınıfı degradeli spor şişesi model 2516"
+              },
+              "text": {
+                "en": "Review comfort and contact clearance on the larger {product} before repeating the same strap promise.",
+                "es": "Revise comodidad y espacio de contacto de la {product} grande antes de repetir la misma promesa de correa.",
+                "pt": "Revise conforto e espaço de contato da {product} maior antes de repetir a mesma promessa de alça.",
+                "ru": "Проверьте удобство и зазоры у более крупной {product}, прежде чем повторять обещание по ремню.",
+                "tr": "Aynı askı vaadini tekrarlamadan önce daha büyük {product} üzerindeki rahatlığı ve boşluğu kontrol edin."
+              }
+            }
+          ]
+        }
+      },
+      "localized_related": {
+        "es": {
+          "wholesale-water-bottle-receiving-inspection": {
+            "title": "¿Cómo pueden los distribuidores inspeccionar botellas reutilizables al recibirlas?",
+            "description": "Controle identidad, cantidad, tapa, fugas, acabado y embalaje antes de aceptar la entrega."
+          },
+          "wholesale-water-bottle-quality-control-checklist": {
+            "title": "Lista de control de calidad para botellas reutilizables al por mayor",
+            "description": "Nueve verificaciones prácticas antes de liberar una producción mayorista."
+          },
+          "wholesale-water-bottle-purchase-order-approved-sample-substitution": {
+            "title": "Qué debe decir una orden mayorista sobre muestras aprobadas y sustituciones",
+            "description": "Proteja la referencia aprobada antes de permitir cambios de componentes."
+          }
+        },
+        "pt": {
+          "wholesale-water-bottle-receiving-inspection": {
+            "title": "Como distribuidores podem inspecionar garrafas reutilizáveis no recebimento?",
+            "description": "Confira identidade, quantidade, tampa, vazamento, acabamento e embalagem antes de aceitar a entrega."
+          },
+          "wholesale-water-bottle-quality-control-checklist": {
+            "title": "Checklist de qualidade para garrafas reutilizáveis no atacado",
+            "description": "Nove verificações práticas antes de liberar uma produção atacadista."
+          },
+          "wholesale-water-bottle-purchase-order-approved-sample-substitution": {
+            "title": "O que o pedido atacadista deve dizer sobre amostra aprovada e substituições?",
+            "description": "Proteja a referência aprovada antes de permitir mudanças de componentes."
+          }
+        },
+        "ru": {
+          "wholesale-water-bottle-receiving-inspection": {
+            "title": "Как дистрибьютору проверить многоразовые бутылки при приемке?",
+            "description": "Проверьте модель, количество, крышку, герметичность, отделку и упаковку до приемки поставки."
+          },
+          "wholesale-water-bottle-quality-control-checklist": {
+            "title": "Чек-лист контроля качества многоразовых бутылок оптом",
+            "description": "Девять практических проверок перед выпуском оптовой партии."
+          },
+          "wholesale-water-bottle-purchase-order-approved-sample-substitution": {
+            "title": "Что указать в оптовом заказе об утвержденном образце и заменах?",
+            "description": "Зафиксируйте утвержденную версию до разрешения изменений компонентов."
+          }
+        },
+        "tr": {
+          "wholesale-water-bottle-receiving-inspection": {
+            "title": "Distribütörler toptan yeniden kullanılabilir şişeleri teslim alırken nasıl denetlemeli?",
+            "description": "Teslimatı kabul etmeden model, adet, kapak, sızdırmazlık, yüzey ve ambalajı kontrol edin."
+          },
+          "wholesale-water-bottle-quality-control-checklist": {
+            "title": "Toptan yeniden kullanılabilir şişe kalite kontrol listesi",
+            "description": "Toptan üretimi serbest bırakmadan önce uygulanacak dokuz pratik kontrol."
+          },
+          "wholesale-water-bottle-purchase-order-approved-sample-substitution": {
+            "title": "Toptan siparişte onaylı numune ve değişiklikler nasıl yazılmalı?",
+            "description": "Bileşen değişikliğine izin vermeden önce onaylı sürümü kayda alın."
+          }
+        }
+      }
+    },
+    {
+      "slug": "wholesale-water-bottle-cap-opening-force-checklist",
+      "title": "How Should Wholesale Buyers Check Water Bottle Cap Fit and Opening Before a Bulk Order?",
+      "description": "A B2B cap and closure checklist for checking neck fit, gasket seating, opening motion, leak resistance, cleaning and change control before ordering.",
+      "intro": "A cap that looks compatible can start on the wrong thread, pinch the gasket or become difficult to open after decoration and packing. This guide helps buyers review closure function on the exact bottle and cap combination.",
+      "category": "WHOLESALE CLOSURE TESTING",
+      "cover": "/media/blog/wholesale-water-bottle-cap-fit-check-20261123.webp",
+      "coverAlt": "Wholesale buyer inspecting a reusable water bottle cap and gasket beside approved sample bottles",
+      "updated": "2026-11-23",
+      "sections": [
+        [
+          "Do not treat visual fit as functional fit",
+          "A cap sitting on a bottle is only the first observation. Functional fit includes neck, thread start, sealing surface, gasket, opening, hinge or valve, grip and behavior during filling, carrying and cleaning."
+        ],
+        [
+          "Record cap and neck identity",
+          "Capture body SKU, cap SKU, version, color, factory material description, gasket or valve part and approved sample. Capacity alone does not identify a neck; similar-volume bottles can have different closure geometry."
+        ],
+        [
+          "Check the first thread and gasket seat",
+          "Start the cap by hand and note whether the thread engages smoothly without cross-threading. Inspect even gasket contact after closing, along with mouth, skirt and hinge clearance."
+        ],
+        [
+          "Test opening and closing with the same method",
+          "Use the same hand position, sample condition and opening sequence for every option. Record slipping or interference from a strap or decoration. Do not publish a force value without a controlled method."
+        ],
+        [
+          "Run leak and handling checks together",
+          "Use the agreed liquid and sequence: upright carry, inversion, gentle movement and the channel's cleaning routine. Recheck gasket, thread, valve and hinge. Keep leak observations separate from temperature or dishwasher claims."
+        ],
+        [
+          "Write care and claim boundaries",
+          "A closure may suit one market statement but not another. Separate observations from what must be confirmed for food contact, labeling or care. Ask for documents for the exact model."
+        ],
+        [
+          "Approve a change-controlled sample",
+          "Save cap, body, gasket, valve, color, decoration, packing and revision. If a component or mold changes, stop the reorder until the new combination is compared and tested."
+        ]
+      ],
+      "checklist": [
+        "List exact body, neck, cap, gasket, valve and revision.",
+        "Do not substitute capacity for neck identity.",
+        "Check thread start, profile, seal, mouth, skirt and gasket seating.",
+        "Look for cross-threading, uneven contact and displaced seals.",
+        "Repeat the same opening and closing motion on every sample.",
+        "Record interference from straps, handles, artwork or packing.",
+        "Run agreed inversion, movement and cleaning checks after closing.",
+        "Keep observed results separate from market or care claims.",
+        "Save approved cap, body, seal and reference photographs.",
+        "Re-test after any component, mold, material, color or decoration change."
+      ],
+      "faqs": [
+        [
+          "Is outside cap diameter enough to approve a replacement?",
+          "No. Thread profile and start, sealing surface, gasket, skirt, mouth and functional clearance must also match the approved combination."
+        ],
+        [
+          "Can a cap that closes tightly still leak?",
+          "Yes. A displaced gasket, damaged thread or uneven sealing surface can create a leak even when the cap feels tight."
+        ],
+        [
+          "Should a buyer publish an opening-force number?",
+          "Only when method, instrument, sample condition and result are controlled and traceable. Otherwise describe the observed use condition."
+        ],
+        [
+          "What should happen after a cap revision?",
+          "Treat it as a new approval event. Compare the revision with the retained sample and repeat opening, sealing, cleaning and relevant transport checks."
+        ]
+      ],
+      "related": [
+        "water-bottle-cap-types-bulk-guide",
+        "wholesale-water-bottle-leak-test-sample-approval-guide",
+        "replacement-water-bottle-lids-bulk"
+      ],
+      "product_notes": [
+        {
+          "section": 1,
+          "sku": "2516",
+          "label": {
+            "en": "1000ml / 32 oz class gradient sports bottle model 2516",
+            "es": "botella deportiva degradada de 1000 ml / clase 32 oz modelo 2516",
+            "pt": "garrafa esportiva degradê de 1000 ml / classe 32 oz modelo 2516",
+            "ru": "спортивная градиентная бутылка 1000 мл / класс 32 oz, модель 2516",
+            "tr": "1000 ml / 32 oz sınıfı degradeli spor şişesi model 2516"
+          },
+          "text": {
+            "en": "Check the neck and cap interface on {product}, not only the catalog volume.",
+            "es": "Compruebe la interfaz de cuello y tapa de {product}, no solo el volumen del catálogo.",
+            "pt": "Confira a interface entre gargalo e tampa de {product}, não apenas o volume do catálogo.",
+            "ru": "Проверяйте соединение горла и крышки у {product}, а не только объем в каталоге.",
+            "tr": "Katalog hacmiyle yetinmeyin; {product} üzerindeki boyun ve kapak arayüzünü kontrol edin."
+          }
+        },
+        {
+          "section": 3,
+          "sku": "2100",
+          "label": {
+            "en": "650ml / 22 oz class PP/PC sports bottle model 2100",
+            "es": "botella deportiva PP/PC de 650 ml / clase 22 oz modelo 2100",
+            "pt": "garrafa esportiva PP/PC de 650 ml / classe 22 oz modelo 2100",
+            "ru": "спортивная бутылка PP/PC 650 мл / класс 22 oz, модель 2100",
+            "tr": "650 ml / 22 oz sınıfı PP/PC spor şişesi model 2100"
+          },
+          "text": {
+            "en": "Use {product} to compare the same hand opening sequence and gasket inspection with other samples.",
+            "es": "Use {product} para comparar la misma secuencia de apertura y revisión de junta con otras muestras.",
+            "pt": "Use {product} para comparar a mesma sequência de abertura e inspeção da vedação com outras amostras.",
+            "ru": "Используйте {product}, чтобы сравнить одинаковую последовательность открытия и проверку прокладки.",
+            "tr": "Diğer numunelerle aynı açma sırasını ve conta kontrolünü karşılaştırmak için {product} kullanın."
+          }
+        },
+        {
+          "section": 5,
+          "sku": "2095",
+          "label": {
+            "en": "500ml / 16.9 oz class sports bottle model 2095",
+            "es": "botella deportiva de 500 ml / clase 16,9 oz modelo 2095",
+            "pt": "garrafa esportiva de 500 ml / classe 16,9 oz modelo 2095",
+            "ru": "спортивная бутылка 500 мл / класс 16,9 oz, модель 2095",
+            "tr": "500 ml / 16,9 oz sınıfı spor şişesi model 2095"
+          },
+          "text": {
+            "en": "Record care and opening observations for {product} separately from a general family claim.",
+            "es": "Registre las observaciones de cuidado y apertura de {product} por separado de una afirmación general de la familia.",
+            "pt": "Registre as observações de cuidado e abertura de {product} separadamente de uma afirmação geral da família.",
+            "ru": "Отдельно запишите наблюдения по уходу и открытию {product}, не распространяя их на все семейство.",
+            "tr": "{product} için bakım ve açma gözlemlerini ürün ailesiyle ilgili genel iddialardan ayrı kaydedin."
+          }
+        }
+      ],
+      "buyerDecisionTable": {
+        "title": "Cap and closure approval matrix",
+        "intro": "Approve the complete interface and function, not a cap silhouette or capacity label.",
+        "head": [
+          "Decision area",
+          "Buyer check",
+          "Safe record"
+        ],
+        "rows": [
+          [
+            "Identity",
+            "Body, neck, cap, gasket, valve and revision",
+            "Approved for the listed components only."
+          ],
+          [
+            "Interface",
+            "Thread start, profile, seal, mouth and skirt",
+            "Engages smoothly and seats evenly."
+          ],
+          [
+            "Opening",
+            "Grip, hand position, force method and interference",
+            "Observed sequence recorded; no invented force claim."
+          ],
+          [
+            "Use",
+            "Inversion, movement, cleaning and transport context",
+            "Passed the stated conditions."
+          ],
+          [
+            "Change",
+            "Part, mold, material, color or decoration revision",
+            "New sample review before reorder."
+          ]
+        ]
+      },
+      "evidence": {
+        "insight": "Closure safety and performance depend on exact food-contact components and intended conditions of use. Official guidance emphasizes intended use, supporting data and market obligations; it does not turn a generic cap into a universal claim.",
+        "next_step": "Keep the approved bottle, cap and gasket together with the exact opening, leak and care conditions used for the buyer decision.",
+        "sources": [
+          {
+            "label": "Información de la FDA sobre envases y contacto con alimentos",
+            "url": "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers"
+          },
+          {
+            "label": "Materiales en contacto con alimentos de la Comisión Europea",
+            "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en"
+          },
+          {
+            "label": "Resumen de requisitos de etiquetado de la CPSC",
+            "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/CPSC-Labeling-Requirements-Overview"
+          }
+        ]
+      },
+      "locales": {
+        "es": {
+          "category": "PRUEBAS DE CIERRES AL POR MAYOR",
+          "title": "¿Cómo deben comprobar los compradores mayoristas el ajuste y la apertura de una tapa antes de comprar en volumen?",
+          "description": "Lista B2B para revisar cuello, junta, apertura, fugas, limpieza y control de cambios antes de comprar.",
+          "intro": "Una tapa compatible debe iniciar la rosca, asentar la junta y abrirse de forma repetible en la botella exacta. Esta guía evita aprobar solo por aspecto.",
+          "sections": [
+            [
+              "No confunda encaje visual con función",
+              "Compruebe cuello, rosca, superficie, junta, abertura, bisagra, válvula, agarre y limpieza, no solo que la tapa se apoye."
+            ],
+            [
+              "Registre la identidad de tapa y cuello",
+              "Anote cuerpo, tapa, versión, color, material indicado por fábrica, junta, válvula y muestra aprobada. La capacidad no identifica el cuello."
+            ],
+            [
+              "Compruebe la primera rosca y la junta",
+              "Inicie la tapa a mano y revise contacto uniforme, boca, falda y bisagra. Una tapa apretada no prueba un sellado correcto."
+            ],
+            [
+              "Pruebe abrir y cerrar con el mismo método",
+              "Use la misma mano, condición y secuencia. Registre deslizamiento o interferencias y no publique fuerza sin método controlado."
+            ],
+            [
+              "Haga pruebas de fugas y manejo juntas",
+              "Use la secuencia acordada de transporte, inversión, movimiento y limpieza. Separe fugas de afirmaciones sobre temperatura o lavavajillas."
+            ],
+            [
+              "Escriba los límites de cuidado",
+              "Separe lo observado de los requisitos de contacto alimentario, etiquetado y cuidado. Pida documentos del modelo exacto."
+            ],
+            [
+              "Apruebe una muestra con control de cambios",
+              "Guarde tapa, cuerpo, junta, válvula, color, decoración, embalaje y revisión. Un cambio exige comparar y volver a probar."
+            ]
+          ],
+          "checklist": [
+            "Liste cuerpo, cuello, tapa, junta, válvula y revisión.",
+            "No sustituya identidad del cuello por capacidad.",
+            "Revise rosca, perfil, sellado, boca, falda y junta.",
+            "Busque rosca cruzada, contacto irregular y junta movida.",
+            "Repita el mismo movimiento de apertura y cierre.",
+            "Registre interferencias de asa, correa, impresión o embalaje.",
+            "Haga pruebas de inversión, movimiento y limpieza.",
+            "Separe resultados de afirmaciones de mercado o cuidado.",
+            "Guarde tapa, cuerpo, junta y fotos aprobados.",
+            "Vuelva a probar tras cualquier cambio de componente o molde."
+          ],
+          "faqs": [
+            [
+              "¿Basta el diámetro exterior para una tapa de repuesto?",
+              "No. También deben coincidir rosca, sellado, junta, falda, boca y espacio funcional."
+            ],
+            [
+              "¿Una tapa apretada puede tener fugas?",
+              "Sí. Una junta desplazada, rosca dañada o superficie irregular puede causar fugas."
+            ],
+            [
+              "¿Debe publicarse una fuerza de apertura?",
+              "Solo con método, instrumento, muestra y resultado trazables. Si no, describa la condición observada."
+            ],
+            [
+              "¿Qué ocurre tras revisar la tapa?",
+              "Trátelo como nueva aprobación y repita apertura, sellado, limpieza y transporte."
+            ]
+          ],
+          "matrix": {
+            "title": "Matriz de aprobación de tapa y cierre",
+            "intro": "Apruebe la interfaz y la función completas, no solo la silueta.",
+            "head": [
+              "Área",
+              "Comprobación",
+              "Registro seguro"
+            ],
+            "rows": [
+              [
+                "Identidad",
+                "Cuerpo, cuello, tapa, junta y revisión",
+                "Solo esos componentes."
+              ],
+              [
+                "Interfaz",
+                "Rosca, sellado, boca y falda",
+                "Asienta de forma uniforme."
+              ],
+              [
+                "Apertura",
+                "Agarre, método e interferencias",
+                "Secuencia registrada."
+              ],
+              [
+                "Uso",
+                "Inversión, movimiento, limpieza y transporte",
+                "Condiciones superadas."
+              ],
+              [
+                "Cambio",
+                "Pieza, molde, material y decoración",
+                "Nueva muestra antes de reponer."
+              ]
+            ]
+          },
+          "sourceLabels": [
+            "Información de la FDA sobre envases y contacto con alimentos",
+            "Materiales en contacto con alimentos de la Comisión Europea",
+            "Resumen de requisitos de etiquetado de la CPSC"
+          ],
+          "evidence": {
+            "insight": "La seguridad y el rendimiento del cierre dependen de los componentes exactos y de las condiciones previstas. La guía oficial exige considerar uso previsto, datos y obligaciones del mercado.",
+            "next_step": "Guarde botella, tapa y junta aprobadas junto con las condiciones de apertura, fugas y cuidado.",
+            "sources": [
+              {
+                "label": "Información de la FDA sobre envases y contacto con alimentos",
+                "url": "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers"
+              },
+              {
+                "label": "Materiales en contacto con alimentos de la Comisión Europea",
+                "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en"
+              },
+              {
+                "label": "Resumen de requisitos de etiquetado de la CPSC",
+                "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/CPSC-Labeling-Requirements-Overview"
+              }
+            ]
+          },
+          "ui": {
+            "home": "Inicio",
+            "blog": "Blog",
+            "buyingGuide": "Guía de compra",
+            "inThisGuide": "EN ESTA GUÍA",
+            "articleSections": "Secciones del artículo",
+            "discussProject": "Hablar sobre su proyecto →",
+            "beforeOrder": "Antes de liberar el pedido mayorista",
+            "sourceCheckedNotes": "NOTAS DE COMPRA CON FUENTES",
+            "practicalNextStep": "Siguiente paso práctico:",
+            "primaryReferences": "Fuentes principales",
+            "evidenceCaveat": "Estas fuentes independientes no certifican una botella, fábrica, material o prueba de XUYI. Verifique el modelo exacto, el mercado de destino y los requisitos vigentes.",
+            "matrixNote": "Son criterios de decisión del comprador, no certificación XUYI, MOQ publicado ni plazo garantizado. Verifique el modelo y el mercado.",
+            "buyerChecklist": "Lista de control del comprador",
+            "faqHeading": "Preguntas frecuentes",
+            "quoteHeading": "¿Necesita precio para un modelo concreto?",
+            "quoteBody": "Envíe el modelo, la cantidad prevista, la personalización y el mercado de destino para revisar el alcance confirmado.",
+            "quoteButton": "Solicitar cotización de botella plástica →",
+            "continueReading": "SEGUIR LEYENDO",
+            "relatedGuides": "Guías de compra relacionadas",
+            "readArticle": "Leer artículo →"
+          },
+          "related": [
+            {
+              "slug": "water-bottle-cap-types-bulk-guide",
+              "title": "Tapa abatible, con pajita o de rosca: guía para compras al por mayor",
+              "description": "Compare el uso previsto, la limpieza, el sellado y la reposición."
+            },
+            {
+              "slug": "wholesale-water-bottle-leak-test-sample-approval-guide",
+              "title": "Cómo aprobar una muestra de prueba de fugas al por mayor",
+              "description": "Convierta la prueba de sellado en un criterio repetible de compra."
+            },
+            {
+              "slug": "replacement-water-bottle-lids-bulk",
+              "title": "Tapas de repuesto para botellas reutilizables: guía de piezas",
+              "description": "Pida tapas de repuesto por modelo, cuello, junta y función."
+            }
+          ],
+          "product_notes": [
+            {
+              "section": 1,
+              "sku": "2516",
+              "label": {
+                "en": "1000ml / 32 oz class gradient sports bottle model 2516",
+                "es": "botella deportiva degradada de 1000 ml / clase 32 oz modelo 2516",
+                "pt": "garrafa esportiva degradê de 1000 ml / classe 32 oz modelo 2516",
+                "ru": "спортивная градиентная бутылка 1000 мл / класс 32 oz, модель 2516",
+                "tr": "1000 ml / 32 oz sınıfı degradeli spor şişesi model 2516"
+              },
+              "text": {
+                "en": "Check the neck and cap interface on {product}, not only the catalog volume.",
+                "es": "Compruebe la interfaz de cuello y tapa de {product}, no solo el volumen del catálogo.",
+                "pt": "Confira a interface entre gargalo e tampa de {product}, não apenas o volume do catálogo.",
+                "ru": "Проверяйте соединение горла и крышки у {product}, а не только объем в каталоге.",
+                "tr": "Katalog hacmiyle yetinmeyin; {product} üzerindeki boyun ve kapak arayüzünü kontrol edin."
+              }
+            },
+            {
+              "section": 3,
+              "sku": "2100",
+              "label": {
+                "en": "650ml / 22 oz class PP/PC sports bottle model 2100",
+                "es": "botella deportiva PP/PC de 650 ml / clase 22 oz modelo 2100",
+                "pt": "garrafa esportiva PP/PC de 650 ml / classe 22 oz modelo 2100",
+                "ru": "спортивная бутылка PP/PC 650 мл / класс 22 oz, модель 2100",
+                "tr": "650 ml / 22 oz sınıfı PP/PC spor şişesi model 2100"
+              },
+              "text": {
+                "en": "Use {product} to compare the same hand opening sequence and gasket inspection with other samples.",
+                "es": "Use {product} para comparar la misma secuencia de apertura y revisión de junta con otras muestras.",
+                "pt": "Use {product} para comparar a mesma sequência de abertura e inspeção da vedação com outras amostras.",
+                "ru": "Используйте {product}, чтобы сравнить одинаковую последовательность открытия и проверку прокладки.",
+                "tr": "Diğer numunelerle aynı açma sırasını ve conta kontrolünü karşılaştırmak için {product} kullanın."
+              }
+            },
+            {
+              "section": 5,
+              "sku": "2095",
+              "label": {
+                "en": "500ml / 16.9 oz class sports bottle model 2095",
+                "es": "botella deportiva de 500 ml / clase 16,9 oz modelo 2095",
+                "pt": "garrafa esportiva de 500 ml / classe 16,9 oz modelo 2095",
+                "ru": "спортивная бутылка 500 мл / класс 16,9 oz, модель 2095",
+                "tr": "500 ml / 16,9 oz sınıfı spor şişesi model 2095"
+              },
+              "text": {
+                "en": "Record care and opening observations for {product} separately from a general family claim.",
+                "es": "Registre las observaciones de cuidado y apertura de {product} por separado de una afirmación general de la familia.",
+                "pt": "Registre as observações de cuidado e abertura de {product} separadamente de uma afirmação geral da família.",
+                "ru": "Отдельно запишите наблюдения по уходу и открытию {product}, не распространяя их на все семейство.",
+                "tr": "{product} için bakım ve açma gözlemlerini ürün ailesiyle ilgili genel iddialardan ayrı kaydedin."
+              }
+            }
+          ]
+        },
+        "pt": {
+          "category": "TESTE DE TAMPAS NO ATACADO",
+          "title": "Como compradores atacadistas devem verificar o encaixe e a abertura da tampa antes de comprar em volume?",
+          "description": "Checklist B2B para conferir gargalo, vedação, abertura, vazamento, limpeza e mudanças antes do pedido.",
+          "intro": "Uma tampa compatível deve iniciar a rosca, assentar a vedação e abrir de modo repetível na garrafa exata. Este guia evita aprovar apenas pela aparência.",
+          "sections": [
+            [
+              "Não trate encaixe visual como função",
+              "Confira gargalo, rosca, superfície, vedação, abertura, dobradiça, válvula, pegada e limpeza, não apenas o apoio da tampa."
+            ],
+            [
+              "Registre tampa e gargalo",
+              "Anote corpo, tampa, versão, cor, material da fábrica, vedação, válvula e amostra. Capacidade não identifica gargalo."
+            ],
+            [
+              "Confira primeira rosca e vedação",
+              "Comece a tampa à mão e veja contato uniforme, boca, saia e dobradiça. Tampa apertada não prova vedação."
+            ],
+            [
+              "Teste abrir e fechar pelo mesmo método",
+              "Use mesma mão, condição e sequência. Registre escorregamento ou interferências e não publique força sem método controlado."
+            ],
+            [
+              "Faça vazamento e manuseio juntos",
+              "Use transporte, inversão, movimento e limpeza combinados. Separe vazamento de afirmações de temperatura ou lava-louças."
+            ],
+            [
+              "Escreva limites de cuidado",
+              "Separe observação de requisitos de contato com alimento, rotulagem e cuidado. Peça documentos do modelo exato."
+            ],
+            [
+              "Aprove amostra com controle de mudanças",
+              "Guarde tampa, corpo, vedação, válvula, cor, decoração, embalagem e revisão. Mudança exige comparação e novo teste."
+            ]
+          ],
+          "checklist": [
+            "Liste corpo, gargalo, tampa, vedação, válvula e revisão.",
+            "Não substitua identidade do gargalo por capacidade.",
+            "Confira rosca, perfil, vedação, boca, saia e junta.",
+            "Procure rosca cruzada, contato irregular e vedação deslocada.",
+            "Repita o mesmo movimento de abertura e fechamento.",
+            "Registre interferência de alça, tira, impressão ou embalagem.",
+            "Faça testes de inversão, movimento e limpeza.",
+            "Separe resultado de afirmações de mercado ou cuidado.",
+            "Guarde tampa, corpo, vedação e fotos aprovados.",
+            "Teste novamente após mudança de peça ou molde."
+          ],
+          "faqs": [
+            [
+              "O diâmetro externo basta para uma tampa de reposição?",
+              "Não. Rosca, vedação, junta, saia, boca e espaço funcional também precisam coincidir."
+            ],
+            [
+              "Uma tampa apertada pode vazar?",
+              "Sim. Junta deslocada, rosca danificada ou superfície irregular podem causar vazamento."
+            ],
+            [
+              "O comprador deve publicar força de abertura?",
+              "Somente com método, instrumento, amostra e resultado rastreáveis. Caso contrário descreva a condição."
+            ],
+            [
+              "O que fazer após revisar a tampa?",
+              "Trate como nova aprovação e repita abertura, vedação, limpeza e transporte."
+            ]
+          ],
+          "matrix": {
+            "title": "Matriz de aprovação de tampa e fechamento",
+            "intro": "Aprove a interface e a função completas, não apenas o formato.",
+            "head": [
+              "Área",
+              "Verificação",
+              "Registro seguro"
+            ],
+            "rows": [
+              [
+                "Identidade",
+                "Corpo, gargalo, tampa, vedação e revisão",
+                "Apenas esses componentes."
+              ],
+              [
+                "Interface",
+                "Rosca, vedação, boca e saia",
+                "Assenta por igual."
+              ],
+              [
+                "Abertura",
+                "Pegada, método e interferências",
+                "Sequência registrada."
+              ],
+              [
+                "Uso",
+                "Inversão, movimento, limpeza e transporte",
+                "Condições aprovadas."
+              ],
+              [
+                "Mudança",
+                "Peça, molde, material e decoração",
+                "Nova amostra antes da reposição."
+              ]
+            ]
+          },
+          "sourceLabels": [
+            "Informações da FDA sobre embalagens e contato com alimentos",
+            "Materiais em contato com alimentos da Comissão Europeia",
+            "Resumo dos requisitos de rotulagem da CPSC"
+          ],
+          "evidence": {
+            "insight": "A segurança e o desempenho do fechamento dependem dos componentes exatos e das condições previstas. A orientação oficial considera uso pretendido, dados e obrigações do mercado.",
+            "next_step": "Guarde garrafa, tampa e vedação aprovadas com as condições de abertura, vazamento e cuidado.",
+            "sources": [
+              {
+                "label": "Informações da FDA sobre embalagens e contato com alimentos",
+                "url": "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers"
+              },
+              {
+                "label": "Materiais em contato com alimentos da Comissão Europeia",
+                "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en"
+              },
+              {
+                "label": "Resumo dos requisitos de rotulagem da CPSC",
+                "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/CPSC-Labeling-Requirements-Overview"
+              }
+            ]
+          },
+          "ui": {
+            "home": "Início",
+            "blog": "Blog",
+            "buyingGuide": "Guia de compra",
+            "inThisGuide": "NESTE GUIA",
+            "articleSections": "Seções do artigo",
+            "discussProject": "Fale sobre seu projeto →",
+            "beforeOrder": "Antes de liberar o pedido atacadista",
+            "sourceCheckedNotes": "NOTAS DE COMPRA COM FONTES",
+            "practicalNextStep": "Próximo passo prático:",
+            "primaryReferences": "Fontes principais",
+            "evidenceCaveat": "Estas fontes independentes não certificam uma garrafa, fábrica, material ou teste da XUYI. Confirme o modelo exato, o mercado de destino e os requisitos atuais.",
+            "matrixNote": "São critérios de decisão do comprador, não certificação XUYI, MOQ publicado nem prazo garantido. Confirme o modelo e o mercado.",
+            "buyerChecklist": "Checklist do comprador",
+            "faqHeading": "Perguntas frequentes",
+            "quoteHeading": "Precisa de preço para um modelo específico?",
+            "quoteBody": "Envie o modelo, a quantidade prevista, a personalização e o mercado de destino para que a equipe confirme o escopo.",
+            "quoteButton": "Solicitar cotação de garrafa plástica →",
+            "continueReading": "CONTINUE LENDO",
+            "relatedGuides": "Guias de compra relacionados",
+            "readArticle": "Ler artigo →"
+          },
+          "related": [
+            {
+              "slug": "water-bottle-cap-types-bulk-guide",
+              "title": "Tampa flip, com canudo ou de rosca: guia para compras em volume",
+              "description": "Compare uso, limpeza, vedação e reposição antes de comprar."
+            },
+            {
+              "slug": "wholesale-water-bottle-leak-test-sample-approval-guide",
+              "title": "Como aprovar uma amostra de teste de vazamento no atacado",
+              "description": "Transforme a verificação da vedação em critério repetível de compra."
+            },
+            {
+              "slug": "replacement-water-bottle-lids-bulk",
+              "title": "Tampas de reposição para garrafas reutilizáveis: guia de peças",
+              "description": "Solicite peças pelo modelo, gargalo, vedação e função."
+            }
+          ],
+          "product_notes": [
+            {
+              "section": 1,
+              "sku": "2516",
+              "label": {
+                "en": "1000ml / 32 oz class gradient sports bottle model 2516",
+                "es": "botella deportiva degradada de 1000 ml / clase 32 oz modelo 2516",
+                "pt": "garrafa esportiva degradê de 1000 ml / classe 32 oz modelo 2516",
+                "ru": "спортивная градиентная бутылка 1000 мл / класс 32 oz, модель 2516",
+                "tr": "1000 ml / 32 oz sınıfı degradeli spor şişesi model 2516"
+              },
+              "text": {
+                "en": "Check the neck and cap interface on {product}, not only the catalog volume.",
+                "es": "Compruebe la interfaz de cuello y tapa de {product}, no solo el volumen del catálogo.",
+                "pt": "Confira a interface entre gargalo e tampa de {product}, não apenas o volume do catálogo.",
+                "ru": "Проверяйте соединение горла и крышки у {product}, а не только объем в каталоге.",
+                "tr": "Katalog hacmiyle yetinmeyin; {product} üzerindeki boyun ve kapak arayüzünü kontrol edin."
+              }
+            },
+            {
+              "section": 3,
+              "sku": "2100",
+              "label": {
+                "en": "650ml / 22 oz class PP/PC sports bottle model 2100",
+                "es": "botella deportiva PP/PC de 650 ml / clase 22 oz modelo 2100",
+                "pt": "garrafa esportiva PP/PC de 650 ml / classe 22 oz modelo 2100",
+                "ru": "спортивная бутылка PP/PC 650 мл / класс 22 oz, модель 2100",
+                "tr": "650 ml / 22 oz sınıfı PP/PC spor şişesi model 2100"
+              },
+              "text": {
+                "en": "Use {product} to compare the same hand opening sequence and gasket inspection with other samples.",
+                "es": "Use {product} para comparar la misma secuencia de apertura y revisión de junta con otras muestras.",
+                "pt": "Use {product} para comparar a mesma sequência de abertura e inspeção da vedação com outras amostras.",
+                "ru": "Используйте {product}, чтобы сравнить одинаковую последовательность открытия и проверку прокладки.",
+                "tr": "Diğer numunelerle aynı açma sırasını ve conta kontrolünü karşılaştırmak için {product} kullanın."
+              }
+            },
+            {
+              "section": 5,
+              "sku": "2095",
+              "label": {
+                "en": "500ml / 16.9 oz class sports bottle model 2095",
+                "es": "botella deportiva de 500 ml / clase 16,9 oz modelo 2095",
+                "pt": "garrafa esportiva de 500 ml / classe 16,9 oz modelo 2095",
+                "ru": "спортивная бутылка 500 мл / класс 16,9 oz, модель 2095",
+                "tr": "500 ml / 16,9 oz sınıfı spor şişesi model 2095"
+              },
+              "text": {
+                "en": "Record care and opening observations for {product} separately from a general family claim.",
+                "es": "Registre las observaciones de cuidado y apertura de {product} por separado de una afirmación general de la familia.",
+                "pt": "Registre as observações de cuidado e abertura de {product} separadamente de uma afirmação geral da família.",
+                "ru": "Отдельно запишите наблюдения по уходу и открытию {product}, не распространяя их на все семейство.",
+                "tr": "{product} için bakım ve açma gözlemlerini ürün ailesiyle ilgili genel iddialardan ayrı kaydedin."
+              }
+            }
+          ]
+        },
+        "ru": {
+          "category": "ПРОВЕРКА КРЫШЕК ДЛЯ ОПТОВОЙ ЗАКУПКИ",
+          "title": "Как оптовому покупателю проверить посадку и открывание крышки до заказа партии?",
+          "description": "B2B-чек-лист проверки горла, прокладки, открытия, утечки, очистки и изменений до заказа.",
+          "intro": "Совместимая крышка должна правильно начать резьбу, сесть на прокладку и открываться на точной бутылке. Это руководство не дает утверждать только по виду.",
+          "sections": [
+            [
+              "Не принимайте внешний вид за функцию",
+              "Проверьте горло, резьбу, поверхность, прокладку, отверстие, шарнир, клапан, захват и очистку, а не только посадку."
+            ],
+            [
+              "Запишите данные крышки и горла",
+              "Укажите корпус, крышку, версию, цвет, материал фабрики, прокладку, клапан и образец. Объем не определяет горло."
+            ],
+            [
+              "Проверьте начало резьбы и прокладку",
+              "Начните крышку рукой, проверьте ровный контакт, горлышко, юбку и шарнир. Тугое закрытие не доказывает герметичность."
+            ],
+            [
+              "Проверяйте открытие одинаково",
+              "Используйте одну руку, состояние и последовательность. Запишите перекосы и помехи; не публикуйте усилие без методики."
+            ],
+            [
+              "Проверяйте утечку и использование вместе",
+              "Используйте согласованные переноску, переворот, движение и очистку. Отделяйте утечку от заявлений о температуре или посудомоечной машине."
+            ],
+            [
+              "Опишите границы ухода",
+              "Отделите наблюдение от требований контакта с пищей, маркировки и ухода. Запросите документы точной модели."
+            ],
+            [
+              "Утвердите образец с контролем изменений",
+              "Сохраните крышку, корпус, прокладку, клапан, цвет, декор, упаковку и ревизию. Изменение требует сравнения и нового теста."
+            ]
+          ],
+          "checklist": [
+            "Укажите корпус, горло, крышку, прокладку, клапан и ревизию.",
+            "Не используйте объем вместо идентификации горла.",
+            "Проверьте резьбу, профиль, уплотнение, горло, юбку и прокладку.",
+            "Ищите перекос, неравномерный контакт и смещение прокладки.",
+            "Повторите одинаковое открытие и закрытие.",
+            "Запишите помехи от ручки, ремня, печати или упаковки.",
+            "Проведите проверки переворота, движения и очистки.",
+            "Отделите результат от рыночных заявлений и ухода.",
+            "Храните утвержденные детали и фото.",
+            "Повторите тест после изменения детали или формы."
+          ],
+          "faqs": [
+            [
+              "Достаточен ли внешний диаметр для запасной крышки?",
+              "Нет. Должны совпадать резьба, уплотнение, прокладка, юбка, горло и зазоры."
+            ],
+            [
+              "Может ли тугая крышка протекать?",
+              "Да. Смещенная прокладка, поврежденная резьба или неровная поверхность вызывают утечку."
+            ],
+            [
+              "Нужно ли публиковать усилие открытия?",
+              "Только при прослеживаемой методике, инструменте, состоянии образца и результате. Иначе опишите условие."
+            ],
+            [
+              "Что делать после ревизии крышки?",
+              "Считать новым утверждением и повторить открытие, уплотнение, очистку и перевозку."
+            ]
+          ],
+          "matrix": {
+            "title": "Матрица утверждения крышки и закрытия",
+            "intro": "Утверждайте весь интерфейс и функцию, а не форму.",
+            "head": [
+              "Область",
+              "Проверка",
+              "Безопасная запись"
+            ],
+            "rows": [
+              [
+                "Идентичность",
+                "Корпус, горло, крышка, прокладка и ревизия",
+                "Только эти детали."
+              ],
+              [
+                "Интерфейс",
+                "Резьба, уплотнение, горло и юбка",
+                "Садится ровно."
+              ],
+              [
+                "Открытие",
+                "Захват, метод и помехи",
+                "Последовательность записана."
+              ],
+              [
+                "Использование",
+                "Переворот, движение, очистка и переноска",
+                "Условия пройдены."
+              ],
+              [
+                "Изменение",
+                "Деталь, форма, материал и декор",
+                "Новый образец до заказа."
+              ]
+            ]
+          },
+          "sourceLabels": [
+            "Информация FDA об упаковке и контакте с пищей",
+            "Материалы для контакта с пищей Европейской комиссии",
+            "Обзор требований CPSC к маркировке"
+          ],
+          "evidence": {
+            "insight": "Безопасность и работа закрытия зависят от точных компонентов и условий использования. Официальные рекомендации учитывают назначение, данные и требования рынка.",
+            "next_step": "Храните утвержденные бутылку, крышку и прокладку с условиями открытия, утечки и ухода.",
+            "sources": [
+              {
+                "label": "Информация FDA об упаковке и контакте с пищей",
+                "url": "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers"
+              },
+              {
+                "label": "Материалы для контакта с пищей Европейской комиссии",
+                "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en"
+              },
+              {
+                "label": "Обзор требований CPSC к маркировке",
+                "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/CPSC-Labeling-Requirements-Overview"
+              }
+            ]
+          },
+          "ui": {
+            "home": "Главная",
+            "blog": "Блог",
+            "buyingGuide": "Руководство по закупке",
+            "inThisGuide": "В ЭТОМ РУКОВОДСТВЕ",
+            "articleSections": "Разделы статьи",
+            "discussProject": "Обсудить проект →",
+            "beforeOrder": "До выпуска оптового заказа",
+            "sourceCheckedNotes": "ЗАМЕТКИ ПО ЗАКУПКЕ С ИСТОЧНИКАМИ",
+            "practicalNextStep": "Практический следующий шаг:",
+            "primaryReferences": "Основные источники",
+            "evidenceCaveat": "Эти независимые источники не являются сертификатом бутылки, фабрики, материала или испытания XUYI. Проверьте точную модель, рынок назначения и действующие требования.",
+            "matrixNote": "Это критерии решения покупателя, а не сертификация XUYI, опубликованный MOQ или гарантированный срок. Проверьте модель и рынок.",
+            "buyerChecklist": "Чек-лист покупателя",
+            "faqHeading": "Частые вопросы",
+            "quoteHeading": "Нужна цена на конкретную модель?",
+            "quoteBody": "Отправьте модель, планируемое количество, персонализацию и рынок назначения для проверки подтвержденного объема.",
+            "quoteButton": "Запросить цену на пластиковую бутылку →",
+            "continueReading": "ПРОДОЛЖИТЬ ЧТЕНИЕ",
+            "relatedGuides": "Связанные руководства по закупке",
+            "readArticle": "Читать статью →"
+          },
+          "related": [
+            {
+              "slug": "water-bottle-cap-types-bulk-guide",
+              "title": "Откидная, спортивная или винтовая крышка: оптовое сравнение",
+              "description": "Сравните сценарий использования, очистку, герметичность и замену."
+            },
+            {
+              "slug": "wholesale-water-bottle-leak-test-sample-approval-guide",
+              "title": "Как утвердить образец проверки утечки оптовой бутылки?",
+              "description": "Превратите проверку герметичности в повторяемый критерий закупки."
+            },
+            {
+              "slug": "replacement-water-bottle-lids-bulk",
+              "title": "Запасные крышки для многоразовых бутылок: руководство по деталям",
+              "description": "Запрашивайте крышки по модели, горлу, прокладке и функции."
+            }
+          ],
+          "product_notes": [
+            {
+              "section": 1,
+              "sku": "2516",
+              "label": {
+                "en": "1000ml / 32 oz class gradient sports bottle model 2516",
+                "es": "botella deportiva degradada de 1000 ml / clase 32 oz modelo 2516",
+                "pt": "garrafa esportiva degradê de 1000 ml / classe 32 oz modelo 2516",
+                "ru": "спортивная градиентная бутылка 1000 мл / класс 32 oz, модель 2516",
+                "tr": "1000 ml / 32 oz sınıfı degradeli spor şişesi model 2516"
+              },
+              "text": {
+                "en": "Check the neck and cap interface on {product}, not only the catalog volume.",
+                "es": "Compruebe la interfaz de cuello y tapa de {product}, no solo el volumen del catálogo.",
+                "pt": "Confira a interface entre gargalo e tampa de {product}, não apenas o volume do catálogo.",
+                "ru": "Проверяйте соединение горла и крышки у {product}, а не только объем в каталоге.",
+                "tr": "Katalog hacmiyle yetinmeyin; {product} üzerindeki boyun ve kapak arayüzünü kontrol edin."
+              }
+            },
+            {
+              "section": 3,
+              "sku": "2100",
+              "label": {
+                "en": "650ml / 22 oz class PP/PC sports bottle model 2100",
+                "es": "botella deportiva PP/PC de 650 ml / clase 22 oz modelo 2100",
+                "pt": "garrafa esportiva PP/PC de 650 ml / classe 22 oz modelo 2100",
+                "ru": "спортивная бутылка PP/PC 650 мл / класс 22 oz, модель 2100",
+                "tr": "650 ml / 22 oz sınıfı PP/PC spor şişesi model 2100"
+              },
+              "text": {
+                "en": "Use {product} to compare the same hand opening sequence and gasket inspection with other samples.",
+                "es": "Use {product} para comparar la misma secuencia de apertura y revisión de junta con otras muestras.",
+                "pt": "Use {product} para comparar a mesma sequência de abertura e inspeção da vedação com outras amostras.",
+                "ru": "Используйте {product}, чтобы сравнить одинаковую последовательность открытия и проверку прокладки.",
+                "tr": "Diğer numunelerle aynı açma sırasını ve conta kontrolünü karşılaştırmak için {product} kullanın."
+              }
+            },
+            {
+              "section": 5,
+              "sku": "2095",
+              "label": {
+                "en": "500ml / 16.9 oz class sports bottle model 2095",
+                "es": "botella deportiva de 500 ml / clase 16,9 oz modelo 2095",
+                "pt": "garrafa esportiva de 500 ml / classe 16,9 oz modelo 2095",
+                "ru": "спортивная бутылка 500 мл / класс 16,9 oz, модель 2095",
+                "tr": "500 ml / 16,9 oz sınıfı spor şişesi model 2095"
+              },
+              "text": {
+                "en": "Record care and opening observations for {product} separately from a general family claim.",
+                "es": "Registre las observaciones de cuidado y apertura de {product} por separado de una afirmación general de la familia.",
+                "pt": "Registre as observações de cuidado e abertura de {product} separadamente de uma afirmação geral da família.",
+                "ru": "Отдельно запишите наблюдения по уходу и открытию {product}, не распространяя их на все семейство.",
+                "tr": "{product} için bakım ve açma gözlemlerini ürün ailesiyle ilgili genel iddialardan ayrı kaydedin."
+              }
+            }
+          ]
+        },
+        "tr": {
+          "category": "TOPTAN KAPAK TESTİ",
+          "title": "Toptan alıcılar büyük siparişten önce su şişesi kapağının uyumunu ve açılmasını nasıl kontrol etmeli?",
+          "description": "Siparişten önce boyun, conta, açma, kaçak, temizlik ve değişiklik kontrolü için B2B kapak listesi.",
+          "intro": "Uyumlu kapak doğru dişe başlamalı, contaya eşit oturmalı ve kesin şişede tekrarlanabilir açılmalıdır. Bu rehber yalnızca görünüşe göre onayı önler.",
+          "sections": [
+            [
+              "Görsel uyumu işlev sanmayın",
+              "Boyun, diş, yüzey, conta, ağız, menteşe, valf, tutuş ve temizliği kontrol edin; kapağın oturması tek başına yeterli değildir."
+            ],
+            [
+              "Kapak ve boyun kimliğini kaydedin",
+              "Gövde, kapak, sürüm, renk, fabrika malzeme açıklaması, conta, valf ve numuneyi yazın. Kapasite boynu tanımlamaz."
+            ],
+            [
+              "İlk dişi ve contayı kontrol edin",
+              "Kapağı elle başlatın; eşit temas, ağız, etek ve menteşeyi inceleyin. Sıkı kapak sızdırmazlık kanıtı değildir."
+            ],
+            [
+              "Açma-kapamayı aynı yöntemle test edin",
+              "Aynı el, koşul ve sırayı kullanın. Kayma ve engelleri yazın; kontrollü yöntem olmadan kuvvet yayımlamayın."
+            ],
+            [
+              "Kaçak ve kullanımı birlikte kontrol edin",
+              "Kararlaştırılan taşıma, ters çevirme, hareket ve temizlik sırasını kullanın. Kaçağı sıcaklık veya bulaşık makinesi iddiasından ayırın."
+            ],
+            [
+              "Bakım sınırlarını yazın",
+              "Gözlemi gıda teması, etiketleme ve bakım gerekliliklerinden ayırın. Kesin model belgelerini isteyin."
+            ],
+            [
+              "Değişiklik kontrollü numune onaylayın",
+              "Kapak, gövde, conta, valf, renk, dekorasyon, ambalaj ve revizyonu saklayın. Değişiklikte karşılaştırma ve yeni test yapın."
+            ]
+          ],
+          "checklist": [
+            "Kesin gövde, boyun, kapak, conta, valf ve revizyonu listeleyin.",
+            "Kapasiteyi boyun kimliği yerine kullanmayın.",
+            "Diş, profil, sızdırmazlık, ağız, etek ve contayı kontrol edin.",
+            "Çapraz diş, düzensiz temas ve conta kaymasını arayın.",
+            "Her numunede aynı açma-kapama hareketini tekrarlayın.",
+            "Sap, askı, baskı veya ambalaj engellerini kaydedin.",
+            "Ters çevirme, hareket ve temizlik kontrollerini yapın.",
+            "Gözlemi pazar ve bakım iddialarından ayırın.",
+            "Onaylı parçaları ve fotoğrafları saklayın.",
+            "Parça veya kalıp değişince yeniden test edin."
+          ],
+          "faqs": [
+            [
+              "Dış çap yedek kapağı onaylamak için yeterli mi?",
+              "Hayır. Diş, sızdırmazlık, conta, etek, ağız ve işlev boşluğu da eşleşmelidir."
+            ],
+            [
+              "Sıkı kapanan kapak kaçırabilir mi?",
+              "Evet. Yerinden çıkan conta, hasarlı diş veya düzensiz yüzey kaçak yapabilir."
+            ],
+            [
+              "Açma kuvveti için sayı yayımlanmalı mı?",
+              "Yalnızca yöntem, cihaz, numune ve sonuç izlenebilirse. Aksi halde koşulu açıklayın."
+            ],
+            [
+              "Kapak revizyonundan sonra ne yapılmalı?",
+              "Yeni onay sayın ve açma, sızdırmazlık, temizlik ve taşıma kontrollerini tekrarlayın."
+            ]
+          ],
+          "matrix": {
+            "title": "Kapak ve kapanma onay matrisi",
+            "intro": "Yalnızca şekli değil, bütün arayüzü ve işlevi onaylayın.",
+            "head": [
+              "Alan",
+              "Kontrol",
+              "Güvenli kayıt"
+            ],
+            "rows": [
+              [
+                "Kimlik",
+                "Gövde, boyun, kapak, conta ve revizyon",
+                "Yalnızca bu parçalar."
+              ],
+              [
+                "Arayüz",
+                "Diş, sızdırmazlık, ağız ve etek",
+                "Eşit oturur."
+              ],
+              [
+                "Açma",
+                "Tutuş, yöntem ve engeller",
+                "Sıra kaydedildi."
+              ],
+              [
+                "Kullanım",
+                "Ters çevirme, hareket, temizlik ve taşıma",
+                "Koşullar geçti."
+              ],
+              [
+                "Değişiklik",
+                "Parça, kalıp, malzeme ve dekorasyon",
+                "Siparişten önce numune."
+              ]
+            ]
+          },
+          "sourceLabels": [
+            "FDA gıda ambalajı ve gıda teması bilgileri",
+            "Avrupa Komisyonu gıda temas malzemeleri",
+            "CPSC etiketleme gereklilikleri özeti"
+          ],
+          "evidence": {
+            "insight": "Kapanma güvenliği ve performansı kesin bileşenlere ve amaçlanan kullanım koşullarına bağlıdır. Resmî rehberler amaç, veri ve pazar yükümlülüklerini vurgular.",
+            "next_step": "Onaylı şişe, kapak ve contayı açma, kaçak ve bakım koşullarıyla birlikte saklayın.",
+            "sources": [
+              {
+                "label": "FDA gıda ambalajı ve gıda teması bilgileri",
+                "url": "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers"
+              },
+              {
+                "label": "Avrupa Komisyonu gıda temas malzemeleri",
+                "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en"
+              },
+              {
+                "label": "CPSC etiketleme gereklilikleri özeti",
+                "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/CPSC-Labeling-Requirements-Overview"
+              }
+            ]
+          },
+          "ui": {
+            "home": "Ana sayfa",
+            "blog": "Blog",
+            "buyingGuide": "Satın alma rehberi",
+            "inThisGuide": "BU REHBERDE",
+            "articleSections": "Makale bölümleri",
+            "discussProject": "Projenizi konuşun →",
+            "beforeOrder": "Toptan siparişi açmadan önce",
+            "sourceCheckedNotes": "KAYNAKLI ALICI NOTLARI",
+            "practicalNextStep": "Pratik sonraki adım:",
+            "primaryReferences": "Temel kaynaklar",
+            "evidenceCaveat": "Bu bağımsız kaynaklar XUYI şişesi, fabrikası, malzemesi veya testi için sertifika değildir. Kesin modeli, hedef pazarı ve güncel şartları doğrulayın.",
+            "matrixNote": "Bunlar alıcı karar kriterleridir; XUYI sertifikası, yayımlanmış MOQ veya garantili teslim süresi değildir. Modeli ve pazarı doğrulayın.",
+            "buyerChecklist": "Alıcı kontrol listesi",
+            "faqHeading": "Sık sorulan sorular",
+            "quoteHeading": "Belirli bir model için fiyat mı gerekiyor?",
+            "quoteBody": "Onaylı kapsamın incelenmesi için model, tahmini miktar, kişiselleştirme ve hedef pazarı gönderin.",
+            "quoteButton": "Plastik şişe teklifi isteyin →",
+            "continueReading": "OKUMAYA DEVAM ET",
+            "relatedGuides": "İlgili satın alma rehberleri",
+            "readArticle": "Makaleyi oku →"
+          },
+          "related": [
+            {
+              "slug": "water-bottle-cap-types-bulk-guide",
+              "title": "Flip, pipetli veya vidalı kapak: toplu sipariş karşılaştırması",
+              "description": "Kullanım, temizlik, sızdırmazlık ve yedek parçayı karşılaştırın."
+            },
+            {
+              "slug": "wholesale-water-bottle-leak-test-sample-approval-guide",
+              "title": "Toptan şişe kaçak test numunesi nasıl onaylanır?",
+              "description": "Sızdırmazlık kontrolünü tekrarlanabilir satın alma kriterine dönüştürün."
+            },
+            {
+              "slug": "replacement-water-bottle-lids-bulk",
+              "title": "Yeniden kullanılabilir şişeler için yedek kapak rehberi",
+              "description": "Kapağı model, boyun, conta ve işleve göre isteyin."
+            }
+          ],
+          "product_notes": [
+            {
+              "section": 1,
+              "sku": "2516",
+              "label": {
+                "en": "1000ml / 32 oz class gradient sports bottle model 2516",
+                "es": "botella deportiva degradada de 1000 ml / clase 32 oz modelo 2516",
+                "pt": "garrafa esportiva degradê de 1000 ml / classe 32 oz modelo 2516",
+                "ru": "спортивная градиентная бутылка 1000 мл / класс 32 oz, модель 2516",
+                "tr": "1000 ml / 32 oz sınıfı degradeli spor şişesi model 2516"
+              },
+              "text": {
+                "en": "Check the neck and cap interface on {product}, not only the catalog volume.",
+                "es": "Compruebe la interfaz de cuello y tapa de {product}, no solo el volumen del catálogo.",
+                "pt": "Confira a interface entre gargalo e tampa de {product}, não apenas o volume do catálogo.",
+                "ru": "Проверяйте соединение горла и крышки у {product}, а не только объем в каталоге.",
+                "tr": "Katalog hacmiyle yetinmeyin; {product} üzerindeki boyun ve kapak arayüzünü kontrol edin."
+              }
+            },
+            {
+              "section": 3,
+              "sku": "2100",
+              "label": {
+                "en": "650ml / 22 oz class PP/PC sports bottle model 2100",
+                "es": "botella deportiva PP/PC de 650 ml / clase 22 oz modelo 2100",
+                "pt": "garrafa esportiva PP/PC de 650 ml / classe 22 oz modelo 2100",
+                "ru": "спортивная бутылка PP/PC 650 мл / класс 22 oz, модель 2100",
+                "tr": "650 ml / 22 oz sınıfı PP/PC spor şişesi model 2100"
+              },
+              "text": {
+                "en": "Use {product} to compare the same hand opening sequence and gasket inspection with other samples.",
+                "es": "Use {product} para comparar la misma secuencia de apertura y revisión de junta con otras muestras.",
+                "pt": "Use {product} para comparar a mesma sequência de abertura e inspeção da vedação com outras amostras.",
+                "ru": "Используйте {product}, чтобы сравнить одинаковую последовательность открытия и проверку прокладки.",
+                "tr": "Diğer numunelerle aynı açma sırasını ve conta kontrolünü karşılaştırmak için {product} kullanın."
+              }
+            },
+            {
+              "section": 5,
+              "sku": "2095",
+              "label": {
+                "en": "500ml / 16.9 oz class sports bottle model 2095",
+                "es": "botella deportiva de 500 ml / clase 16,9 oz modelo 2095",
+                "pt": "garrafa esportiva de 500 ml / classe 16,9 oz modelo 2095",
+                "ru": "спортивная бутылка 500 мл / класс 16,9 oz, модель 2095",
+                "tr": "500 ml / 16,9 oz sınıfı spor şişesi model 2095"
+              },
+              "text": {
+                "en": "Record care and opening observations for {product} separately from a general family claim.",
+                "es": "Registre las observaciones de cuidado y apertura de {product} por separado de una afirmación general de la familia.",
+                "pt": "Registre as observações de cuidado e abertura de {product} separadamente de uma afirmação geral da família.",
+                "ru": "Отдельно запишите наблюдения по уходу и открытию {product}, не распространяя их на все семейство.",
+                "tr": "{product} için bakım ve açma gözlemlerini ürün ailesiyle ilgili genel iddialardan ayrı kaydedin."
+              }
+            }
+          ]
+        }
+      },
+      "localized_related": {
+        "es": {
+          "water-bottle-cap-types-bulk-guide": {
+            "title": "Tapa abatible, con pajita o de rosca: guía para compras al por mayor",
+            "description": "Compare el uso previsto, la limpieza, el sellado y la reposición."
+          },
+          "wholesale-water-bottle-leak-test-sample-approval-guide": {
+            "title": "Cómo aprobar una muestra de prueba de fugas al por mayor",
+            "description": "Convierta la prueba de sellado en un criterio repetible de compra."
+          },
+          "replacement-water-bottle-lids-bulk": {
+            "title": "Tapas de repuesto para botellas reutilizables: guía de piezas",
+            "description": "Pida tapas de repuesto por modelo, cuello, junta y función."
+          }
+        },
+        "pt": {
+          "water-bottle-cap-types-bulk-guide": {
+            "title": "Tampa flip, com canudo ou de rosca: guia para compras em volume",
+            "description": "Compare uso, limpeza, vedação e reposição antes de comprar."
+          },
+          "wholesale-water-bottle-leak-test-sample-approval-guide": {
+            "title": "Como aprovar uma amostra de teste de vazamento no atacado",
+            "description": "Transforme a verificação da vedação em critério repetível de compra."
+          },
+          "replacement-water-bottle-lids-bulk": {
+            "title": "Tampas de reposição para garrafas reutilizáveis: guia de peças",
+            "description": "Solicite peças pelo modelo, gargalo, vedação e função."
+          }
+        },
+        "ru": {
+          "water-bottle-cap-types-bulk-guide": {
+            "title": "Откидная, спортивная или винтовая крышка: оптовое сравнение",
+            "description": "Сравните сценарий использования, очистку, герметичность и замену."
+          },
+          "wholesale-water-bottle-leak-test-sample-approval-guide": {
+            "title": "Как утвердить образец проверки утечки оптовой бутылки?",
+            "description": "Превратите проверку герметичности в повторяемый критерий закупки."
+          },
+          "replacement-water-bottle-lids-bulk": {
+            "title": "Запасные крышки для многоразовых бутылок: руководство по деталям",
+            "description": "Запрашивайте крышки по модели, горлу, прокладке и функции."
+          }
+        },
+        "tr": {
+          "water-bottle-cap-types-bulk-guide": {
+            "title": "Flip, pipetli veya vidalı kapak: toplu sipariş karşılaştırması",
+            "description": "Kullanım, temizlik, sızdırmazlık ve yedek parçayı karşılaştırın."
+          },
+          "wholesale-water-bottle-leak-test-sample-approval-guide": {
+            "title": "Toptan şişe kaçak test numunesi nasıl onaylanır?",
+            "description": "Sızdırmazlık kontrolünü tekrarlanabilir satın alma kriterine dönüştürün."
+          },
+          "replacement-water-bottle-lids-bulk": {
+            "title": "Yeniden kullanılabilir şişeler için yedek kapak rehberi",
+            "description": "Kapağı model, boyun, conta ve işleve göre isteyin."
+          }
+        }
+      }
+    },
+    {
+      "slug": "car-cup-holder-water-bottle-fit-wholesale-checklist",
+      "title": "Will This Reusable Water Bottle Fit a Car Cup Holder? A Wholesale Sample Checklist",
+      "description": "A practical B2B checklist for testing reusable water bottle fit in vehicle cup holders, including filled stability, cap clearance, hand access and variant control.",
+      "intro": "Vehicle cup holders are not a single retail standard. A bottle that fits one console can be too wide, too tall or awkward to remove from another. This guide helps wholesale buyers document a real sample decision.",
+      "category": "B2B USE-CASE CHECKLIST",
+      "cover": "/media/blog/car-cup-holder-water-bottle-fit-20261123.webp",
+      "coverAlt": "Wholesale buyer checking a reusable water bottle in a vehicle cup holder beside a sample carton",
+      "updated": "2026-11-23",
+      "sections": [
+        [
+          "Define the target cup-holder use",
+          "Start with the sales context: commuter bottle, delivery crew, promotional handout or retail accessory. Record the target vehicle or holder range if the buyer has one. Do not call a bottle universal when the console, bottle shape and cap are untested."
+        ],
+        [
+          "Measure the sample without guessing",
+          "Use the approved bottle and record widest body area, base, cap, handle and side features. Capacity is a useful catalog field, but it does not replace a fit check because similar milliliter volumes can have different profiles."
+        ],
+        [
+          "Test insertion with the bottle filled",
+          "Place the bottle into the target holder at the agreed fill condition, then remove and replace it using one hand if that matches the use case. Check base seating, upright position and stable contact."
+        ],
+        [
+          "Check cap, handle and hand clearance",
+          "A body may fit while the cap or handle prevents a user from gripping it. Check opening path, fingers, strap, lid hinge, drinking spout and nearby console controls. Record angle or reach limits."
+        ],
+        [
+          "Repeat the test across variants",
+          "Repeat the same check for each body, cap, color, capacity and decoration variant sharing the listing. A larger 1000ml body or different handle can change the outcome. Keep sample identity beside each result."
+        ],
+        [
+          "Keep listing language narrower than the evidence",
+          "If a sample fits one specified holder, say it was checked for that buyer's stated use. Avoid universal vehicle language without a defined range and evidence. Separate fit from safety, spill, temperature and food-contact claims."
+        ],
+        [
+          "Lock the approved sample for reorders",
+          "Save body, cap, handle, color, decoration, dimensions, photos and test context. If mold, material, cap or packing changes, repeat the fit check before production and copy are updated."
+        ]
+      ],
+      "checklist": [
+        "Define target vehicle, console or cup-holder use.",
+        "Record exact body, cap, handle, color and revision.",
+        "Measure widest body, base, cap and side features.",
+        "Test empty and the buyer's agreed filled condition.",
+        "Check base seating, upright stability and removal with the intended hand.",
+        "Review cap, hinge, strap, spout and console-control clearance.",
+        "Repeat the method across every listed capacity and variant.",
+        "Keep fit observations separate from safety, spill and temperature claims.",
+        "Attach photos, dimensions and sample identity to the order record.",
+        "Recheck after any mold, material, cap or decoration change."
+      ],
+      "faqs": [
+        [
+          "Does a bottle that fits one car fit every vehicle cup holder?",
+          "No. Holder geometry and available clearance vary. State the tested vehicle or holder context and avoid a universal claim without defined evidence."
+        ],
+        [
+          "Is capacity enough to predict cup-holder fit?",
+          "No. Capacity does not define body diameter, base shape, cap height or handle clearance. Test the exact sample and record its dimensions."
+        ],
+        [
+          "Should the fit test use an empty bottle?",
+          "Use the condition that matches the real sale and document the buyer's agreed filled condition. A filled bottle can change handling, stability and removal."
+        ],
+        [
+          "What should buyers do after a mold or cap change?",
+          "Repeat the fit test on the changed configuration and update the product record only after the new sample is approved."
+        ]
+      ],
+      "related": [
+        "bicycle-shop-water-bottle-cage-fit-wholesale-buying",
+        "wholesale-water-bottle-refill-station-fit-checklist",
+        "water-bottle-capacity-sizes-wholesale"
+      ],
+      "product_notes": [
+        {
+          "section": 0,
+          "sku": "2095",
+          "label": {
+            "en": "500ml / 16.9 oz class sports bottle model 2095",
+            "es": "botella deportiva de 500 ml / clase 16,9 oz modelo 2095",
+            "pt": "garrafa esportiva de 500 ml / classe 16,9 oz modelo 2095",
+            "ru": "спортивная бутылка 500 мл / класс 16,9 oz, модель 2095",
+            "tr": "500 ml / 16,9 oz sınıfı spor şişesi model 2095"
+          },
+          "text": {
+            "en": "Use {product} as the exact sample identity when recording the first cup-holder fit result.",
+            "es": "Use {product} como identidad exacta de la muestra al registrar el primer resultado de encaje.",
+            "pt": "Use {product} como identificação exata da amostra ao registrar o primeiro resultado de encaixe.",
+            "ru": "Используйте {product} как точную идентификацию образца при записи первой проверки посадки.",
+            "tr": "İlk bardaklık uyum sonucunu kaydederken {product} kesin numune kimliği olarak kullanın."
+          }
+        },
+        {
+          "section": 2,
+          "sku": "2100",
+          "label": {
+            "en": "650ml / 22 oz class PP/PC sports bottle model 2100",
+            "es": "botella deportiva PP/PC de 650 ml / clase 22 oz modelo 2100",
+            "pt": "garrafa esportiva PP/PC de 650 ml / classe 22 oz modelo 2100",
+            "ru": "спортивная бутылка PP/PC 650 мл / класс 22 oz, модель 2100",
+            "tr": "650 ml / 22 oz sınıfı PP/PC spor şişesi model 2100"
+          },
+          "text": {
+            "en": "Compare the base, cap and hand clearance of {product} with the same target holder.",
+            "es": "Compare base, tapa y espacio para la mano de {product} en el mismo soporte objetivo.",
+            "pt": "Compare base, tampa e espaço para a mão de {product} no mesmo suporte-alvo.",
+            "ru": "Сравните основание, крышку и место для руки у {product} в той же нише.",
+            "tr": "Aynı hedef bardaklıkta {product} tabanını, kapağını ve el boşluğunu karşılaştırın."
+          }
+        },
+        {
+          "section": 5,
+          "sku": "2516",
+          "label": {
+            "en": "1000ml / 32 oz class gradient sports bottle model 2516",
+            "es": "botella deportiva degradada de 1000 ml / clase 32 oz modelo 2516",
+            "pt": "garrafa esportiva degradê de 1000 ml / classe 32 oz modelo 2516",
+            "ru": "спортивная градиентная бутылка 1000 мл / класс 32 oz, модель 2516",
+            "tr": "1000 ml / 32 oz sınıfı degradeli spor şişesi model 2516"
+          },
+          "text": {
+            "en": "Keep the larger {product} claim limited to the holder and sample condition actually checked.",
+            "es": "Limite la afirmación sobre la {product} grande al soporte y la condición realmente comprobados.",
+            "pt": "Limite a afirmação sobre a {product} maior ao suporte e à condição realmente verificados.",
+            "ru": "Ограничьте утверждение о крупной {product} той нишей и состоянием образца, которые проверены.",
+            "tr": "Daha büyük {product} iddiasını gerçekten kontrol edilen bardaklık ve numune koşuluyla sınırlayın."
+          }
+        }
+      ],
+      "buyerDecisionTable": {
+        "title": "Vehicle cup-holder fit matrix",
+        "intro": "Record tested geometry and use condition instead of turning one sample into a universal claim.",
+        "head": [
+          "Decision area",
+          "Buyer check",
+          "Safe record"
+        ],
+        "rows": [
+          [
+            "Target",
+            "Vehicle, console, holder range and use scenario",
+            "Checked for the stated context only."
+          ],
+          [
+            "Geometry",
+            "Body width, base, cap, handle and side features",
+            "Dimensions recorded on the approved sample."
+          ],
+          [
+            "Stability",
+            "Base seating, upright position and filled condition",
+            "Stayed stable in the stated test."
+          ],
+          [
+            "Access",
+            "Hand, lid, spout, strap and control clearance",
+            "Removal path recorded; limitations visible."
+          ],
+          [
+            "Change",
+            "Mold, material, cap, color or decoration revision",
+            "Re-test before changing the listing."
+          ]
+        ]
+      },
+      "evidence": {
+        "insight": "A fit statement is a product-use claim that should be limited to the tested configuration and context. Food-contact and consumer-product guidance also separates intended use, component details and market-specific obligations from a generic marketing phrase.",
+        "next_step": "Keep a photograph, dimensions, target holder, fill condition and exact model beside the approved purchase-order record.",
+        "sources": [
+          {
+            "label": "Información de la FDA sobre envases y contacto con alimentos",
+            "url": "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers"
+          },
+          {
+            "label": "Materiales en contacto con alimentos de la Comisión Europea",
+            "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en"
+          },
+          {
+            "label": "Resumen de requisitos de etiquetado de la CPSC",
+            "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/CPSC-Labeling-Requirements-Overview"
+          }
+        ]
+      },
+      "locales": {
+        "es": {
+          "category": "LISTA B2B DE USO Y COMPRA",
+          "title": "¿Cabe esta botella reutilizable en un portavasos de coche? Lista mayorista para aprobar muestras",
+          "description": "Lista B2B para probar estabilidad, tapa, asa, acceso con la mano y variantes en portavasos de vehículos.",
+          "intro": "Los portavasos varían. Una botella puede caber en una consola y ser ancha, alta o difícil de retirar en otra. Esta guía documenta la muestra real.",
+          "sections": [
+            [
+              "Defina el uso objetivo",
+              "Registre canal, vehículo o rango de portavasos. No llame universal a una botella sin probar consola, cuerpo y tapa."
+            ],
+            [
+              "Mida la muestra sin adivinar",
+              "Registre ancho máximo, base, tapa, asa y laterales. La capacidad no reemplaza la prueba de perfil."
+            ],
+            [
+              "Pruebe con la botella llena",
+              "Use la condición acordada y retire y reponga con una mano si corresponde. Compruebe apoyo, verticalidad y contacto estable."
+            ],
+            [
+              "Compruebe espacios de tapa, asa y mano",
+              "Revise apertura, dedos, correa, bisagra, boquilla y controles cercanos. Registre límites de ángulo o alcance."
+            ],
+            [
+              "Repita en todas las variantes",
+              "Pruebe cada cuerpo, tapa, color, capacidad y decoración. Una botella de 1000 ml o un asa distinta puede cambiar el resultado."
+            ],
+            [
+              "Mantenga el texto de venta limitado",
+              "Diga qué soporte y uso se comprobaron. Separe encaje de seguridad, derrame, temperatura y contacto alimentario."
+            ],
+            [
+              "Bloquee la muestra para reposiciones",
+              "Guarde medidas, fotos y contexto. Tras cambiar molde, material, tapa o embalaje, repita la prueba antes de editar el texto."
+            ]
+          ],
+          "checklist": [
+            "Defina vehículo, consola o uso.",
+            "Registre cuerpo, tapa, asa, color y revisión.",
+            "Mida cuerpo, base, tapa y laterales.",
+            "Pruebe vacío y lleno acordado.",
+            "Compruebe estabilidad y retirada con la mano.",
+            "Revise tapa, bisagra, correa, boquilla y controles.",
+            "Repita en cada capacidad y variante.",
+            "Separe encaje de seguridad y temperatura.",
+            "Adjunte fotos, medidas e identidad al pedido.",
+            "Revise tras cambiar molde, material o tapa."
+          ],
+          "faqs": [
+            [
+              "¿Caberá en todos los portavasos?",
+              "No. Varían geometría y espacio; indique el contexto comprobado."
+            ],
+            [
+              "¿La capacidad predice el encaje?",
+              "No. Registre diámetro, base, tapa y asa de la muestra exacta."
+            ],
+            [
+              "¿Se prueba vacía?",
+              "Use la condición real y documente también el llenado acordado."
+            ],
+            [
+              "¿Qué hacer tras cambiar molde o tapa?",
+              "Repita la prueba y actualice la ficha solo tras aprobar la muestra."
+            ]
+          ],
+          "matrix": {
+            "title": "Matriz de encaje en portavasos",
+            "intro": "Registre la geometría probada, no una promesa universal.",
+            "head": [
+              "Área",
+              "Comprobación",
+              "Registro seguro"
+            ],
+            "rows": [
+              [
+                "Objetivo",
+                "Vehículo, consola y uso",
+                "Solo ese contexto."
+              ],
+              [
+                "Geometría",
+                "Ancho, base, tapa, asa y laterales",
+                "Medidas de muestra aprobada."
+              ],
+              [
+                "Estabilidad",
+                "Base, verticalidad y llenado",
+                "Estable en el test."
+              ],
+              [
+                "Acceso",
+                "Mano, tapa, boquilla, correa y controles",
+                "Ruta y límites registrados."
+              ],
+              [
+                "Cambio",
+                "Molde, material, tapa y decoración",
+                "Repetir antes de editar la ficha."
+              ]
+            ]
+          },
+          "sourceLabels": [
+            "Información de la FDA sobre envases y contacto con alimentos",
+            "Materiales en contacto con alimentos de la Comisión Europea",
+            "Resumen de requisitos de etiquetado de la CPSC"
+          ],
+          "evidence": {
+            "insight": "La afirmación de encaje es una afirmación de uso y debe limitarse a la configuración y contexto probados. Las guías oficiales separan uso previsto, componentes y obligaciones del mercado.",
+            "next_step": "Guarde foto, medidas, portavasos, llenado y modelo junto al pedido aprobado.",
+            "sources": [
+              {
+                "label": "Información de la FDA sobre envases y contacto con alimentos",
+                "url": "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers"
+              },
+              {
+                "label": "Materiales en contacto con alimentos de la Comisión Europea",
+                "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en"
+              },
+              {
+                "label": "Resumen de requisitos de etiquetado de la CPSC",
+                "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/CPSC-Labeling-Requirements-Overview"
+              }
+            ]
+          },
+          "ui": {
+            "home": "Inicio",
+            "blog": "Blog",
+            "buyingGuide": "Guía de compra",
+            "inThisGuide": "EN ESTA GUÍA",
+            "articleSections": "Secciones del artículo",
+            "discussProject": "Hablar sobre su proyecto →",
+            "beforeOrder": "Antes de liberar el pedido mayorista",
+            "sourceCheckedNotes": "NOTAS DE COMPRA CON FUENTES",
+            "practicalNextStep": "Siguiente paso práctico:",
+            "primaryReferences": "Fuentes principales",
+            "evidenceCaveat": "Estas fuentes independientes no certifican una botella, fábrica, material o prueba de XUYI. Verifique el modelo exacto, el mercado de destino y los requisitos vigentes.",
+            "matrixNote": "Son criterios de decisión del comprador, no certificación XUYI, MOQ publicado ni plazo garantizado. Verifique el modelo y el mercado.",
+            "buyerChecklist": "Lista de control del comprador",
+            "faqHeading": "Preguntas frecuentes",
+            "quoteHeading": "¿Necesita precio para un modelo concreto?",
+            "quoteBody": "Envíe el modelo, la cantidad prevista, la personalización y el mercado de destino para revisar el alcance confirmado.",
+            "quoteButton": "Solicitar cotización de botella plástica →",
+            "continueReading": "SEGUIR LEYENDO",
+            "relatedGuides": "Guías de compra relacionadas",
+            "readArticle": "Leer artículo →"
+          },
+          "related": [
+            {
+              "slug": "bicycle-shop-water-bottle-cage-fit-wholesale-buying",
+              "title": "Qué deben comprobar las tiendas de bicicletas antes de comprar botellas",
+              "description": "Revise compatibilidad, espacio, tapa y reposición antes de comprar."
+            },
+            {
+              "slug": "wholesale-water-bottle-refill-station-fit-checklist",
+              "title": "¿Cabe la botella en una estación de recarga?",
+              "description": "Lista B2B para comprobar el encaje con una estación de agua."
+            },
+            {
+              "slug": "water-bottle-capacity-sizes-wholesale",
+              "title": "500 ml, 750 ml o 1 L: guía de tamaños al por mayor",
+              "description": "Compare capacidad, uso, espacio de estantería y reposición."
+            }
+          ],
+          "product_notes": [
+            {
+              "section": 0,
+              "sku": "2095",
+              "label": {
+                "en": "500ml / 16.9 oz class sports bottle model 2095",
+                "es": "botella deportiva de 500 ml / clase 16,9 oz modelo 2095",
+                "pt": "garrafa esportiva de 500 ml / classe 16,9 oz modelo 2095",
+                "ru": "спортивная бутылка 500 мл / класс 16,9 oz, модель 2095",
+                "tr": "500 ml / 16,9 oz sınıfı spor şişesi model 2095"
+              },
+              "text": {
+                "en": "Use {product} as the exact sample identity when recording the first cup-holder fit result.",
+                "es": "Use {product} como identidad exacta de la muestra al registrar el primer resultado de encaje.",
+                "pt": "Use {product} como identificação exata da amostra ao registrar o primeiro resultado de encaixe.",
+                "ru": "Используйте {product} как точную идентификацию образца при записи первой проверки посадки.",
+                "tr": "İlk bardaklık uyum sonucunu kaydederken {product} kesin numune kimliği olarak kullanın."
+              }
+            },
+            {
+              "section": 2,
+              "sku": "2100",
+              "label": {
+                "en": "650ml / 22 oz class PP/PC sports bottle model 2100",
+                "es": "botella deportiva PP/PC de 650 ml / clase 22 oz modelo 2100",
+                "pt": "garrafa esportiva PP/PC de 650 ml / classe 22 oz modelo 2100",
+                "ru": "спортивная бутылка PP/PC 650 мл / класс 22 oz, модель 2100",
+                "tr": "650 ml / 22 oz sınıfı PP/PC spor şişesi model 2100"
+              },
+              "text": {
+                "en": "Compare the base, cap and hand clearance of {product} with the same target holder.",
+                "es": "Compare base, tapa y espacio para la mano de {product} en el mismo soporte objetivo.",
+                "pt": "Compare base, tampa e espaço para a mão de {product} no mesmo suporte-alvo.",
+                "ru": "Сравните основание, крышку и место для руки у {product} в той же нише.",
+                "tr": "Aynı hedef bardaklıkta {product} tabanını, kapağını ve el boşluğunu karşılaştırın."
+              }
+            },
+            {
+              "section": 5,
+              "sku": "2516",
+              "label": {
+                "en": "1000ml / 32 oz class gradient sports bottle model 2516",
+                "es": "botella deportiva degradada de 1000 ml / clase 32 oz modelo 2516",
+                "pt": "garrafa esportiva degradê de 1000 ml / classe 32 oz modelo 2516",
+                "ru": "спортивная градиентная бутылка 1000 мл / класс 32 oz, модель 2516",
+                "tr": "1000 ml / 32 oz sınıfı degradeli spor şişesi model 2516"
+              },
+              "text": {
+                "en": "Keep the larger {product} claim limited to the holder and sample condition actually checked.",
+                "es": "Limite la afirmación sobre la {product} grande al soporte y la condición realmente comprobados.",
+                "pt": "Limite a afirmação sobre a {product} maior ao suporte e à condição realmente verificados.",
+                "ru": "Ограничьте утверждение о крупной {product} той нишей и состоянием образца, которые проверены.",
+                "tr": "Daha büyük {product} iddiasını gerçekten kontrol edilen bardaklık ve numune koşuluyla sınırlayın."
+              }
+            }
+          ]
+        },
+        "pt": {
+          "category": "CHECKLIST B2B DE USO E COMPRA",
+          "title": "Esta garrafa reutilizável cabe no porta-copos do carro? Checklist atacadista para aprovar amostras",
+          "description": "Checklist B2B para testar estabilidade, tampa, alça, acesso com a mão e variantes em porta-copos de veículos.",
+          "intro": "Porta-copos variam. Uma garrafa pode caber em um console e ser larga, alta ou difícil de retirar em outro. Este guia documenta a amostra real.",
+          "sections": [
+            [
+              "Defina o uso-alvo",
+              "Registre canal, veículo ou faixa de porta-copos. Não chame de universal sem testar console, corpo e tampa."
+            ],
+            [
+              "Meça sem adivinhar",
+              "Registre largura máxima, base, tampa, alça e laterais. Capacidade não substitui o teste do perfil."
+            ],
+            [
+              "Teste com garrafa cheia",
+              "Use a condição combinada e retire e recoloque com uma mão quando aplicável. Confira apoio, verticalidade e contato estável."
+            ],
+            [
+              "Confira espaço de tampa, alça e mão",
+              "Revise abertura, dedos, tira, dobradiça, bico e controles próximos. Registre limite de ângulo ou alcance."
+            ],
+            [
+              "Repita em todas as variantes",
+              "Teste cada corpo, tampa, cor, capacidade e decoração. Uma garrafa de 1000 ml ou outra alça pode mudar o resultado."
+            ],
+            [
+              "Limite o texto de venda",
+              "Diga qual porta-copos e uso foram verificados. Separe encaixe de segurança, derramamento, temperatura e contato."
+            ],
+            [
+              "Trave a amostra para reposições",
+              "Guarde medidas, fotos e contexto. Após mudança de molde, material, tampa ou embalagem, teste antes de alterar o texto."
+            ]
+          ],
+          "checklist": [
+            "Defina veículo, console ou uso.",
+            "Registre corpo, tampa, alça, cor e revisão.",
+            "Meça corpo, base, tampa e laterais.",
+            "Teste vazio e cheio combinado.",
+            "Confira estabilidade e retirada com a mão.",
+            "Revise tampa, dobradiça, tira, bico e controles.",
+            "Repita em cada capacidade e variante.",
+            "Separe encaixe de segurança e temperatura.",
+            "Anexe fotos, medidas e identidade ao pedido.",
+            "Revise após mudar molde, material ou tampa."
+          ],
+          "faqs": [
+            [
+              "Cabe em todo porta-copos?",
+              "Não. Geometria e espaço variam; informe o contexto verificado."
+            ],
+            [
+              "A capacidade prevê o encaixe?",
+              "Não. Registre diâmetro, base, tampa e alça da amostra exata."
+            ],
+            [
+              "Deve ser testada vazia?",
+              "Use a condição de venda e documente também o enchimento combinado."
+            ],
+            [
+              "O que fazer após mudar molde ou tampa?",
+              "Repita o teste e atualize a ficha somente após aprovar a amostra."
+            ]
+          ],
+          "matrix": {
+            "title": "Matriz de encaixe no porta-copos",
+            "intro": "Registre a geometria testada, não uma promessa universal.",
+            "head": [
+              "Área",
+              "Verificação",
+              "Registro seguro"
+            ],
+            "rows": [
+              [
+                "Alvo",
+                "Veículo, console e uso",
+                "Somente esse contexto."
+              ],
+              [
+                "Geometria",
+                "Largura, base, tampa, alça e laterais",
+                "Medidas da amostra aprovada."
+              ],
+              [
+                "Estabilidade",
+                "Base, verticalidade e enchimento",
+                "Estável no teste."
+              ],
+              [
+                "Acesso",
+                "Mão, tampa, bico, tira e controles",
+                "Caminho e limites registrados."
+              ],
+              [
+                "Mudança",
+                "Molde, material, tampa e decoração",
+                "Testar antes de editar a ficha."
+              ]
+            ]
+          },
+          "sourceLabels": [
+            "Informações da FDA sobre embalagens e contato com alimentos",
+            "Materiais em contato com alimentos da Comissão Europeia",
+            "Resumo dos requisitos de rotulagem da CPSC"
+          ],
+          "evidence": {
+            "insight": "A afirmação de encaixe é uma afirmação de uso e deve ficar limitada à configuração e ao contexto testados. As orientações oficiais separam uso, componentes e obrigações do mercado.",
+            "next_step": "Guarde foto, medidas, porta-copos, enchimento e modelo junto do pedido aprovado.",
+            "sources": [
+              {
+                "label": "Informações da FDA sobre embalagens e contato com alimentos",
+                "url": "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers"
+              },
+              {
+                "label": "Materiais em contato com alimentos da Comissão Europeia",
+                "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en"
+              },
+              {
+                "label": "Resumo dos requisitos de rotulagem da CPSC",
+                "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/CPSC-Labeling-Requirements-Overview"
+              }
+            ]
+          },
+          "ui": {
+            "home": "Início",
+            "blog": "Blog",
+            "buyingGuide": "Guia de compra",
+            "inThisGuide": "NESTE GUIA",
+            "articleSections": "Seções do artigo",
+            "discussProject": "Fale sobre seu projeto →",
+            "beforeOrder": "Antes de liberar o pedido atacadista",
+            "sourceCheckedNotes": "NOTAS DE COMPRA COM FONTES",
+            "practicalNextStep": "Próximo passo prático:",
+            "primaryReferences": "Fontes principais",
+            "evidenceCaveat": "Estas fontes independentes não certificam uma garrafa, fábrica, material ou teste da XUYI. Confirme o modelo exato, o mercado de destino e os requisitos atuais.",
+            "matrixNote": "São critérios de decisão do comprador, não certificação XUYI, MOQ publicado nem prazo garantido. Confirme o modelo e o mercado.",
+            "buyerChecklist": "Checklist do comprador",
+            "faqHeading": "Perguntas frequentes",
+            "quoteHeading": "Precisa de preço para um modelo específico?",
+            "quoteBody": "Envie o modelo, a quantidade prevista, a personalização e o mercado de destino para que a equipe confirme o escopo.",
+            "quoteButton": "Solicitar cotação de garrafa plástica →",
+            "continueReading": "CONTINUE LENDO",
+            "relatedGuides": "Guias de compra relacionados",
+            "readArticle": "Ler artigo →"
+          },
+          "related": [
+            {
+              "slug": "bicycle-shop-water-bottle-cage-fit-wholesale-buying",
+              "title": "O que lojas de bicicleta devem conferir antes de comprar garrafas?",
+              "description": "Verifique compatibilidade, espaço, tampa e reposição antes do pedido."
+            },
+            {
+              "slug": "wholesale-water-bottle-refill-station-fit-checklist",
+              "title": "A garrafa cabe na estação de reabastecimento?",
+              "description": "Checklist B2B para verificar o encaixe em um ponto de água."
+            },
+            {
+              "slug": "water-bottle-capacity-sizes-wholesale",
+              "title": "Garrafas de 500 ml, 750 ml ou 1 L: guia de tamanhos no atacado",
+              "description": "Compare capacidade, uso, espaço de prateleira e reposição."
+            }
+          ],
+          "product_notes": [
+            {
+              "section": 0,
+              "sku": "2095",
+              "label": {
+                "en": "500ml / 16.9 oz class sports bottle model 2095",
+                "es": "botella deportiva de 500 ml / clase 16,9 oz modelo 2095",
+                "pt": "garrafa esportiva de 500 ml / classe 16,9 oz modelo 2095",
+                "ru": "спортивная бутылка 500 мл / класс 16,9 oz, модель 2095",
+                "tr": "500 ml / 16,9 oz sınıfı spor şişesi model 2095"
+              },
+              "text": {
+                "en": "Use {product} as the exact sample identity when recording the first cup-holder fit result.",
+                "es": "Use {product} como identidad exacta de la muestra al registrar el primer resultado de encaje.",
+                "pt": "Use {product} como identificação exata da amostra ao registrar o primeiro resultado de encaixe.",
+                "ru": "Используйте {product} как точную идентификацию образца при записи первой проверки посадки.",
+                "tr": "İlk bardaklık uyum sonucunu kaydederken {product} kesin numune kimliği olarak kullanın."
+              }
+            },
+            {
+              "section": 2,
+              "sku": "2100",
+              "label": {
+                "en": "650ml / 22 oz class PP/PC sports bottle model 2100",
+                "es": "botella deportiva PP/PC de 650 ml / clase 22 oz modelo 2100",
+                "pt": "garrafa esportiva PP/PC de 650 ml / classe 22 oz modelo 2100",
+                "ru": "спортивная бутылка PP/PC 650 мл / класс 22 oz, модель 2100",
+                "tr": "650 ml / 22 oz sınıfı PP/PC spor şişesi model 2100"
+              },
+              "text": {
+                "en": "Compare the base, cap and hand clearance of {product} with the same target holder.",
+                "es": "Compare base, tapa y espacio para la mano de {product} en el mismo soporte objetivo.",
+                "pt": "Compare base, tampa e espaço para a mão de {product} no mesmo suporte-alvo.",
+                "ru": "Сравните основание, крышку и место для руки у {product} в той же нише.",
+                "tr": "Aynı hedef bardaklıkta {product} tabanını, kapağını ve el boşluğunu karşılaştırın."
+              }
+            },
+            {
+              "section": 5,
+              "sku": "2516",
+              "label": {
+                "en": "1000ml / 32 oz class gradient sports bottle model 2516",
+                "es": "botella deportiva degradada de 1000 ml / clase 32 oz modelo 2516",
+                "pt": "garrafa esportiva degradê de 1000 ml / classe 32 oz modelo 2516",
+                "ru": "спортивная градиентная бутылка 1000 мл / класс 32 oz, модель 2516",
+                "tr": "1000 ml / 32 oz sınıfı degradeli spor şişesi model 2516"
+              },
+              "text": {
+                "en": "Keep the larger {product} claim limited to the holder and sample condition actually checked.",
+                "es": "Limite la afirmación sobre la {product} grande al soporte y la condición realmente comprobados.",
+                "pt": "Limite a afirmação sobre a {product} maior ao suporte e à condição realmente verificados.",
+                "ru": "Ограничьте утверждение о крупной {product} той нишей и состоянием образца, которые проверены.",
+                "tr": "Daha büyük {product} iddiasını gerçekten kontrol edilen bardaklık ve numune koşuluyla sınırlayın."
+              }
+            }
+          ]
+        },
+        "ru": {
+          "category": "B2B-ЧЕК-ЛИСТ СЦЕНАРИЯ И ЗАКУПКИ",
+          "title": "Поместится ли многоразовая бутылка в автомобильный подстаканник? Оптовый чек-лист образца",
+          "description": "B2B-чек-лист проверки устойчивости, крышки, ручки, доступа рукой и вариантов в автомобильном подстаканнике.",
+          "intro": "Подстаканники различаются. Бутылка может войти в одну консоль, но быть широкой, высокой или неудобной в другой. Это руководство фиксирует реальный образец.",
+          "sections": [
+            [
+              "Определите целевой сценарий",
+              "Запишите канал, автомобиль или диапазон подстаканников. Не называйте бутылку универсальной без проверки консоли, корпуса и крышки."
+            ],
+            [
+              "Измерьте образец",
+              "Запишите ширину, основание, крышку, ручку и боковые детали. Объем не заменяет проверку профиля."
+            ],
+            [
+              "Проверьте наполненную бутылку",
+              "Используйте согласованное состояние и одной рукой извлеките и поставьте обратно, если это сценарий. Проверьте опору и устойчивость."
+            ],
+            [
+              "Проверьте зазоры крышки, ручки и руки",
+              "Оцените открытие, пальцы, ремень, шарнир, носик и управление. Запишите ограничения угла и досягаемости."
+            ],
+            [
+              "Повторите для вариантов",
+              "Проверьте каждый корпус, крышку, цвет, объем и декор. Корпус 1000 мл или другая ручка меняют результат."
+            ],
+            [
+              "Ограничьте текст доказательством",
+              "Укажите проверенный подстаканник и сценарий. Отделяйте посадку от безопасности, пролива, температуры и контакта с пищей."
+            ],
+            [
+              "Зафиксируйте образец для заказа",
+              "Сохраните размеры, фото и контекст. После изменения формы, материала, крышки или упаковки повторите тест."
+            ]
+          ],
+          "checklist": [
+            "Определите автомобиль, консоль или сценарий.",
+            "Запишите корпус, крышку, ручку, цвет и ревизию.",
+            "Измерьте корпус, основание, крышку и боковые детали.",
+            "Проверьте пустое и согласованное наполненное состояние.",
+            "Проверьте устойчивость и извлечение рукой.",
+            "Оцените зазоры крышки, шарнира, ремня, носика и управления.",
+            "Повторите метод для каждого объема и варианта.",
+            "Отделите посадку от заявлений о безопасности и температуре.",
+            "Приложите фото, размеры и идентификатор к заказу.",
+            "Повторите после изменения формы, материала или крышки."
+          ],
+          "faqs": [
+            [
+              "Войдет ли бутылка во все подстаканники?",
+              "Нет. Геометрия и свободное место различаются; укажите проверенный контекст."
+            ],
+            [
+              "Достаточен ли объем для прогноза?",
+              "Нет. Запишите диаметр, основание, крышку и ручку точного образца."
+            ],
+            [
+              "Нужно ли проверять пустую бутылку?",
+              "Используйте состояние продажи и отдельно запишите согласованное наполнение."
+            ],
+            [
+              "Что делать после изменения формы или крышки?",
+              "Повторить тест и изменить карточку только после утверждения нового образца."
+            ]
+          ],
+          "matrix": {
+            "title": "Матрица посадки в подстаканник",
+            "intro": "Записывайте проверенную геометрию, а не универсальное обещание.",
+            "head": [
+              "Область",
+              "Проверка",
+              "Безопасная запись"
+            ],
+            "rows": [
+              [
+                "Цель",
+                "Автомобиль, консоль и использование",
+                "Только этот контекст."
+              ],
+              [
+                "Геометрия",
+                "Ширина, основание, крышка, ручка и боковые детали",
+                "Размеры утвержденного образца."
+              ],
+              [
+                "Устойчивость",
+                "Основание, вертикальность и наполнение",
+                "Устойчива в тесте."
+              ],
+              [
+                "Доступ",
+                "Рука, крышка, носик, ремень и управление",
+                "Путь и ограничения записаны."
+              ],
+              [
+                "Изменение",
+                "Форма, материал, крышка и декор",
+                "Повторить до изменения карточки."
+              ]
+            ]
+          },
+          "sourceLabels": [
+            "Информация FDA об упаковке и контакте с пищей",
+            "Материалы для контакта с пищей Европейской комиссии",
+            "Обзор требований CPSC к маркировке"
+          ],
+          "evidence": {
+            "insight": "Заявление о посадке — это заявление об использовании и его нужно ограничивать проверенной конфигурацией и контекстом. Официальные рекомендации разделяют назначение, компоненты и требования рынка.",
+            "next_step": "Храните фото, размеры, подстаканник, состояние наполнения и модель рядом с заказом.",
+            "sources": [
+              {
+                "label": "Информация FDA об упаковке и контакте с пищей",
+                "url": "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers"
+              },
+              {
+                "label": "Материалы для контакта с пищей Европейской комиссии",
+                "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en"
+              },
+              {
+                "label": "Обзор требований CPSC к маркировке",
+                "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/CPSC-Labeling-Requirements-Overview"
+              }
+            ]
+          },
+          "ui": {
+            "home": "Главная",
+            "blog": "Блог",
+            "buyingGuide": "Руководство по закупке",
+            "inThisGuide": "В ЭТОМ РУКОВОДСТВЕ",
+            "articleSections": "Разделы статьи",
+            "discussProject": "Обсудить проект →",
+            "beforeOrder": "До выпуска оптового заказа",
+            "sourceCheckedNotes": "ЗАМЕТКИ ПО ЗАКУПКЕ С ИСТОЧНИКАМИ",
+            "practicalNextStep": "Практический следующий шаг:",
+            "primaryReferences": "Основные источники",
+            "evidenceCaveat": "Эти независимые источники не являются сертификатом бутылки, фабрики, материала или испытания XUYI. Проверьте точную модель, рынок назначения и действующие требования.",
+            "matrixNote": "Это критерии решения покупателя, а не сертификация XUYI, опубликованный MOQ или гарантированный срок. Проверьте модель и рынок.",
+            "buyerChecklist": "Чек-лист покупателя",
+            "faqHeading": "Частые вопросы",
+            "quoteHeading": "Нужна цена на конкретную модель?",
+            "quoteBody": "Отправьте модель, планируемое количество, персонализацию и рынок назначения для проверки подтвержденного объема.",
+            "quoteButton": "Запросить цену на пластиковую бутылку →",
+            "continueReading": "ПРОДОЛЖИТЬ ЧТЕНИЕ",
+            "relatedGuides": "Связанные руководства по закупке",
+            "readArticle": "Читать статью →"
+          },
+          "related": [
+            {
+              "slug": "bicycle-shop-water-bottle-cage-fit-wholesale-buying",
+              "title": "Что проверить веломагазину перед оптовой закупкой бутылок?",
+              "description": "Проверьте совместимость, свободное место, крышку и повторный заказ."
+            },
+            {
+              "slug": "wholesale-water-bottle-refill-station-fit-checklist",
+              "title": "Поместится ли бутылка в станцию пополнения? Чек-лист B2B",
+              "description": "Проверьте посадку образца в точке набора воды до крупной закупки."
+            },
+            {
+              "slug": "water-bottle-capacity-sizes-wholesale",
+              "title": "Бутылки 500 мл, 750 мл или 1 л: оптовое сравнение размеров",
+              "description": "Сопоставьте объем, сценарий, место на полке и повторный заказ."
+            }
+          ],
+          "product_notes": [
+            {
+              "section": 0,
+              "sku": "2095",
+              "label": {
+                "en": "500ml / 16.9 oz class sports bottle model 2095",
+                "es": "botella deportiva de 500 ml / clase 16,9 oz modelo 2095",
+                "pt": "garrafa esportiva de 500 ml / classe 16,9 oz modelo 2095",
+                "ru": "спортивная бутылка 500 мл / класс 16,9 oz, модель 2095",
+                "tr": "500 ml / 16,9 oz sınıfı spor şişesi model 2095"
+              },
+              "text": {
+                "en": "Use {product} as the exact sample identity when recording the first cup-holder fit result.",
+                "es": "Use {product} como identidad exacta de la muestra al registrar el primer resultado de encaje.",
+                "pt": "Use {product} como identificação exata da amostra ao registrar o primeiro resultado de encaixe.",
+                "ru": "Используйте {product} как точную идентификацию образца при записи первой проверки посадки.",
+                "tr": "İlk bardaklık uyum sonucunu kaydederken {product} kesin numune kimliği olarak kullanın."
+              }
+            },
+            {
+              "section": 2,
+              "sku": "2100",
+              "label": {
+                "en": "650ml / 22 oz class PP/PC sports bottle model 2100",
+                "es": "botella deportiva PP/PC de 650 ml / clase 22 oz modelo 2100",
+                "pt": "garrafa esportiva PP/PC de 650 ml / classe 22 oz modelo 2100",
+                "ru": "спортивная бутылка PP/PC 650 мл / класс 22 oz, модель 2100",
+                "tr": "650 ml / 22 oz sınıfı PP/PC spor şişesi model 2100"
+              },
+              "text": {
+                "en": "Compare the base, cap and hand clearance of {product} with the same target holder.",
+                "es": "Compare base, tapa y espacio para la mano de {product} en el mismo soporte objetivo.",
+                "pt": "Compare base, tampa e espaço para a mão de {product} no mesmo suporte-alvo.",
+                "ru": "Сравните основание, крышку и место для руки у {product} в той же нише.",
+                "tr": "Aynı hedef bardaklıkta {product} tabanını, kapağını ve el boşluğunu karşılaştırın."
+              }
+            },
+            {
+              "section": 5,
+              "sku": "2516",
+              "label": {
+                "en": "1000ml / 32 oz class gradient sports bottle model 2516",
+                "es": "botella deportiva degradada de 1000 ml / clase 32 oz modelo 2516",
+                "pt": "garrafa esportiva degradê de 1000 ml / classe 32 oz modelo 2516",
+                "ru": "спортивная градиентная бутылка 1000 мл / класс 32 oz, модель 2516",
+                "tr": "1000 ml / 32 oz sınıfı degradeli spor şişesi model 2516"
+              },
+              "text": {
+                "en": "Keep the larger {product} claim limited to the holder and sample condition actually checked.",
+                "es": "Limite la afirmación sobre la {product} grande al soporte y la condición realmente comprobados.",
+                "pt": "Limite a afirmação sobre a {product} maior ao suporte e à condição realmente verificados.",
+                "ru": "Ограничьте утверждение о крупной {product} той нишей и состоянием образца, которые проверены.",
+                "tr": "Daha büyük {product} iddiasını gerçekten kontrol edilen bardaklık ve numune koşuluyla sınırlayın."
+              }
+            }
+          ]
+        },
+        "tr": {
+          "category": "B2B KULLANIM VE SATIN ALMA LİSTESİ",
+          "title": "Bu yeniden kullanılabilir şişe araç bardaklığına sığar mı? Toptan numune kontrol listesi",
+          "description": "Araç bardaklıklarında stabilite, kapak, sap, el erişimi ve varyantları test etmek için pratik B2B liste.",
+          "intro": "Araç bardaklıkları değişir. Bir şişe bir konsola sığarken başka birinde geniş, yüksek veya çıkarması zor olabilir. Bu rehber gerçek numuneyi belgeler.",
+          "sections": [
+            [
+              "Hedef kullanımı tanımlayın",
+              "Kanalı, aracı veya bardaklık aralığını yazın. Kesin konsol, gövde ve kapak test edilmeden evrensel demeyin."
+            ],
+            [
+              "Numuneyi ölçün",
+              "En geniş gövdeyi, tabanı, kapağı, sapı ve yan parçaları kaydedin. Kapasite profil testinin yerine geçmez."
+            ],
+            [
+              "Dolu şişeyi yerleştirin",
+              "Kararlaştırılan koşulu kullanın; gerekiyorsa tek elle çıkarıp koyun. Tabanı, dikliği ve sabit teması kontrol edin."
+            ],
+            [
+              "Kapak, sap ve el boşluğunu inceleyin",
+              "Açma yolunu, parmakları, askıyı, menteşeyi, ağzı ve kumandaları kontrol edin. Açı ve erişim sınırlarını yazın."
+            ],
+            [
+              "Varyantlarda tekrarlayın",
+              "Listede bulunan gövde, kapak, renk, kapasite ve dekorasyonu test edin. 1000 ml gövde veya farklı sap sonucu değiştirebilir."
+            ],
+            [
+              "Satış dilini kanıtla sınırlayın",
+              "Hangi bardaklık ve kullanımın kontrol edildiğini belirtin. Uyumu güvenlik, dökülme, sıcaklık ve gıda teması iddialarından ayırın."
+            ],
+            [
+              "Numuneyi tekrar siparişine kilitleyin",
+              "Ölçü, fotoğraf ve bağlamı saklayın. Kalıp, malzeme, kapak veya ambalaj değişince metni güncellemeden önce test edin."
+            ]
+          ],
+          "checklist": [
+            "Hedef araç, konsol veya bardaklık kullanımını tanımlayın.",
+            "Kesin gövde, kapak, sap, renk ve revizyonu yazın.",
+            "Gövde, taban, kapak ve yan parçaları ölçün.",
+            "Boş ve kararlaştırılan dolu koşulu test edin.",
+            "Stabiliteyi ve hedef elle çıkarmayı kontrol edin.",
+            "Kapak, menteşe, askı, ağız ve kumanda boşluklarını inceleyin.",
+            "Her kapasite ve varyantta aynı yöntemi tekrarlayın.",
+            "Uyumu güvenlik ve sıcaklık iddialarından ayırın.",
+            "Fotoğrafı, ölçüyü ve numune kimliğini siparişe ekleyin.",
+            "Kalıp, malzeme veya kapak değişince yeniden kontrol edin."
+          ],
+          "faqs": [
+            [
+              "Bir araca sığan şişe her bardaklığa sığar mı?",
+              "Hayır. Geometri ve boşluk değişir; kontrol edilen bağlamı belirtin."
+            ],
+            [
+              "Kapasite uyumu öngörür mü?",
+              "Hayır. Kesin numunenin çapını, tabanını, kapağını ve sapını kaydedin."
+            ],
+            [
+              "Test boş şişeyle mi yapılmalı?",
+              "Gerçek satış koşulunu kullanın ve kararlaştırılan doluluğu ayrıca yazın."
+            ],
+            [
+              "Kalıp veya kapak değişirse ne yapılmalı?",
+              "Testi tekrarlayın ve kaydı yalnızca yeni numune onaylanınca güncelleyin."
+            ]
+          ],
+          "matrix": {
+            "title": "Araç bardaklığı uyum matrisi",
+            "intro": "Evrensel söz yerine test edilen geometriyi kaydedin.",
+            "head": [
+              "Alan",
+              "Kontrol",
+              "Güvenli kayıt"
+            ],
+            "rows": [
+              [
+                "Hedef",
+                "Araç, konsol ve kullanım",
+                "Yalnızca bu bağlam."
+              ],
+              [
+                "Geometri",
+                "Genişlik, taban, kapak, sap ve yan parçalar",
+                "Onaylı numune ölçüleri."
+              ],
+              [
+                "Stabilite",
+                "Taban, diklik ve doluluk",
+                "Testte stabil."
+              ],
+              [
+                "Erişim",
+                "El, kapak, ağız, askı ve kumandalar",
+                "Yol ve sınırlar kaydedildi."
+              ],
+              [
+                "Değişiklik",
+                "Kalıp, malzeme, kapak ve dekorasyon",
+                "İlanı değiştirmeden önce test."
+              ]
+            ]
+          },
+          "sourceLabels": [
+            "FDA gıda ambalajı ve gıda teması bilgileri",
+            "Avrupa Komisyonu gıda temas malzemeleri",
+            "CPSC etiketleme gereklilikleri özeti"
+          ],
+          "evidence": {
+            "insight": "Uyum ifadesi bir ürün kullanım iddiasıdır ve test edilen konfigürasyon ile bağlamla sınırlı olmalıdır. Resmî rehberler kullanım, bileşen ve pazar yükümlülüklerini ayırır.",
+            "next_step": "Fotoğrafı, ölçüyü, hedef bardaklığı, doluluk koşulunu ve modeli onaylı sipariş kaydında saklayın.",
+            "sources": [
+              {
+                "label": "FDA gıda ambalajı ve gıda teması bilgileri",
+                "url": "https://www.fda.gov/food/food-ingredients-packaging/food-packaging-other-substances-come-contact-food-information-consumers"
+              },
+              {
+                "label": "Avrupa Komisyonu gıda temas malzemeleri",
+                "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en"
+              },
+              {
+                "label": "CPSC etiketleme gereklilikleri özeti",
+                "url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/CPSC-Labeling-Requirements-Overview"
+              }
+            ]
+          },
+          "ui": {
+            "home": "Ana sayfa",
+            "blog": "Blog",
+            "buyingGuide": "Satın alma rehberi",
+            "inThisGuide": "BU REHBERDE",
+            "articleSections": "Makale bölümleri",
+            "discussProject": "Projenizi konuşun →",
+            "beforeOrder": "Toptan siparişi açmadan önce",
+            "sourceCheckedNotes": "KAYNAKLI ALICI NOTLARI",
+            "practicalNextStep": "Pratik sonraki adım:",
+            "primaryReferences": "Temel kaynaklar",
+            "evidenceCaveat": "Bu bağımsız kaynaklar XUYI şişesi, fabrikası, malzemesi veya testi için sertifika değildir. Kesin modeli, hedef pazarı ve güncel şartları doğrulayın.",
+            "matrixNote": "Bunlar alıcı karar kriterleridir; XUYI sertifikası, yayımlanmış MOQ veya garantili teslim süresi değildir. Modeli ve pazarı doğrulayın.",
+            "buyerChecklist": "Alıcı kontrol listesi",
+            "faqHeading": "Sık sorulan sorular",
+            "quoteHeading": "Belirli bir model için fiyat mı gerekiyor?",
+            "quoteBody": "Onaylı kapsamın incelenmesi için model, tahmini miktar, kişiselleştirme ve hedef pazarı gönderin.",
+            "quoteButton": "Plastik şişe teklifi isteyin →",
+            "continueReading": "OKUMAYA DEVAM ET",
+            "relatedGuides": "İlgili satın alma rehberleri",
+            "readArticle": "Makaleyi oku →"
+          },
+          "related": [
+            {
+              "slug": "bicycle-shop-water-bottle-cage-fit-wholesale-buying",
+              "title": "Bisiklet mağazaları şişe almadan önce neyi kontrol etmeli?",
+              "description": "Siparişten önce uyum, boşluk, kapak ve tekrar siparişini doğrulayın."
+            },
+            {
+              "slug": "wholesale-water-bottle-refill-station-fit-checklist",
+              "title": "Şişe su doldurma istasyonuna sığar mı? B2B kontrol listesi",
+              "description": "Büyük siparişten önce numuneyi su doldurma noktasında deneyin."
+            },
+            {
+              "slug": "water-bottle-capacity-sizes-wholesale",
+              "title": "500 ml, 750 ml veya 1 L şişe: toptan boyut rehberi",
+              "description": "Kapasiteyi, kullanım alanını, raf yerini ve ikmali karşılaştırın."
+            }
+          ],
+          "product_notes": [
+            {
+              "section": 0,
+              "sku": "2095",
+              "label": {
+                "en": "500ml / 16.9 oz class sports bottle model 2095",
+                "es": "botella deportiva de 500 ml / clase 16,9 oz modelo 2095",
+                "pt": "garrafa esportiva de 500 ml / classe 16,9 oz modelo 2095",
+                "ru": "спортивная бутылка 500 мл / класс 16,9 oz, модель 2095",
+                "tr": "500 ml / 16,9 oz sınıfı spor şişesi model 2095"
+              },
+              "text": {
+                "en": "Use {product} as the exact sample identity when recording the first cup-holder fit result.",
+                "es": "Use {product} como identidad exacta de la muestra al registrar el primer resultado de encaje.",
+                "pt": "Use {product} como identificação exata da amostra ao registrar o primeiro resultado de encaixe.",
+                "ru": "Используйте {product} как точную идентификацию образца при записи первой проверки посадки.",
+                "tr": "İlk bardaklık uyum sonucunu kaydederken {product} kesin numune kimliği olarak kullanın."
+              }
+            },
+            {
+              "section": 2,
+              "sku": "2100",
+              "label": {
+                "en": "650ml / 22 oz class PP/PC sports bottle model 2100",
+                "es": "botella deportiva PP/PC de 650 ml / clase 22 oz modelo 2100",
+                "pt": "garrafa esportiva PP/PC de 650 ml / classe 22 oz modelo 2100",
+                "ru": "спортивная бутылка PP/PC 650 мл / класс 22 oz, модель 2100",
+                "tr": "650 ml / 22 oz sınıfı PP/PC spor şişesi model 2100"
+              },
+              "text": {
+                "en": "Compare the base, cap and hand clearance of {product} with the same target holder.",
+                "es": "Compare base, tapa y espacio para la mano de {product} en el mismo soporte objetivo.",
+                "pt": "Compare base, tampa e espaço para a mão de {product} no mesmo suporte-alvo.",
+                "ru": "Сравните основание, крышку и место для руки у {product} в той же нише.",
+                "tr": "Aynı hedef bardaklıkta {product} tabanını, kapağını ve el boşluğunu karşılaştırın."
+              }
+            },
+            {
+              "section": 5,
+              "sku": "2516",
+              "label": {
+                "en": "1000ml / 32 oz class gradient sports bottle model 2516",
+                "es": "botella deportiva degradada de 1000 ml / clase 32 oz modelo 2516",
+                "pt": "garrafa esportiva degradê de 1000 ml / classe 32 oz modelo 2516",
+                "ru": "спортивная градиентная бутылка 1000 мл / класс 32 oz, модель 2516",
+                "tr": "1000 ml / 32 oz sınıfı degradeli spor şişesi model 2516"
+              },
+              "text": {
+                "en": "Keep the larger {product} claim limited to the holder and sample condition actually checked.",
+                "es": "Limite la afirmación sobre la {product} grande al soporte y la condición realmente comprobados.",
+                "pt": "Limite a afirmação sobre a {product} maior ao suporte e à condição realmente verificados.",
+                "ru": "Ограничьте утверждение о крупной {product} той нишей и состоянием образца, которые проверены.",
+                "tr": "Daha büyük {product} iddiasını gerçekten kontrol edilen bardaklık ve numune koşuluyla sınırlayın."
+              }
+            }
+          ]
+        }
+      },
+      "localized_related": {
+        "es": {
+          "bicycle-shop-water-bottle-cage-fit-wholesale-buying": {
+            "title": "Qué deben comprobar las tiendas de bicicletas antes de comprar botellas",
+            "description": "Revise compatibilidad, espacio, tapa y reposición antes de comprar."
+          },
+          "wholesale-water-bottle-refill-station-fit-checklist": {
+            "title": "¿Cabe la botella en una estación de recarga?",
+            "description": "Lista B2B para comprobar el encaje con una estación de agua."
+          },
+          "water-bottle-capacity-sizes-wholesale": {
+            "title": "500 ml, 750 ml o 1 L: guía de tamaños al por mayor",
+            "description": "Compare capacidad, uso, espacio de estantería y reposición."
+          }
+        },
+        "pt": {
+          "bicycle-shop-water-bottle-cage-fit-wholesale-buying": {
+            "title": "O que lojas de bicicleta devem conferir antes de comprar garrafas?",
+            "description": "Verifique compatibilidade, espaço, tampa e reposição antes do pedido."
+          },
+          "wholesale-water-bottle-refill-station-fit-checklist": {
+            "title": "A garrafa cabe na estação de reabastecimento?",
+            "description": "Checklist B2B para verificar o encaixe em um ponto de água."
+          },
+          "water-bottle-capacity-sizes-wholesale": {
+            "title": "Garrafas de 500 ml, 750 ml ou 1 L: guia de tamanhos no atacado",
+            "description": "Compare capacidade, uso, espaço de prateleira e reposição."
+          }
+        },
+        "ru": {
+          "bicycle-shop-water-bottle-cage-fit-wholesale-buying": {
+            "title": "Что проверить веломагазину перед оптовой закупкой бутылок?",
+            "description": "Проверьте совместимость, свободное место, крышку и повторный заказ."
+          },
+          "wholesale-water-bottle-refill-station-fit-checklist": {
+            "title": "Поместится ли бутылка в станцию пополнения? Чек-лист B2B",
+            "description": "Проверьте посадку образца в точке набора воды до крупной закупки."
+          },
+          "water-bottle-capacity-sizes-wholesale": {
+            "title": "Бутылки 500 мл, 750 мл или 1 л: оптовое сравнение размеров",
+            "description": "Сопоставьте объем, сценарий, место на полке и повторный заказ."
+          }
+        },
+        "tr": {
+          "bicycle-shop-water-bottle-cage-fit-wholesale-buying": {
+            "title": "Bisiklet mağazaları şişe almadan önce neyi kontrol etmeli?",
+            "description": "Siparişten önce uyum, boşluk, kapak ve tekrar siparişini doğrulayın."
+          },
+          "wholesale-water-bottle-refill-station-fit-checklist": {
+            "title": "Şişe su doldurma istasyonuna sığar mı? B2B kontrol listesi",
+            "description": "Büyük siparişten önce numuneyi su doldurma noktasında deneyin."
+          },
+          "water-bottle-capacity-sizes-wholesale": {
+            "title": "500 ml, 750 ml veya 1 L şişe: toptan boyut rehberi",
+            "description": "Kapasiteyi, kullanım alanını, raf yerini ve ikmali karşılaştırın."
+          }
+        }
+      }
+    }
+  ]
+}
