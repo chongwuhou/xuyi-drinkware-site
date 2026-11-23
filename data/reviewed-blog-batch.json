@@ -27,34 +27,34 @@
       "coverAlt": "Wholesale buyer checking a reusable water bottle handle and strap beside sample bottles in a warehouse",
       "updated": "2026-11-23",
       "sections": [
-        [
-          "Define what the handle must carry",
-          "Start with the real use case: short hand carry, bag attachment, gym use or repeated warehouse handling. Do not promise a universal load rating from appearance. Record empty, partial or agreed filled condition and keep it identical across samples."
-        ],
-        [
-          "Map the attachment points by SKU",
-          "Record bottle model, cap version, handle or strap part, factory material description, color and revision. A 500ml and a 1000ml bottle may use different attachment geometry. Treat each body-cap-handle combination as its own approval line."
-        ],
-        [
-          "Inspect the joint before testing",
-          "Check the eyelet, stitching, rivet, molded bridge or screw. Look for flash, sharp edges, whitening, cracks, loose threads and uneven contact. Photograph the same reference points on the approved sample for receiving inspection."
-        ],
-        [
-          "Run a repeatable filled-bottle hold test",
-          "Use the agreed fill level and a written sequence: lift, carry, set down, repeat and inspect. Record hand position, duration, surface and sample identity. The goal is the buyer's stated use, not an invented laboratory rating."
-        ],
-        [
-          "Check twisting, swinging and contact",
-          "A handle can survive a straight lift but loosen when the bottle swings, hits a carton or is pulled sideways. Test channel-specific motions and inspect the joint, cap, seal and wall. Record contact with artwork or a hinge."
-        ],
-        [
-          "Separate comfort from strength",
-          "Strength and comfort are different decisions. Check pinch points, hand pressure, awkward bottle angle and cap access. Include glove use or carrying other goods when that matches the target buyer."
-        ],
-        [
-          "Freeze the approved handle version",
-          "Save body, cap, handle, color, decoration, packing and revision. Put the accepted photo or sample reference on the purchase order. Any change to attachment, strap, resin, mold or cap triggers a new review."
-        ]
+        {
+          "heading": "Define what the handle must carry",
+          "paragraph": "Start with the real use case rather than the marketing name. A short hand loop used for a 500 ml promotional bottle is not tested in the same way as a strap that will hang from a filled 1,000 ml bottle during a gym or outdoor program. Write down who carries the bottle, whether it is empty or filled, how long it stays attached, and whether it is clipped to a bag, placed in a vehicle, or repeatedly lifted from a carton. For the purchase file, record the exact model, cap version, capacity, material, attachment point and approved color. This prevents a supplier from proving one light-use sample while the production order contains a heavier body or a different loop design. The first pass should produce a clear use condition, not an unsupported universal load claim."
+        },
+        {
+          "heading": "Map the attachment points by SKU",
+          "paragraph": "Inspect the attachment geometry before pulling on the handle. Check whether the loop is molded into the body, threaded through a separate cap, fixed with a rivet, or joined through a small plastic bridge. Measure the opening and look for sharp flash, thin sections, incomplete welding, loose stitching or a gap that can trap dirt. Photograph the attachment from both sides and mark the inspection point on the sample sheet. If the handle is removable, test the connector and the bottle together; a strong strap attached to a weak cap is still a failed system. Ask the factory to identify the material of each load-bearing part and to keep the neck, cap and handle as one controlled bill of materials. A buyer should approve the actual geometry, not a similar catalog picture."
+        },
+        {
+          "heading": "Inspect the joint before testing",
+          "paragraph": "Run a filled-use test with a repeatable sample condition. Use the same liquid level, cap torque and temperature for every sample, then carry the bottle by the handle for a defined route that represents the buyer's program. Include lifting from a table, placing into a carton, swinging only as the real user would, and setting the bottle down without using the cap as a grip. Record deformation, noise, separation, cap loosening and any visible whitening around the bridge. The point is not to create a laboratory certification; it is to compare the approved sample with later samples under the same practical condition. If the buyer needs a formal load or drop requirement, it must be written into the purchase specification and verified by an agreed test method."
+        },
+        {
+          "heading": "Run a repeatable filled-bottle hold test",
+          "paragraph": "Add a repetition and wear check because a handle can pass one pull and still fail after daily use. Repeat the carry cycle with the bottle filled to the agreed level, then inspect the attachment, cap threads, gasket seat and surrounding body. Rotate the handle through its normal range without forcing it past the stop. Look for cracks, stress whitening, elongation, frayed fibers, loose seams or a connector that no longer returns to its original position. Record the number of cycles and the exact failure mode instead of writing only passed or failed. For a promotional order, a short documented sample test may be enough; for a retail or sports program, the buyer should ask for a longer repeatability plan and retain a sealed golden sample for comparison during incoming inspection."
+        },
+        {
+          "heading": "Check twisting, swinging and contact",
+          "paragraph": "Material and care instructions affect the handle decision. Confirm whether the body is PP, PC, PETG, Tritan or another specified plastic, and do not infer the material from color or transparency. Food-contact suitability, temperature limits, cleaning instructions and chemical exposure should be checked for the destination market and the exact component combination. A strap or cap made from a different material may need its own declaration or supplier record. Avoid publishing a dishwasher, hot-fill or freezer claim unless the approved model, cycle and test evidence support it. The buyer's technical file should connect the handle, cap, bottle body, decoration and care label to the same SKU so that a late material substitution cannot quietly change the safety or durability result."
+        },
+        {
+          "heading": "Separate comfort from strength",
+          "paragraph": "Control the variants that can change the test result. Capacity, body shape, gradient color, logo position, cap color and packaging may look like cosmetic options, but they can change weight, balance, grip and the stress placed on a handle. List every color and capacity intended for the purchase order and state which combinations were sampled. If a logo, sleeve or gift box is added, check that it does not cover the care label or create extra pull on the strap. The supplier should return a marked artwork proof and a variant matrix showing the approved SKU for each combination. This is especially important for wholesale assortments where one approved blue sample is later substituted with a larger, heavier or differently capped version."
+        },
+        {
+          "heading": "Freeze the approved handle version",
+          "paragraph": "Release production only after the evidence is easy for another buyer to audit. Keep the approved sample photo, model number, capacity in millilitres and US fluid-ounce class, material declaration, color code, logo proof, test condition, result and carton identification in one record. The purchase order should say that substitutions require written approval and a new sample check when the handle, cap, body, material or decoration changes. At incoming inspection, select cartons by SKU and compare the handle attachment against the retained sample before checking quantity. If a failure appears, quarantine the affected variant, record the batch and ask for a corrective action rather than mixing accepted and unaccepted stock. This workflow gives a B2B buyer a practical trail from RFQ to reorder without pretending that a visual inspection replaces a regulated test."
+        }
       ],
       "checklist": [
         "Record exact body, cap, handle or strap SKU and revision.",
@@ -208,34 +208,34 @@
           "description": "Lista B2B para probar asas y correas por SKU, punto de unión, uso con la botella llena, desgaste y muestra aprobada.",
           "intro": "Un asa puede parecer segura y aun así fallar en la unión, girarse con la botella llena o resultar incómoda. Esta guía convierte la revisión en una decisión repetible de compra.",
           "sections": [
-            [
-              "Defina qué debe soportar el asa",
-              "Empiece por el uso real: transporte, bolsa, gimnasio o almacén. Registre la condición vacía o llena y no prometa una carga universal por apariencia."
-            ],
-            [
-              "Mapee los puntos de unión por SKU",
-              "Anote modelo, tapa, asa, material indicado por la fábrica, color y revisión. Apruebe cada combinación cuerpo-tapa-asa por separado."
-            ],
-            [
-              "Inspeccione la unión antes de probar",
-              "Revise ojal, costura, remache o puente; busque rebabas, grietas, hilos sueltos y contacto desigual. Fotografie los mismos puntos de la muestra."
-            ],
-            [
-              "Haga una prueba repetible con la botella llena",
-              "Use el nivel acordado y la secuencia levantar, llevar, apoyar, repetir e inspeccionar. Registre mano, duración, superficie e identidad."
-            ],
-            [
-              "Compruebe torsión, balanceo y contacto",
-              "Pruebe el movimiento lateral del canal y revise unión, tapa, junta y pared. Registre contacto con impresión o bisagra."
-            ],
-            [
-              "Separe comodidad de resistencia",
-              "Compruebe presión en dedos, ángulo, apertura y uso con guantes cuando corresponda. No confunda comodidad con resistencia."
-            ],
-            [
-              "Congele la versión aprobada",
-              "Guarde cuerpo, tapa, asa, color, decoración, embalaje y revisión. Cualquier cambio activa una nueva revisión."
-            ]
+            {
+              "heading": "Defina qué debe soportar el asa",
+              "paragraph": "Empiece por el uso real: transporte, bolsa, gimnasio o almacén. Registre la condición vacía o llena y no prometa una carga universal por apariencia."
+            },
+            {
+              "heading": "Mapee los puntos de unión por SKU",
+              "paragraph": "Anote modelo, tapa, asa, material indicado por la fábrica, color y revisión. Apruebe cada combinación cuerpo-tapa-asa por separado."
+            },
+            {
+              "heading": "Inspeccione la unión antes de probar",
+              "paragraph": "Revise ojal, costura, remache o puente; busque rebabas, grietas, hilos sueltos y contacto desigual. Fotografie los mismos puntos de la muestra."
+            },
+            {
+              "heading": "Haga una prueba repetible con la botella llena",
+              "paragraph": "Use el nivel acordado y la secuencia levantar, llevar, apoyar, repetir e inspeccionar. Registre mano, duración, superficie e identidad."
+            },
+            {
+              "heading": "Compruebe torsión, balanceo y contacto",
+              "paragraph": "Pruebe el movimiento lateral del canal y revise unión, tapa, junta y pared. Registre contacto con impresión o bisagra."
+            },
+            {
+              "heading": "Separe comodidad de resistencia",
+              "paragraph": "Compruebe presión en dedos, ángulo, apertura y uso con guantes cuando corresponda. No confunda comodidad con resistencia."
+            },
+            {
+              "heading": "Congele la versión aprobada",
+              "paragraph": "Guarde cuerpo, tapa, asa, color, decoración, embalaje y revisión. Cualquier cambio activa una nueva revisión."
+            }
           ],
           "checklist": [
             "Registre el SKU y revisión exactos del cuerpo, tapa, asa o correa.",
@@ -428,34 +428,34 @@
           "description": "Checklist B2B para testar alças e tiras por SKU, fixação, uso cheio, desgaste e amostra aprovada.",
           "intro": "Uma alça pode parecer segura e falhar na união, girar com a garrafa cheia ou ficar desconfortável. Este guia transforma a revisão em decisão repetível.",
           "sections": [
-            [
-              "Defina o que a alça deve suportar",
-              "Comece pelo uso real: mão, bolsa, academia ou armazém. Registre a condição vazia ou cheia e não prometa carga universal."
-            ],
-            [
-              "Mapeie a fixação por SKU",
-              "Anote modelo, tampa, alça, material informado pela fábrica, cor e revisão. Aprove cada combinação corpo-tampa-alça."
-            ],
-            [
-              "Inspecione a união antes do teste",
-              "Observe ilhós, costura, rebite ou ponte; procure rebarbas, trincas, fios e contato irregular. Fotografe os mesmos pontos."
-            ],
-            [
-              "Faça teste repetível com garrafa cheia",
-              "Use o nível combinado e a sequência levantar, carregar, apoiar, repetir e inspecionar. Registre mão, duração, superfície e amostra."
-            ],
-            [
-              "Verifique torção, balanço e contato",
-              "Teste o movimento lateral esperado e revise união, tampa, vedação e parede. Registre contato com impressão ou dobradiça."
-            ],
-            [
-              "Separe conforto de resistência",
-              "Confira pressão nos dedos, ângulo, abertura e uso com luvas quando aplicável. Conforto não é resistência."
-            ],
-            [
-              "Congele a versão aprovada",
-              "Guarde corpo, tampa, alça, cor, decoração, embalagem e revisão. Qualquer mudança gera nova revisão."
-            ]
+            {
+              "heading": "Defina o que a alça deve suportar",
+              "paragraph": "Comece pelo uso real: mão, bolsa, academia ou armazém. Registre a condição vazia ou cheia e não prometa carga universal."
+            },
+            {
+              "heading": "Mapeie a fixação por SKU",
+              "paragraph": "Anote modelo, tampa, alça, material informado pela fábrica, cor e revisão. Aprove cada combinação corpo-tampa-alça."
+            },
+            {
+              "heading": "Inspecione a união antes do teste",
+              "paragraph": "Observe ilhós, costura, rebite ou ponte; procure rebarbas, trincas, fios e contato irregular. Fotografe os mesmos pontos."
+            },
+            {
+              "heading": "Faça teste repetível com garrafa cheia",
+              "paragraph": "Use o nível combinado e a sequência levantar, carregar, apoiar, repetir e inspecionar. Registre mão, duração, superfície e amostra."
+            },
+            {
+              "heading": "Verifique torção, balanço e contato",
+              "paragraph": "Teste o movimento lateral esperado e revise união, tampa, vedação e parede. Registre contato com impressão ou dobradiça."
+            },
+            {
+              "heading": "Separe conforto de resistência",
+              "paragraph": "Confira pressão nos dedos, ângulo, abertura e uso com luvas quando aplicável. Conforto não é resistência."
+            },
+            {
+              "heading": "Congele a versão aprovada",
+              "paragraph": "Guarde corpo, tampa, alça, cor, decoração, embalagem e revisão. Qualquer mudança gera nova revisão."
+            }
           ],
           "checklist": [
             "Registre SKU e revisão exatos do corpo, tampa, alça ou tira.",
@@ -648,34 +648,34 @@
           "description": "B2B-чек-лист проверки ручки и ремня по SKU, креплению, наполнению, износу и утвержденному образцу.",
           "intro": "Ручка может выглядеть надежной, но ослабнуть, повернуть наполненную бутылку или быть неудобной. Руководство делает проверку повторяемой.",
           "sections": [
-            [
-              "Определите, что должна выдерживать ручка",
-              "Начните с переноски, сумки, тренировки или склада. Запишите пустое или наполненное состояние и не обещайте универсальную нагрузку."
-            ],
-            [
-              "Составьте карту креплений по SKU",
-              "Зафиксируйте модель, крышку, ручку, материал от фабрики, цвет и ревизию. Утверждайте комбинации отдельно."
-            ],
-            [
-              "Осмотрите соединение до испытания",
-              "Проверьте проушину, шов, заклепку или перемычку; ищите облой, трещины, нити и зазоры. Сфотографируйте точки."
-            ],
-            [
-              "Проведите тест наполненной бутылки",
-              "Используйте согласованный уровень и последовательность поднять, перенести, поставить, повторить и осмотреть. Запишите руку, время, поверхность и образец."
-            ],
-            [
-              "Проверьте скручивание, качание и контакт",
-              "Проверьте боковое движение и осмотрите соединение, крышку, прокладку и стенку. Запишите контакт с печатью или шарниром."
-            ],
-            [
-              "Отделите удобство от прочности",
-              "Проверьте давление на пальцы, угол, открытие и работу в перчатках. Удобство не равно прочности."
-            ],
-            [
-              "Зафиксируйте утвержденную версию",
-              "Сохраните корпус, крышку, ручку, цвет, декор, упаковку и ревизию. Любое изменение требует новой проверки."
-            ]
+            {
+              "heading": "Определите, что должна выдерживать ручка",
+              "paragraph": "Начните с переноски, сумки, тренировки или склада. Запишите пустое или наполненное состояние и не обещайте универсальную нагрузку."
+            },
+            {
+              "heading": "Составьте карту креплений по SKU",
+              "paragraph": "Зафиксируйте модель, крышку, ручку, материал от фабрики, цвет и ревизию. Утверждайте комбинации отдельно."
+            },
+            {
+              "heading": "Осмотрите соединение до испытания",
+              "paragraph": "Проверьте проушину, шов, заклепку или перемычку; ищите облой, трещины, нити и зазоры. Сфотографируйте точки."
+            },
+            {
+              "heading": "Проведите тест наполненной бутылки",
+              "paragraph": "Используйте согласованный уровень и последовательность поднять, перенести, поставить, повторить и осмотреть. Запишите руку, время, поверхность и образец."
+            },
+            {
+              "heading": "Проверьте скручивание, качание и контакт",
+              "paragraph": "Проверьте боковое движение и осмотрите соединение, крышку, прокладку и стенку. Запишите контакт с печатью или шарниром."
+            },
+            {
+              "heading": "Отделите удобство от прочности",
+              "paragraph": "Проверьте давление на пальцы, угол, открытие и работу в перчатках. Удобство не равно прочности."
+            },
+            {
+              "heading": "Зафиксируйте утвержденную версию",
+              "paragraph": "Сохраните корпус, крышку, ручку, цвет, декор, упаковку и ревизию. Любое изменение требует новой проверки."
+            }
           ],
           "checklist": [
             "Укажите точные SKU и ревизию корпуса, крышки, ручки или ремня.",
@@ -868,34 +868,34 @@
           "description": "SKU, bağlantı noktası, dolu kullanım, aşınma ve onaylı numuneye göre sap ve askı testleri için B2B liste.",
           "intro": "Bir sap fotoğrafta sağlam görünebilir ama bağlantıda gevşeyebilir, dolu şişeyi çevirebilir veya rahatsız olabilir. Bu rehber kontrolü tekrarlanabilir karara dönüştürür.",
           "sections": [
-            [
-              "Sapın neyi taşıması gerektiğini tanımlayın",
-              "Elde taşıma, çanta, spor veya depo kullanımını yazın. Boş ya da dolu koşulu kaydedin ve evrensel yük sözü vermeyin."
-            ],
-            [
-              "Bağlantıyı SKU'ya göre haritalayın",
-              "Model, kapak, sap, fabrika malzeme açıklaması, renk ve revizyonu yazın. Kombinasyonları ayrı onaylayın."
-            ],
-            [
-              "Bağlantıyı testten önce inceleyin",
-              "Göz, dikiş, perçin veya köprüyü kontrol edin; çapak, çatlak, iplik ve boşluk arayın. Aynı noktaları fotoğraflayın."
-            ],
-            [
-              "Dolu şişeyle tekrarlanabilir test yapın",
-              "Kararlaştırılan doluluk ve kaldır, taşı, bırak, tekrarla, incele sırasını kullanın. El, süre, yüzey ve numuneyi kaydedin."
-            ],
-            [
-              "Burulma, sallanma ve teması kontrol edin",
-              "Beklenen yana hareketi deneyin; bağlantı, kapak, conta ve gövdeyi inceleyin. Baskı veya menteşe temasını yazın."
-            ],
-            [
-              "Rahatlığı dayanımdan ayırın",
-              "Parmak baskısı, açı, açma ve eldiven kullanımını kontrol edin. Rahatlık dayanım değildir."
-            ],
-            [
-              "Onaylı sürümü sabitleyin",
-              "Gövde, kapak, sap, renk, dekorasyon, ambalaj ve revizyonu saklayın. Değişiklikte yeniden kontrol yapın."
-            ]
+            {
+              "heading": "Sapın neyi taşıması gerektiğini tanımlayın",
+              "paragraph": "Elde taşıma, çanta, spor veya depo kullanımını yazın. Boş ya da dolu koşulu kaydedin ve evrensel yük sözü vermeyin."
+            },
+            {
+              "heading": "Bağlantıyı SKU'ya göre haritalayın",
+              "paragraph": "Model, kapak, sap, fabrika malzeme açıklaması, renk ve revizyonu yazın. Kombinasyonları ayrı onaylayın."
+            },
+            {
+              "heading": "Bağlantıyı testten önce inceleyin",
+              "paragraph": "Göz, dikiş, perçin veya köprüyü kontrol edin; çapak, çatlak, iplik ve boşluk arayın. Aynı noktaları fotoğraflayın."
+            },
+            {
+              "heading": "Dolu şişeyle tekrarlanabilir test yapın",
+              "paragraph": "Kararlaştırılan doluluk ve kaldır, taşı, bırak, tekrarla, incele sırasını kullanın. El, süre, yüzey ve numuneyi kaydedin."
+            },
+            {
+              "heading": "Burulma, sallanma ve teması kontrol edin",
+              "paragraph": "Beklenen yana hareketi deneyin; bağlantı, kapak, conta ve gövdeyi inceleyin. Baskı veya menteşe temasını yazın."
+            },
+            {
+              "heading": "Rahatlığı dayanımdan ayırın",
+              "paragraph": "Parmak baskısı, açı, açma ve eldiven kullanımını kontrol edin. Rahatlık dayanım değildir."
+            },
+            {
+              "heading": "Onaylı sürümü sabitleyin",
+              "paragraph": "Gövde, kapak, sap, renk, dekorasyon, ambalaj ve revizyonu saklayın. Değişiklikte yeniden kontrol yapın."
+            }
           ],
           "checklist": [
             "Kesin gövde, kapak, sap veya askı SKU ve revizyonunu yazın.",
@@ -1152,34 +1152,34 @@
       "coverAlt": "Wholesale buyer inspecting a reusable water bottle cap and gasket beside approved sample bottles",
       "updated": "2026-11-23",
       "sections": [
-        [
-          "Do not treat visual fit as functional fit",
-          "A cap sitting on a bottle is only the first observation. Functional fit includes neck, thread start, sealing surface, gasket, opening, hinge or valve, grip and behavior during filling, carrying and cleaning."
-        ],
-        [
-          "Record cap and neck identity",
-          "Capture body SKU, cap SKU, version, color, factory material description, gasket or valve part and approved sample. Capacity alone does not identify a neck; similar-volume bottles can have different closure geometry."
-        ],
-        [
-          "Check the first thread and gasket seat",
-          "Start the cap by hand and note whether the thread engages smoothly without cross-threading. Inspect even gasket contact after closing, along with mouth, skirt and hinge clearance."
-        ],
-        [
-          "Test opening and closing with the same method",
-          "Use the same hand position, sample condition and opening sequence for every option. Record slipping or interference from a strap or decoration. Do not publish a force value without a controlled method."
-        ],
-        [
-          "Run leak and handling checks together",
-          "Use the agreed liquid and sequence: upright carry, inversion, gentle movement and the channel's cleaning routine. Recheck gasket, thread, valve and hinge. Keep leak observations separate from temperature or dishwasher claims."
-        ],
-        [
-          "Write care and claim boundaries",
-          "A closure may suit one market statement but not another. Separate observations from what must be confirmed for food contact, labeling or care. Ask for documents for the exact model."
-        ],
-        [
-          "Approve a change-controlled sample",
-          "Save cap, body, gasket, valve, color, decoration, packing and revision. If a component or mold changes, stop the reorder until the new combination is compared and tested."
-        ]
+        {
+          "heading": "Do not treat visual fit as functional fit",
+          "paragraph": "Define what the buyer means by a good opening before asking for a force number. A screw cap, flip-top, sport spout and push-button lid have different user actions and different failure modes. The relevant question may be whether a warehouse worker can open it with one hand, whether a child should not be able to open it easily, or whether a retail customer can understand the closure without a demonstration. Write the intended user, hand position, opening direction, expected fill level and cap torque into the sample brief. A single opening-force result without the cap type, bottle neck and test condition is not comparable. The supplier should identify the exact SKU and closure assembly so the sample test describes the product that will actually be quoted."
+        },
+        {
+          "heading": "Record cap and neck identity",
+          "paragraph": "Check the neck, thread and gasket as one sealing system. Inspect thread start, pitch, cross-thread risk, stop position, gasket compression and the contact surface inside the cap. Fill the bottle to the agreed level, close it using a repeatable method and open it several times without changing the sample. Note whether the cap binds, slips, spins without engaging, pinches the gasket or requires the user to over-tighten it. A cap that feels smooth on an empty bottle can become difficult when the body flexes or when liquid pressure changes during transport. Record the neck finish and cap version on the sample sheet; a visually similar replacement cap is not an approved substitute unless its fit and seal are tested again."
+        },
+        {
+          "heading": "Check the first thread and gasket seat",
+          "paragraph": "Use a practical hand-opening sequence and record more than the first successful attempt. Test a clean, dry sample and a sample with realistic moisture on the cap, then try the closure after the bottle has been carried and placed in a carton. For a flip or sport closure, check the latch, hinge, button and drinking opening separately; for a screw cap, check initial breakaway and the remaining turns. Ask several representative users to describe where the operation feels difficult, but do not turn opinions into a certified measurement. If the buyer needs an instrumented opening-force limit, agree the fixture, speed, temperature, sample count and acceptance rule before production. The supplier's report should include raw readings or clear observations, not only a statement that the cap is easy to use."
+        },
+        {
+          "heading": "Test opening and closing with the same method",
+          "paragraph": "Leak and transport checks belong next to opening checks because a cap can be easy to open and still fail in distribution. Close each sample with the approved torque or the defined hand method, store it upright and on its side, then inspect the seal after handling, vibration and temperature exposure appropriate to the route. Look around the thread, gasket, spout, button and vent for wetness or a slow leak. Check that opening and reclosing the lid does not twist the gasket out of position. Record whether the failure is caused by the cap, neck, seal, bottle deformation or user assembly. This evidence helps the buyer distinguish a closure design problem from an isolated assembly error and gives the factory a specific corrective-action target."
+        },
+        {
+          "heading": "Run leak and handling checks together",
+          "paragraph": "Treat cleaning and care claims as a separate verification item. A closure may contain a gasket, spring, hinge, straw or textured cavity that needs a different cleaning method from the bottle body. Ask for the care instruction for the exact material and cap combination, and do not assume that a bottle marked dishwasher-safe makes every closure component dishwasher-safe. After the agreed cleaning cycle, check opening effort, gasket seating, odor, deformation and leak performance again. If a buyer sells the bottle into a market with local food-contact or labeling expectations, retain the relevant supplier declaration and artwork version. The published product page should describe the verified scope instead of using a broad claim that users could interpret more widely than the evidence supports."
+        },
+        {
+          "heading": "Write care and claim boundaries",
+          "paragraph": "Freeze the closure configuration before placing the bulk order. The cap color, logo, tooling revision, gasket material, neck finish and packaging insert should each have a controlled identifier. If the factory proposes a lower-cost cap, a new gasket or a different thread, require a new sample and repeat the opening and leak checks. Compare the proposed replacement with the approved sample using photos, dimensions and a side-by-side fit test. For a multilingual B2B program, keep the same technical facts in every language and let the commercial wording vary only after the engineering scope is fixed. This prevents a translation or sales update from accidentally turning an untested closure option into an approved product promise."
+        },
+        {
+          "heading": "Approve a change-controlled sample",
+          "paragraph": "Put the acceptance rule directly into the RFQ and purchase order. State the SKU, neck finish, cap type, material, capacity in millilitres and ounce class, color, logo method, sample quantity, opening observations, leak condition, cleaning scope and packaging. Include the buyer's decision: approve, approve with correction, or reject and resample. Keep the signed sample record and the final artwork together, then use them at incoming inspection and at the first reorder. A useful closure checklist does not claim that one test applies to every market; it gives the buyer enough controlled information to ask a precise question, compare suppliers fairly and identify a changed component before mass production."
+        }
       ],
       "checklist": [
         "List exact body, neck, cap, gasket, valve and revision.",
@@ -1333,34 +1333,34 @@
           "description": "Lista B2B para revisar cuello, junta, apertura, fugas, limpieza y control de cambios antes de comprar.",
           "intro": "Una tapa compatible debe iniciar la rosca, asentar la junta y abrirse de forma repetible en la botella exacta. Esta guía evita aprobar solo por aspecto.",
           "sections": [
-            [
-              "No confunda encaje visual con función",
-              "Compruebe cuello, rosca, superficie, junta, abertura, bisagra, válvula, agarre y limpieza, no solo que la tapa se apoye."
-            ],
-            [
-              "Registre la identidad de tapa y cuello",
-              "Anote cuerpo, tapa, versión, color, material indicado por fábrica, junta, válvula y muestra aprobada. La capacidad no identifica el cuello."
-            ],
-            [
-              "Compruebe la primera rosca y la junta",
-              "Inicie la tapa a mano y revise contacto uniforme, boca, falda y bisagra. Una tapa apretada no prueba un sellado correcto."
-            ],
-            [
-              "Pruebe abrir y cerrar con el mismo método",
-              "Use la misma mano, condición y secuencia. Registre deslizamiento o interferencias y no publique fuerza sin método controlado."
-            ],
-            [
-              "Haga pruebas de fugas y manejo juntas",
-              "Use la secuencia acordada de transporte, inversión, movimiento y limpieza. Separe fugas de afirmaciones sobre temperatura o lavavajillas."
-            ],
-            [
-              "Escriba los límites de cuidado",
-              "Separe lo observado de los requisitos de contacto alimentario, etiquetado y cuidado. Pida documentos del modelo exacto."
-            ],
-            [
-              "Apruebe una muestra con control de cambios",
-              "Guarde tapa, cuerpo, junta, válvula, color, decoración, embalaje y revisión. Un cambio exige comparar y volver a probar."
-            ]
+            {
+              "heading": "No confunda encaje visual con función",
+              "paragraph": "Compruebe cuello, rosca, superficie, junta, abertura, bisagra, válvula, agarre y limpieza, no solo que la tapa se apoye."
+            },
+            {
+              "heading": "Registre la identidad de tapa y cuello",
+              "paragraph": "Anote cuerpo, tapa, versión, color, material indicado por fábrica, junta, válvula y muestra aprobada. La capacidad no identifica el cuello."
+            },
+            {
+              "heading": "Compruebe la primera rosca y la junta",
+              "paragraph": "Inicie la tapa a mano y revise contacto uniforme, boca, falda y bisagra. Una tapa apretada no prueba un sellado correcto."
+            },
+            {
+              "heading": "Pruebe abrir y cerrar con el mismo método",
+              "paragraph": "Use la misma mano, condición y secuencia. Registre deslizamiento o interferencias y no publique fuerza sin método controlado."
+            },
+            {
+              "heading": "Haga pruebas de fugas y manejo juntas",
+              "paragraph": "Use la secuencia acordada de transporte, inversión, movimiento y limpieza. Separe fugas de afirmaciones sobre temperatura o lavavajillas."
+            },
+            {
+              "heading": "Escriba los límites de cuidado",
+              "paragraph": "Separe lo observado de los requisitos de contacto alimentario, etiquetado y cuidado. Pida documentos del modelo exacto."
+            },
+            {
+              "heading": "Apruebe una muestra con control de cambios",
+              "paragraph": "Guarde tapa, cuerpo, junta, válvula, color, decoración, embalaje y revisión. Un cambio exige comparar y volver a probar."
+            }
           ],
           "checklist": [
             "Liste cuerpo, cuello, tapa, junta, válvula y revisión.",
@@ -1553,34 +1553,34 @@
           "description": "Checklist B2B para conferir gargalo, vedação, abertura, vazamento, limpeza e mudanças antes do pedido.",
           "intro": "Uma tampa compatível deve iniciar a rosca, assentar a vedação e abrir de modo repetível na garrafa exata. Este guia evita aprovar apenas pela aparência.",
           "sections": [
-            [
-              "Não trate encaixe visual como função",
-              "Confira gargalo, rosca, superfície, vedação, abertura, dobradiça, válvula, pegada e limpeza, não apenas o apoio da tampa."
-            ],
-            [
-              "Registre tampa e gargalo",
-              "Anote corpo, tampa, versão, cor, material da fábrica, vedação, válvula e amostra. Capacidade não identifica gargalo."
-            ],
-            [
-              "Confira primeira rosca e vedação",
-              "Comece a tampa à mão e veja contato uniforme, boca, saia e dobradiça. Tampa apertada não prova vedação."
-            ],
-            [
-              "Teste abrir e fechar pelo mesmo método",
-              "Use mesma mão, condição e sequência. Registre escorregamento ou interferências e não publique força sem método controlado."
-            ],
-            [
-              "Faça vazamento e manuseio juntos",
-              "Use transporte, inversão, movimento e limpeza combinados. Separe vazamento de afirmações de temperatura ou lava-louças."
-            ],
-            [
-              "Escreva limites de cuidado",
-              "Separe observação de requisitos de contato com alimento, rotulagem e cuidado. Peça documentos do modelo exato."
-            ],
-            [
-              "Aprove amostra com controle de mudanças",
-              "Guarde tampa, corpo, vedação, válvula, cor, decoração, embalagem e revisão. Mudança exige comparação e novo teste."
-            ]
+            {
+              "heading": "Não trate encaixe visual como função",
+              "paragraph": "Confira gargalo, rosca, superfície, vedação, abertura, dobradiça, válvula, pegada e limpeza, não apenas o apoio da tampa."
+            },
+            {
+              "heading": "Registre tampa e gargalo",
+              "paragraph": "Anote corpo, tampa, versão, cor, material da fábrica, vedação, válvula e amostra. Capacidade não identifica gargalo."
+            },
+            {
+              "heading": "Confira primeira rosca e vedação",
+              "paragraph": "Comece a tampa à mão e veja contato uniforme, boca, saia e dobradiça. Tampa apertada não prova vedação."
+            },
+            {
+              "heading": "Teste abrir e fechar pelo mesmo método",
+              "paragraph": "Use mesma mão, condição e sequência. Registre escorregamento ou interferências e não publique força sem método controlado."
+            },
+            {
+              "heading": "Faça vazamento e manuseio juntos",
+              "paragraph": "Use transporte, inversão, movimento e limpeza combinados. Separe vazamento de afirmações de temperatura ou lava-louças."
+            },
+            {
+              "heading": "Escreva limites de cuidado",
+              "paragraph": "Separe observação de requisitos de contato com alimento, rotulagem e cuidado. Peça documentos do modelo exato."
+            },
+            {
+              "heading": "Aprove amostra com controle de mudanças",
+              "paragraph": "Guarde tampa, corpo, vedação, válvula, cor, decoração, embalagem e revisão. Mudança exige comparação e novo teste."
+            }
           ],
           "checklist": [
             "Liste corpo, gargalo, tampa, vedação, válvula e revisão.",
@@ -1773,34 +1773,34 @@
           "description": "B2B-чек-лист проверки горла, прокладки, открытия, утечки, очистки и изменений до заказа.",
           "intro": "Совместимая крышка должна правильно начать резьбу, сесть на прокладку и открываться на точной бутылке. Это руководство не дает утверждать только по виду.",
           "sections": [
-            [
-              "Не принимайте внешний вид за функцию",
-              "Проверьте горло, резьбу, поверхность, прокладку, отверстие, шарнир, клапан, захват и очистку, а не только посадку."
-            ],
-            [
-              "Запишите данные крышки и горла",
-              "Укажите корпус, крышку, версию, цвет, материал фабрики, прокладку, клапан и образец. Объем не определяет горло."
-            ],
-            [
-              "Проверьте начало резьбы и прокладку",
-              "Начните крышку рукой, проверьте ровный контакт, горлышко, юбку и шарнир. Тугое закрытие не доказывает герметичность."
-            ],
-            [
-              "Проверяйте открытие одинаково",
-              "Используйте одну руку, состояние и последовательность. Запишите перекосы и помехи; не публикуйте усилие без методики."
-            ],
-            [
-              "Проверяйте утечку и использование вместе",
-              "Используйте согласованные переноску, переворот, движение и очистку. Отделяйте утечку от заявлений о температуре или посудомоечной машине."
-            ],
-            [
-              "Опишите границы ухода",
-              "Отделите наблюдение от требований контакта с пищей, маркировки и ухода. Запросите документы точной модели."
-            ],
-            [
-              "Утвердите образец с контролем изменений",
-              "Сохраните крышку, корпус, прокладку, клапан, цвет, декор, упаковку и ревизию. Изменение требует сравнения и нового теста."
-            ]
+            {
+              "heading": "Не принимайте внешний вид за функцию",
+              "paragraph": "Проверьте горло, резьбу, поверхность, прокладку, отверстие, шарнир, клапан, захват и очистку, а не только посадку."
+            },
+            {
+              "heading": "Запишите данные крышки и горла",
+              "paragraph": "Укажите корпус, крышку, версию, цвет, материал фабрики, прокладку, клапан и образец. Объем не определяет горло."
+            },
+            {
+              "heading": "Проверьте начало резьбы и прокладку",
+              "paragraph": "Начните крышку рукой, проверьте ровный контакт, горлышко, юбку и шарнир. Тугое закрытие не доказывает герметичность."
+            },
+            {
+              "heading": "Проверяйте открытие одинаково",
+              "paragraph": "Используйте одну руку, состояние и последовательность. Запишите перекосы и помехи; не публикуйте усилие без методики."
+            },
+            {
+              "heading": "Проверяйте утечку и использование вместе",
+              "paragraph": "Используйте согласованные переноску, переворот, движение и очистку. Отделяйте утечку от заявлений о температуре или посудомоечной машине."
+            },
+            {
+              "heading": "Опишите границы ухода",
+              "paragraph": "Отделите наблюдение от требований контакта с пищей, маркировки и ухода. Запросите документы точной модели."
+            },
+            {
+              "heading": "Утвердите образец с контролем изменений",
+              "paragraph": "Сохраните крышку, корпус, прокладку, клапан, цвет, декор, упаковку и ревизию. Изменение требует сравнения и нового теста."
+            }
           ],
           "checklist": [
             "Укажите корпус, горло, крышку, прокладку, клапан и ревизию.",
@@ -1993,34 +1993,34 @@
           "description": "Siparişten önce boyun, conta, açma, kaçak, temizlik ve değişiklik kontrolü için B2B kapak listesi.",
           "intro": "Uyumlu kapak doğru dişe başlamalı, contaya eşit oturmalı ve kesin şişede tekrarlanabilir açılmalıdır. Bu rehber yalnızca görünüşe göre onayı önler.",
           "sections": [
-            [
-              "Görsel uyumu işlev sanmayın",
-              "Boyun, diş, yüzey, conta, ağız, menteşe, valf, tutuş ve temizliği kontrol edin; kapağın oturması tek başına yeterli değildir."
-            ],
-            [
-              "Kapak ve boyun kimliğini kaydedin",
-              "Gövde, kapak, sürüm, renk, fabrika malzeme açıklaması, conta, valf ve numuneyi yazın. Kapasite boynu tanımlamaz."
-            ],
-            [
-              "İlk dişi ve contayı kontrol edin",
-              "Kapağı elle başlatın; eşit temas, ağız, etek ve menteşeyi inceleyin. Sıkı kapak sızdırmazlık kanıtı değildir."
-            ],
-            [
-              "Açma-kapamayı aynı yöntemle test edin",
-              "Aynı el, koşul ve sırayı kullanın. Kayma ve engelleri yazın; kontrollü yöntem olmadan kuvvet yayımlamayın."
-            ],
-            [
-              "Kaçak ve kullanımı birlikte kontrol edin",
-              "Kararlaştırılan taşıma, ters çevirme, hareket ve temizlik sırasını kullanın. Kaçağı sıcaklık veya bulaşık makinesi iddiasından ayırın."
-            ],
-            [
-              "Bakım sınırlarını yazın",
-              "Gözlemi gıda teması, etiketleme ve bakım gerekliliklerinden ayırın. Kesin model belgelerini isteyin."
-            ],
-            [
-              "Değişiklik kontrollü numune onaylayın",
-              "Kapak, gövde, conta, valf, renk, dekorasyon, ambalaj ve revizyonu saklayın. Değişiklikte karşılaştırma ve yeni test yapın."
-            ]
+            {
+              "heading": "Görsel uyumu işlev sanmayın",
+              "paragraph": "Boyun, diş, yüzey, conta, ağız, menteşe, valf, tutuş ve temizliği kontrol edin; kapağın oturması tek başına yeterli değildir."
+            },
+            {
+              "heading": "Kapak ve boyun kimliğini kaydedin",
+              "paragraph": "Gövde, kapak, sürüm, renk, fabrika malzeme açıklaması, conta, valf ve numuneyi yazın. Kapasite boynu tanımlamaz."
+            },
+            {
+              "heading": "İlk dişi ve contayı kontrol edin",
+              "paragraph": "Kapağı elle başlatın; eşit temas, ağız, etek ve menteşeyi inceleyin. Sıkı kapak sızdırmazlık kanıtı değildir."
+            },
+            {
+              "heading": "Açma-kapamayı aynı yöntemle test edin",
+              "paragraph": "Aynı el, koşul ve sırayı kullanın. Kayma ve engelleri yazın; kontrollü yöntem olmadan kuvvet yayımlamayın."
+            },
+            {
+              "heading": "Kaçak ve kullanımı birlikte kontrol edin",
+              "paragraph": "Kararlaştırılan taşıma, ters çevirme, hareket ve temizlik sırasını kullanın. Kaçağı sıcaklık veya bulaşık makinesi iddiasından ayırın."
+            },
+            {
+              "heading": "Bakım sınırlarını yazın",
+              "paragraph": "Gözlemi gıda teması, etiketleme ve bakım gerekliliklerinden ayırın. Kesin model belgelerini isteyin."
+            },
+            {
+              "heading": "Değişiklik kontrollü numune onaylayın",
+              "paragraph": "Kapak, gövde, conta, valf, renk, dekorasyon, ambalaj ve revizyonu saklayın. Değişiklikte karşılaştırma ve yeni test yapın."
+            }
           ],
           "checklist": [
             "Kesin gövde, boyun, kapak, conta, valf ve revizyonu listeleyin.",
@@ -2277,34 +2277,34 @@
       "coverAlt": "Wholesale buyer checking a reusable water bottle in a vehicle cup holder beside a sample carton",
       "updated": "2026-11-23",
       "sections": [
-        [
-          "Define the target cup-holder use",
-          "Start with the sales context: commuter bottle, delivery crew, promotional handout or retail accessory. Record the target vehicle or holder range if the buyer has one. Do not call a bottle universal when the console, bottle shape and cap are untested."
-        ],
-        [
-          "Measure the sample without guessing",
-          "Use the approved bottle and record widest body area, base, cap, handle and side features. Capacity is a useful catalog field, but it does not replace a fit check because similar milliliter volumes can have different profiles."
-        ],
-        [
-          "Test insertion with the bottle filled",
-          "Place the bottle into the target holder at the agreed fill condition, then remove and replace it using one hand if that matches the use case. Check base seating, upright position and stable contact."
-        ],
-        [
-          "Check cap, handle and hand clearance",
-          "A body may fit while the cap or handle prevents a user from gripping it. Check opening path, fingers, strap, lid hinge, drinking spout and nearby console controls. Record angle or reach limits."
-        ],
-        [
-          "Repeat the test across variants",
-          "Repeat the same check for each body, cap, color, capacity and decoration variant sharing the listing. A larger 1000ml body or different handle can change the outcome. Keep sample identity beside each result."
-        ],
-        [
-          "Keep listing language narrower than the evidence",
-          "If a sample fits one specified holder, say it was checked for that buyer's stated use. Avoid universal vehicle language without a defined range and evidence. Separate fit from safety, spill, temperature and food-contact claims."
-        ],
-        [
-          "Lock the approved sample for reorders",
-          "Save body, cap, handle, color, decoration, dimensions, photos and test context. If mold, material, cap or packing changes, repeat the fit check before production and copy are updated."
-        ]
+        {
+          "heading": "Define the target cup-holder use",
+          "paragraph": "Start by defining the vehicle use instead of asking whether a bottle is universally car-compatible. Cup holders differ between sedans, vans, trucks, buses and aftermarket consoles, and their openings can be tapered, shallow, flexible or interrupted by inserts. Record the intended vehicle group, the cup-holder location, whether the bottle will be empty or filled, and whether the driver must remove it with one hand. A wholesale buyer should also state the cap style and handle clearance requirement because a bottle can fit the base but still hit the dashboard or a handbrake. The first sample brief should name the exact SKU, capacity in millilitres and ounce class, body material and closure so the fit decision is traceable."
+        },
+        {
+          "heading": "Measure the sample without guessing",
+          "paragraph": "Measure the bottle at the points that actually enter the holder. Record the base diameter, widest body diameter, taper, height above the holder and any foot, grip ring or seam that changes the profile. Measure the holder opening and usable depth on the target vehicle or fixture, including the tightest section rather than the nominal top diameter. Keep millimetres as the working unit and add an inch reference only for the buyer's convenience. A catalogue dimension may exclude the cap, sleeve or decoration, so compare a production-intent sample with the drawing. If several capacities share one cap, do not assume they share the same vehicle fit; the body shape and center of gravity may change as capacity increases."
+        },
+        {
+          "heading": "Test insertion with the bottle filled",
+          "paragraph": "Test stability with a realistic filled condition. Fill the bottle to the agreed level, close it with the approved cap and place it in the target cup holder. Check movement during start, braking, a turn and removal by hand, then inspect whether the body rubs against the holder or whether the cap contacts the console. The purpose is to document fit and stability, not to promise safe use in every vehicle or to replace a vehicle-safety assessment. Record the fixture or vehicle, liquid level, orientation, number of trials and the result for each capacity. If a bottle tips, binds or cannot be removed without squeezing the body, mark the condition and adjust the SKU recommendation before the assortment is quoted."
+        },
+        {
+          "heading": "Check cap, handle and hand clearance",
+          "paragraph": "Check the space above the holder as carefully as the base. A flip lid, straw, carry loop or button may need clearance from the dashboard, armrest or console wall. Open and close the cap while the bottle remains in the holder, then remove it using the intended grip. Check that a hand can reach the cap without touching a hot surface or a moving control, and note whether a handle catches on the holder edge. For a retail program, photograph the bottle in the target fixture with the cap open and closed. These simple records make a buyer's fit claim understandable and prevent a supplier from presenting a low bottle-profile sample when the order will use a taller cap or promotional sleeve."
+        },
+        {
+          "heading": "Repeat the test across variants",
+          "paragraph": "Consider material, grip and condensation as part of the user experience. PP, PC, PETG, Tritan and other plastics can have different stiffness, surface feel and temperature behavior, so the buyer should confirm the actual material for the approved SKU. A smooth body may rotate more easily in a loose holder, while a textured or sleeved body may bind in a narrow one. Cold drinks can create condensation and a wet base; test whether the bottle remains stable and whether moisture reaches the console. Do not turn a single vehicle observation into a universal safety statement. State the tested bottle, holder condition, care instruction and limitations in the product information used for wholesale sales."
+        },
+        {
+          "heading": "Keep listing language narrower than the evidence",
+          "paragraph": "Build a fit matrix before selecting the retail assortment. List each capacity, body diameter, cap height, handle or strap option, color, logo treatment and intended vehicle or fixture. Mark each combination as tested, not tested, or not recommended, and link the result to a sample photo and model number. If a smaller bottle fits widely but the larger version is unstable, sell them as different use cases rather than using one generic compatibility claim. This matrix also protects replenishment: a new cap supplier, mold revision, sleeve, base ring or decoration can change the profile even when the product name stays the same. Any change should trigger a focused recheck before the listing or purchase order is updated."
+        },
+        {
+          "heading": "Lock the approved sample for reorders",
+          "paragraph": "Release the order with a controlled sample and clear receiving checks. The RFQ should include the target holder dimensions, bottle measurements, fill condition, cap and handle clearance, material, capacity in ml and ounce class, sample photos and the buyer's acceptance decision. At pre-shipment or incoming inspection, check the model and variant against the approved sample and measure the critical base and height points on a reasonable carton sample. Keep the test vehicle or fixture reference with the purchasing record, and describe the result as fit checked for the stated condition rather than universally compatible. This gives a B2B buyer a repeatable path from a conversational long-tail question to a defensible wholesale specification."
+        }
       ],
       "checklist": [
         "Define target vehicle, console or cup-holder use.",
@@ -2458,34 +2458,34 @@
           "description": "Lista B2B para probar estabilidad, tapa, asa, acceso con la mano y variantes en portavasos de vehículos.",
           "intro": "Los portavasos varían. Una botella puede caber en una consola y ser ancha, alta o difícil de retirar en otra. Esta guía documenta la muestra real.",
           "sections": [
-            [
-              "Defina el uso objetivo",
-              "Registre canal, vehículo o rango de portavasos. No llame universal a una botella sin probar consola, cuerpo y tapa."
-            ],
-            [
-              "Mida la muestra sin adivinar",
-              "Registre ancho máximo, base, tapa, asa y laterales. La capacidad no reemplaza la prueba de perfil."
-            ],
-            [
-              "Pruebe con la botella llena",
-              "Use la condición acordada y retire y reponga con una mano si corresponde. Compruebe apoyo, verticalidad y contacto estable."
-            ],
-            [
-              "Compruebe espacios de tapa, asa y mano",
-              "Revise apertura, dedos, correa, bisagra, boquilla y controles cercanos. Registre límites de ángulo o alcance."
-            ],
-            [
-              "Repita en todas las variantes",
-              "Pruebe cada cuerpo, tapa, color, capacidad y decoración. Una botella de 1000 ml o un asa distinta puede cambiar el resultado."
-            ],
-            [
-              "Mantenga el texto de venta limitado",
-              "Diga qué soporte y uso se comprobaron. Separe encaje de seguridad, derrame, temperatura y contacto alimentario."
-            ],
-            [
-              "Bloquee la muestra para reposiciones",
-              "Guarde medidas, fotos y contexto. Tras cambiar molde, material, tapa o embalaje, repita la prueba antes de editar el texto."
-            ]
+            {
+              "heading": "Defina el uso objetivo",
+              "paragraph": "Registre canal, vehículo o rango de portavasos. No llame universal a una botella sin probar consola, cuerpo y tapa."
+            },
+            {
+              "heading": "Mida la muestra sin adivinar",
+              "paragraph": "Registre ancho máximo, base, tapa, asa y laterales. La capacidad no reemplaza la prueba de perfil."
+            },
+            {
+              "heading": "Pruebe con la botella llena",
+              "paragraph": "Use la condición acordada y retire y reponga con una mano si corresponde. Compruebe apoyo, verticalidad y contacto estable."
+            },
+            {
+              "heading": "Compruebe espacios de tapa, asa y mano",
+              "paragraph": "Revise apertura, dedos, correa, bisagra, boquilla y controles cercanos. Registre límites de ángulo o alcance."
+            },
+            {
+              "heading": "Repita en todas las variantes",
+              "paragraph": "Pruebe cada cuerpo, tapa, color, capacidad y decoración. Una botella de 1000 ml o un asa distinta puede cambiar el resultado."
+            },
+            {
+              "heading": "Mantenga el texto de venta limitado",
+              "paragraph": "Diga qué soporte y uso se comprobaron. Separe encaje de seguridad, derrame, temperatura y contacto alimentario."
+            },
+            {
+              "heading": "Bloquee la muestra para reposiciones",
+              "paragraph": "Guarde medidas, fotos y contexto. Tras cambiar molde, material, tapa o embalaje, repita la prueba antes de editar el texto."
+            }
           ],
           "checklist": [
             "Defina vehículo, consola o uso.",
@@ -2678,34 +2678,34 @@
           "description": "Checklist B2B para testar estabilidade, tampa, alça, acesso com a mão e variantes em porta-copos de veículos.",
           "intro": "Porta-copos variam. Uma garrafa pode caber em um console e ser larga, alta ou difícil de retirar em outro. Este guia documenta a amostra real.",
           "sections": [
-            [
-              "Defina o uso-alvo",
-              "Registre canal, veículo ou faixa de porta-copos. Não chame de universal sem testar console, corpo e tampa."
-            ],
-            [
-              "Meça sem adivinhar",
-              "Registre largura máxima, base, tampa, alça e laterais. Capacidade não substitui o teste do perfil."
-            ],
-            [
-              "Teste com garrafa cheia",
-              "Use a condição combinada e retire e recoloque com uma mão quando aplicável. Confira apoio, verticalidade e contato estável."
-            ],
-            [
-              "Confira espaço de tampa, alça e mão",
-              "Revise abertura, dedos, tira, dobradiça, bico e controles próximos. Registre limite de ângulo ou alcance."
-            ],
-            [
-              "Repita em todas as variantes",
-              "Teste cada corpo, tampa, cor, capacidade e decoração. Uma garrafa de 1000 ml ou outra alça pode mudar o resultado."
-            ],
-            [
-              "Limite o texto de venda",
-              "Diga qual porta-copos e uso foram verificados. Separe encaixe de segurança, derramamento, temperatura e contato."
-            ],
-            [
-              "Trave a amostra para reposições",
-              "Guarde medidas, fotos e contexto. Após mudança de molde, material, tampa ou embalagem, teste antes de alterar o texto."
-            ]
+            {
+              "heading": "Defina o uso-alvo",
+              "paragraph": "Registre canal, veículo ou faixa de porta-copos. Não chame de universal sem testar console, corpo e tampa."
+            },
+            {
+              "heading": "Meça sem adivinhar",
+              "paragraph": "Registre largura máxima, base, tampa, alça e laterais. Capacidade não substitui o teste do perfil."
+            },
+            {
+              "heading": "Teste com garrafa cheia",
+              "paragraph": "Use a condição combinada e retire e recoloque com uma mão quando aplicável. Confira apoio, verticalidade e contato estável."
+            },
+            {
+              "heading": "Confira espaço de tampa, alça e mão",
+              "paragraph": "Revise abertura, dedos, tira, dobradiça, bico e controles próximos. Registre limite de ângulo ou alcance."
+            },
+            {
+              "heading": "Repita em todas as variantes",
+              "paragraph": "Teste cada corpo, tampa, cor, capacidade e decoração. Uma garrafa de 1000 ml ou outra alça pode mudar o resultado."
+            },
+            {
+              "heading": "Limite o texto de venda",
+              "paragraph": "Diga qual porta-copos e uso foram verificados. Separe encaixe de segurança, derramamento, temperatura e contato."
+            },
+            {
+              "heading": "Trave a amostra para reposições",
+              "paragraph": "Guarde medidas, fotos e contexto. Após mudança de molde, material, tampa ou embalagem, teste antes de alterar o texto."
+            }
           ],
           "checklist": [
             "Defina veículo, console ou uso.",
@@ -2898,34 +2898,34 @@
           "description": "B2B-чек-лист проверки устойчивости, крышки, ручки, доступа рукой и вариантов в автомобильном подстаканнике.",
           "intro": "Подстаканники различаются. Бутылка может войти в одну консоль, но быть широкой, высокой или неудобной в другой. Это руководство фиксирует реальный образец.",
           "sections": [
-            [
-              "Определите целевой сценарий",
-              "Запишите канал, автомобиль или диапазон подстаканников. Не называйте бутылку универсальной без проверки консоли, корпуса и крышки."
-            ],
-            [
-              "Измерьте образец",
-              "Запишите ширину, основание, крышку, ручку и боковые детали. Объем не заменяет проверку профиля."
-            ],
-            [
-              "Проверьте наполненную бутылку",
-              "Используйте согласованное состояние и одной рукой извлеките и поставьте обратно, если это сценарий. Проверьте опору и устойчивость."
-            ],
-            [
-              "Проверьте зазоры крышки, ручки и руки",
-              "Оцените открытие, пальцы, ремень, шарнир, носик и управление. Запишите ограничения угла и досягаемости."
-            ],
-            [
-              "Повторите для вариантов",
-              "Проверьте каждый корпус, крышку, цвет, объем и декор. Корпус 1000 мл или другая ручка меняют результат."
-            ],
-            [
-              "Ограничьте текст доказательством",
-              "Укажите проверенный подстаканник и сценарий. Отделяйте посадку от безопасности, пролива, температуры и контакта с пищей."
-            ],
-            [
-              "Зафиксируйте образец для заказа",
-              "Сохраните размеры, фото и контекст. После изменения формы, материала, крышки или упаковки повторите тест."
-            ]
+            {
+              "heading": "Определите целевой сценарий",
+              "paragraph": "Запишите канал, автомобиль или диапазон подстаканников. Не называйте бутылку универсальной без проверки консоли, корпуса и крышки."
+            },
+            {
+              "heading": "Измерьте образец",
+              "paragraph": "Запишите ширину, основание, крышку, ручку и боковые детали. Объем не заменяет проверку профиля."
+            },
+            {
+              "heading": "Проверьте наполненную бутылку",
+              "paragraph": "Используйте согласованное состояние и одной рукой извлеките и поставьте обратно, если это сценарий. Проверьте опору и устойчивость."
+            },
+            {
+              "heading": "Проверьте зазоры крышки, ручки и руки",
+              "paragraph": "Оцените открытие, пальцы, ремень, шарнир, носик и управление. Запишите ограничения угла и досягаемости."
+            },
+            {
+              "heading": "Повторите для вариантов",
+              "paragraph": "Проверьте каждый корпус, крышку, цвет, объем и декор. Корпус 1000 мл или другая ручка меняют результат."
+            },
+            {
+              "heading": "Ограничьте текст доказательством",
+              "paragraph": "Укажите проверенный подстаканник и сценарий. Отделяйте посадку от безопасности, пролива, температуры и контакта с пищей."
+            },
+            {
+              "heading": "Зафиксируйте образец для заказа",
+              "paragraph": "Сохраните размеры, фото и контекст. После изменения формы, материала, крышки или упаковки повторите тест."
+            }
           ],
           "checklist": [
             "Определите автомобиль, консоль или сценарий.",
@@ -3118,34 +3118,34 @@
           "description": "Araç bardaklıklarında stabilite, kapak, sap, el erişimi ve varyantları test etmek için pratik B2B liste.",
           "intro": "Araç bardaklıkları değişir. Bir şişe bir konsola sığarken başka birinde geniş, yüksek veya çıkarması zor olabilir. Bu rehber gerçek numuneyi belgeler.",
           "sections": [
-            [
-              "Hedef kullanımı tanımlayın",
-              "Kanalı, aracı veya bardaklık aralığını yazın. Kesin konsol, gövde ve kapak test edilmeden evrensel demeyin."
-            ],
-            [
-              "Numuneyi ölçün",
-              "En geniş gövdeyi, tabanı, kapağı, sapı ve yan parçaları kaydedin. Kapasite profil testinin yerine geçmez."
-            ],
-            [
-              "Dolu şişeyi yerleştirin",
-              "Kararlaştırılan koşulu kullanın; gerekiyorsa tek elle çıkarıp koyun. Tabanı, dikliği ve sabit teması kontrol edin."
-            ],
-            [
-              "Kapak, sap ve el boşluğunu inceleyin",
-              "Açma yolunu, parmakları, askıyı, menteşeyi, ağzı ve kumandaları kontrol edin. Açı ve erişim sınırlarını yazın."
-            ],
-            [
-              "Varyantlarda tekrarlayın",
-              "Listede bulunan gövde, kapak, renk, kapasite ve dekorasyonu test edin. 1000 ml gövde veya farklı sap sonucu değiştirebilir."
-            ],
-            [
-              "Satış dilini kanıtla sınırlayın",
-              "Hangi bardaklık ve kullanımın kontrol edildiğini belirtin. Uyumu güvenlik, dökülme, sıcaklık ve gıda teması iddialarından ayırın."
-            ],
-            [
-              "Numuneyi tekrar siparişine kilitleyin",
-              "Ölçü, fotoğraf ve bağlamı saklayın. Kalıp, malzeme, kapak veya ambalaj değişince metni güncellemeden önce test edin."
-            ]
+            {
+              "heading": "Hedef kullanımı tanımlayın",
+              "paragraph": "Kanalı, aracı veya bardaklık aralığını yazın. Kesin konsol, gövde ve kapak test edilmeden evrensel demeyin."
+            },
+            {
+              "heading": "Numuneyi ölçün",
+              "paragraph": "En geniş gövdeyi, tabanı, kapağı, sapı ve yan parçaları kaydedin. Kapasite profil testinin yerine geçmez."
+            },
+            {
+              "heading": "Dolu şişeyi yerleştirin",
+              "paragraph": "Kararlaştırılan koşulu kullanın; gerekiyorsa tek elle çıkarıp koyun. Tabanı, dikliği ve sabit teması kontrol edin."
+            },
+            {
+              "heading": "Kapak, sap ve el boşluğunu inceleyin",
+              "paragraph": "Açma yolunu, parmakları, askıyı, menteşeyi, ağzı ve kumandaları kontrol edin. Açı ve erişim sınırlarını yazın."
+            },
+            {
+              "heading": "Varyantlarda tekrarlayın",
+              "paragraph": "Listede bulunan gövde, kapak, renk, kapasite ve dekorasyonu test edin. 1000 ml gövde veya farklı sap sonucu değiştirebilir."
+            },
+            {
+              "heading": "Satış dilini kanıtla sınırlayın",
+              "paragraph": "Hangi bardaklık ve kullanımın kontrol edildiğini belirtin. Uyumu güvenlik, dökülme, sıcaklık ve gıda teması iddialarından ayırın."
+            },
+            {
+              "heading": "Numuneyi tekrar siparişine kilitleyin",
+              "paragraph": "Ölçü, fotoğraf ve bağlamı saklayın. Kalıp, malzeme, kapak veya ambalaj değişince metni güncellemeden önce test edin."
+            }
           ],
           "checklist": [
             "Hedef araç, konsol veya bardaklık kullanımını tanımlayın.",
@@ -3394,3 +3394,4 @@
     }
   ]
 }
+

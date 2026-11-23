@@ -111,6 +111,10 @@ def main_html(post, locale, data, prefixes, source_locale):
     sections = data["sections"]
     if len(sections) != 7:
         raise ValueError(slug + " must have 7 translated sections")
+    def section_parts(section):
+        if isinstance(section, dict):
+            return str(section.get("heading", "")), str(section.get("paragraph", ""))
+        return str(section[0]), str(section[1])
     prefix = prefixes.get(locale, "" if locale == source_locale else "/" + locale)
     body = ('<section class="page-intro"><div class="shell"><div class="breadcrumb"><a href="' + prefix + '/">' + esc(ui(data, "home", "Home"))
             + '</a> / <a href="' + prefix + '/blog/">' + esc(ui(data, "blog", "Blog")) + '</a> / ' + esc(ui(data, "buyingGuide", "Buying Guide")) + '</div>'
@@ -118,13 +122,15 @@ def main_html(post, locale, data, prefixes, source_locale):
     body += ('<section class="section blog-editorial"><div class="shell"><div class="blog-detail__cover"><img src="' + esc(post["cover"]) + '" alt="' + esc(post["coverAlt"]) + '" width="1200" height="800" loading="eager" decoding="async"></div>'
              '<div class="blog-editorial__layout"><aside class="blog-editorial__aside"><div class="blog-toc"><span class="eyebrow">' + esc(ui(data, "inThisGuide", "IN THIS GUIDE"))
              + '</span><nav aria-label="' + esc(ui(data, "articleSections", "Article sections")) + '">')
-    for i, (heading, _) in enumerate(sections):
+    for i, section in enumerate(sections):
+        heading, _ = section_parts(section)
         body += '<a href="#article-section-' + str(i) + '">' + esc(heading) + '</a>'
     body += ('</nav><a class="blog-toc__quote" href="' + prefix + '/contact/#inquiry">' + esc(ui(data, "discussProject", "Discuss your project →")) + '</a></div></aside><article class="article blog-editorial__body">'
              '<div class="blog-meta"><span>' + esc(data["category"]) + '</span><span><time datetime="' + post["updated"] + '">' + post["updated"] + '</time></span></div>'
              '<p class="blog-author-byline"><a rel="author" href="' + prefix + '/about/">XUYI Bottles · Product Sourcing Editorial Team</a></p><p class="blog-lede">' + esc(data["intro"]) + '</p>')
     body += '<div class="blog-takeaway"><strong>' + esc(ui(data, "beforeOrder", "Before releasing a wholesale order")) + '</strong><ul>' + ''.join("<li>" + esc(x) + "</li>" for x in data["checklist"][:3]) + '</ul></div>'
-    for i, (heading, paragraph) in enumerate(sections):
+    for i, section in enumerate(sections):
+        heading, paragraph = section_parts(section)
         body += '<section class="blog-section" id="article-section-' + str(i) + '"><h2>' + esc(heading) + '</h2><p>' + esc(paragraph) + localized_product_note(post, locale, prefixes, i) + '</p></section>'
     ev = data.get("evidence") or post["evidence"]
     body += ('<section class="blog-evidence" id="primary-sources" aria-labelledby="primary-sources-heading"><span class="eyebrow">' + esc(ui(data, "sourceCheckedNotes", "SOURCE-CHECKED BUYER NOTES"))
@@ -199,4 +205,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
