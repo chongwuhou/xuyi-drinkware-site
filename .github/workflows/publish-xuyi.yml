@@ -123,9 +123,20 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/xuyi-drinkware-site" \
             | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>{const j=JSON.parse(s);if(!j.success||j.result?.name!=='xuyi-drinkware-site')throw new Error('XUYI project identity mismatch');const c=j.result?.source?.config||{};if(c.production_deployments_enabled!==false||c.preview_deployment_setting!=='none')throw new Error('Disable old Git auto deploy for XUYI before enabling the CI publisher');console.log('One controlled production publisher verified')})"
-      - name: Apply guarded Blog source migrations through D1/CMS
+      - name: Apply guarded Blog source migrations before build
         if: steps.credential.outputs.ready == 'true'
-        run: python scripts/repair_blog_source.py
+        shell: bash
+        run: |
+          set +e
+          python scripts/repair_blog_source.py
+          code=$?
+          set -e
+          if [ "$code" -eq 2 ]; then
+            echo "XUYI_BLOG_SOURCE_MIGRATION_PENDING=true" >> "$GITHUB_ENV"
+            echo "New migration entrypoint will be activated by the bootstrap deployment."
+          elif [ "$code" -ne 0 ]; then
+            exit "$code"
+          fi
       - name: Read XUYI D1 publish revision
         if: steps.credential.outputs.ready == 'true' && github.event_name == 'schedule'
         id: revision
@@ -259,6 +270,38 @@ jobs:
             sleep 15
           done
           echo "::error::XUYI production build-meta did not update"
+          exit 1
+      - name: Apply guarded Blog source migration after Pages deployment
+        id: source-migration-after
+        if: steps.credential.outputs.ready == 'true' && (github.event_name != 'schedule' || steps.revision.outputs.needed == 'true')
+        run: python scripts/repair_blog_source.py
+      - name: Rebuild and republish after source migration
+        if: steps.credential.outputs.ready == 'true' && (github.event_name != 'schedule' || steps.revision.outputs.needed == 'true') && steps.source-migration-after.outputs.changed != '0'
+        shell: bash
+        run: |
+          set -euo pipefail
+          current="$(curl --fail --silent --show-error --retry 2 -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$SITE_ORIGIN/api/publish-state" | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>{let v=JSON.parse(s);process.stdout.write(String(Number(v.publishRevision||0)))})")"
+          echo "XUYI_PUBLISH_REVISION=$current" >> "$GITHUB_ENV"
+          python scripts/fetch_build_snapshot.py
+          python scripts/build_release.py
+          python scripts/test_release.py
+          python scripts/test_shared_templates.py
+          python scripts/test_source_of_truth_policy.py
+          python scripts/test_blog_source_migrations.py
+          npx --yes wrangler@4.148.0 pages deploy dist --project-name xuyi-drinkware-site --branch main
+      - name: Verify final XUYI deployment after source migration
+        if: steps.credential.outputs.ready == 'true' && (github.event_name != 'schedule' || steps.revision.outputs.needed == 'true') && steps.source-migration-after.outputs.changed != '0'
+        shell: bash
+        run: |
+          set -euo pipefail
+          for n in 1 2 3 4 5 6; do
+            if curl --fail --silent --show-error --retry 2 "$SITE_ORIGIN/build-meta.json?xuyi_final_check=$n&sha=$GITHUB_SHA" | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>{const v=JSON.parse(s);process.exit(v.pagesProject==='xuyi-drinkware-site'&&v.sourceRevision===process.env.GITHUB_SHA&&Number(v.publishRevision)>=Number(process.env.XUYI_PUBLISH_REVISION)?0:1)})"; then
+              echo "XUYI final production revision verified"
+              exit 0
+            fi
+            sleep 15
+          done
+          echo "::error::XUYI final production build-meta did not update"
           exit 1
       - name: Notify IndexNow of verified changed URLs
         if: steps.credential.outputs.ready == 'true' && (github.event_name != 'schedule' || steps.revision.outputs.needed == 'true')
