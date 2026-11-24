@@ -15,9 +15,17 @@ import sys
 import urllib.error
 import urllib.request
 from pathlib import Path
+from blog_content_normalization import dedupe_section_paragraphs
 
 ORIGIN = os.environ.get("XUYI_SITE_ORIGIN", "https://xuyibottles.com").rstrip("/")
 INTENT = "explicit-owner-approval"
+BLOG_BYLINES = {
+    "en": "By XUYI Bottles · Product Sourcing Editorial Team",
+    "es": "Por XUYI Bottles · Equipo editorial de abastecimiento de productos",
+    "pt": "Por XUYI Bottles · Equipa editorial de aprovisionamento de produtos",
+    "ru": "XUYI Bottles · Редакционная команда по подбору продукции",
+    "tr": "XUYI Bottles · Ürün tedarik editör ekibi",
+}
 
 
 def esc(value):
@@ -108,7 +116,7 @@ def localized_product_note(post, locale, prefixes, section_index):
 
 def main_html(post, locale, data, prefixes, source_locale):
     slug = post["slug"]
-    sections = data["sections"]
+    sections = dedupe_section_paragraphs(data["sections"])
     if len(sections) != 7:
         raise ValueError(slug + " must have 7 translated sections")
     def section_parts(section):
@@ -127,7 +135,7 @@ def main_html(post, locale, data, prefixes, source_locale):
         body += '<a href="#article-section-' + str(i) + '">' + esc(heading) + '</a>'
     body += ('</nav><a class="blog-toc__quote" href="' + prefix + '/contact/#inquiry">' + esc(ui(data, "discussProject", "Discuss your project →")) + '</a></div></aside><article class="article blog-editorial__body">'
              '<div class="blog-meta"><span>' + esc(data["category"]) + '</span><span><time datetime="' + post["updated"] + '">' + post["updated"] + '</time></span></div>'
-             '<p class="blog-author-byline"><a rel="author" href="' + prefix + '/about/">XUYI Bottles · Product Sourcing Editorial Team</a></p><p class="blog-lede">' + esc(data["intro"]) + '</p>')
+             '<p class="blog-author-byline"><a rel="author" href="' + prefix + '/about/">' + esc(ui(data, "authorByline", BLOG_BYLINES.get(locale, BLOG_BYLINES["en"])) ) + '</a></p><p class="blog-lede">' + esc(data["intro"]) + '</p>')
     body += '<div class="blog-takeaway"><strong>' + esc(ui(data, "beforeOrder", "Before releasing a wholesale order")) + '</strong><ul>' + ''.join("<li>" + esc(x) + "</li>" for x in data["checklist"][:3]) + '</ul></div>'
     for i, section in enumerate(sections):
         heading, paragraph = section_parts(section)
@@ -146,7 +154,10 @@ def main_html(post, locale, data, prefixes, source_locale):
         body += '<tr><th scope="row">' + esc(row[0]) + '</th><td>' + esc(row[1]) + '</td><td>' + esc(row[2]) + '</td></tr>'
     body += '</tbody></table></div><p class="blog-buyer-matrix__note">' + esc(ui(data, "matrixNote", "Buyer decision criteria, not XUYI certification, published MOQ or guaranteed delivery times. Verify the exact model and market requirements.")) + '</p></section>'
     body += '<section class="blog-checklist"><h2>' + esc(ui(data, "buyerChecklist", "Buyer checklist")) + '</h2><ul>' + ''.join("<li>" + esc(x) + "</li>" for x in data["checklist"]) + '</ul></section>'
-    body += '<section class="blog-faq"><h2>' + esc(ui(data, "faqHeading", "Frequently asked questions")) + '</h2>' + ''.join('<details><summary>' + esc(q) + '</summary><p>' + esc(a) + '</p></details>' for q, a in data["faqs"]) + '</section>'
+    faqs=[(str(q).strip(),str(a).strip()) for q,a in data.get("faqs",[]) if str(q).strip() and str(a).strip()]
+    if len(faqs) != 4:
+        raise ValueError(slug + " must have exactly 4 complete FAQ answers")
+    body += '<section class="blog-faq"><h2>' + esc(ui(data, "faqHeading", "Frequently asked questions")) + '</h2>' + ''.join('<details><summary>' + esc(q) + '</summary><p>' + esc(a) + '</p></details>' for q, a in faqs) + '</section>'
     body += '<div class="blog-editorial__cta"><h2>' + esc(ui(data, "quoteHeading", "Need a quote for a specific model?")) + '</h2><p>' + esc(ui(data, "quoteBody", "Send the model, expected order quantity, customization and destination market so the sourcing team can review the confirmed scope.")) + '</p><a class="button" href="' + prefix + '/contact/#inquiry">' + esc(ui(data, "quoteButton", "Request a Plastic Bottle Quote →")) + '</a></div>'
     body += '<section class="section section--soft blog-related"><div class="shell"><div class="section__head"><div><span class="eyebrow">' + esc(ui(data, "continueReading", "CONTINUE READING")) + '</span><h2 class="section__title">' + esc(ui(data, "relatedGuides", "Related Buying Guides")) + '</h2></div></div><div class="blog-related__grid">'
     for item in data["related"]:
@@ -195,7 +206,7 @@ def main():
                     raise ValueError(source["slug"] + " missing related translation " + locale + " " + related_slug)
                 data["related"].append({"slug": related_slug, "title": item["title"], "description": item["description"]})
             main = main_html(source, locale, data, prefixes, source_locale)
-            if main.count('class="blog-section"') != 7 or main.count('class="blog-editorial__product-link"') != 3 or main.count('class="blog-related__item"') != 3 or main.count('class="blog-buyer-matrix"') != 1 or main.count("<details>") != 4:
+            if main.count('class="blog-section"') != 7 or main.count('class="blog-editorial__product-link"') != 3 or main.count('class="blog-related__item"') != 3 or main.count('class="blog-buyer-matrix"') != 1 or main.count("<details>") != len(data.get("faqs", [])):
                 raise ValueError(source["slug"] + " " + locale + " HTML contract failed")
             translations.append({"route": "/blog/" + source["slug"] + "/", "locale": locale, "title": data["title"], "description": data["description"], "mainHtml": main})
             cards.append({"slug": source["slug"], "locale": locale, "html": card_html(source, data, prefixes.get(locale, "/" + locale))})
@@ -205,5 +216,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 

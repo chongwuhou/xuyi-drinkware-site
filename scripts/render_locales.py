@@ -245,6 +245,51 @@ def localize_blog_timeline(body,original,locale,route):
 
     return updated
 
+BLOG_BYLINES={
+    "en":"By XUYI Bottles · Product Sourcing Editorial Team",
+    "es":"Por XUYI Bottles · Equipo editorial de abastecimiento de productos",
+    "pt":"Por XUYI Bottles · Equipa editorial de aprovisionamento de produtos",
+    "ru":"XUYI Bottles · Редакционная команда по подбору продукции",
+    "tr":"XUYI Bottles · Ürün tedarik editör ekibi",
+}
+def localize_blog_byline(body,locale,route):
+    """Keep the visible author line in the same language as the article."""
+    if not re.fullmatch(r"/blog/[a-z0-9-]+/",route):return body
+    label=html.escape(BLOG_BYLINES.get(locale,BLOG_BYLINES["en"]))
+    pattern=r'(<p class="blog-author-byline"><a\b[^>]*>).*?(</a></p>)'
+    updated,count=re.subn(pattern,lambda match:match.group(1)+label+match.group(2),body,count=1,flags=re.S)
+    return updated if count else body
+
+def dedupe_localized_blog_sections(body,route):
+    """Hide exact repeated long section copy at render time.
+
+    Existing translated D1 HTML is still the source record; this is a
+    deterministic presentation guard for records created before the batch
+    publisher learned to normalize section paragraphs. It only removes an
+    identical long paragraph from a later ``blog-section`` and never touches
+    headings, FAQ answers, tables, links, or other article regions.
+    """
+    if not re.fullmatch(r"/blog/[a-z0-9-]+/",route):
+        return body
+    seen=set()
+    pattern=re.compile(
+        r'(<section class="blog-section"[^>]*>[\s\S]*?<p\b[^>]*>)([\s\S]*?)(</p>[\s\S]*?</section>)',
+        re.I,
+    )
+    def replace(match):
+        chunks=[chunk.strip() for chunk in re.split(r"\n\s*\n",match.group(2)) if chunk.strip()]
+        kept=[]
+        for chunk in chunks:
+            plain=html.unescape(re.sub(r"<[^>]+>"," ",chunk))
+            key=re.sub(r"\s+"," ",plain).strip().casefold()
+            if len(key)>=80 and key in seen:
+                continue
+            if key:
+                seen.add(key)
+            kept.append(chunk)
+        return match.group(1)+"\n\n".join(kept)+match.group(3)
+    return pattern.sub(replace,body)
+
 def localize_structured_data(markup,locale,route,localized,fields,approved_routes,path_prefix=None):
 
     """Match JSON-LD to the reviewed language page, never the English source.
@@ -864,10 +909,11 @@ def main():
         if route.startswith("/blog/"):
 
             body=localize_blog_timeline(body,original,loc,route)
+            body=localize_blog_byline(body,loc,route)
+            body=dedupe_localized_blog_sections(body,route)
 
-            from blog_geo_evidence import render as render_blog_geo_evidence
-
-            body=render_blog_geo_evidence(body,route,loc)
+            # Do not append the legacy heuristic GEO block. Localized Blog
+            # evidence must come from the translated D1/source-reviewed body.
 
         if route=="/products/" or route.startswith("/collections/"):
 
@@ -1288,4 +1334,5 @@ def main():
     print("XUYI_REVIEWED_LOCALIZED_PAGES",created,"LANGUAGES",sorted(live),"ALTERNATE_SETS",len(alternates))
 
 if __name__=="__main__":main()
+
 

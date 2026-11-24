@@ -61,10 +61,11 @@ def main():
             parsed=schema_nodes(document)
             blog_schema=[item for item in parsed if item.get("@type") in {"BlogPosting","Article"}]
             assert len(blog_schema)==1 and str(blog_schema[0].get("keywords") or "").strip(), (code,slug,"localized Blog keywords")
-            assert isinstance(blog_schema[0].get("citation"),list) and blog_schema[0]["citation"], (code,slug,"Blog citations")
-            citation_pages+=1
-            assert any(marker in document for marker in ('id="blog-geo-evidence"','id="primary-sources"','id="source-reviewed-deep-dive"')), (code,slug,"visible GEO evidence")
-            evidence_pages+=1
+            visible_evidence = any(marker in document for marker in ('id="primary-sources"','id="source-reviewed-deep-dive"'))
+            if visible_evidence:
+                assert isinstance(blog_schema[0].get("citation"),list) and blog_schema[0]["citation"], (code,slug,"Blog citations")
+                citation_pages+=1
+                evidence_pages+=1
             article_keywords[(code,slug)]=str(blog_schema[0].get("keywords") or "").strip()
             breadcrumbs=[item for item in parsed if item.get("@type")=="BreadcrumbList"]
             assert len(breadcrumbs)==1 and len(breadcrumbs[0].get("itemListElement") or [])>=3,(code,slug,"BreadcrumbList")
@@ -75,6 +76,8 @@ def main():
             if pairs:
                 assert len(faqs)==1 and len(faqs[0].get("mainEntity") or [])==len(pairs),(code,slug,"FAQPage")
                 faq_pages+=1
+            else:
+                assert not faqs, (code,slug,"FAQPage without visible FAQ answers")
             cover=re.search(r'<(?:div|figure)\b[^>]*class=["\'][^"\']*\bblog-(?:detail|editorial)__cover\b[^"\']*["\'][^>]*>\s*(<img\b[^>]*>)',document,re.I|re.S)
             assert cover,(code,slug,"Blog cover")
             tag=cover.group(1)
@@ -100,3 +103,4 @@ def main():
 
 if __name__=="__main__":
     main()
+

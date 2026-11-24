@@ -7,6 +7,7 @@ real English source route from which to render canonical/hreflang pages.
 from html import escape
 import json
 import re
+from blog_content_normalization import dedupe_section_paragraphs
 
 SLUG = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 IMAGE = re.compile(r"^/(?:media/(?:ppt/slide-\d{3}\.webp|excel/row-\d{3}\.webp|group/[a-z0-9-]+\.webp|blog/[a-z0-9_-]+\.(?:webp|png|jpg|jpeg))|assets/[a-zA-Z0-9/_-]+\.(?:webp|png|jpg|jpeg))$")
@@ -141,6 +142,7 @@ def render(post, known_slugs=()):
     if any(not isinstance(item, dict) or len(str(item.get("heading") or "")) < 5
            or len(str(item.get("paragraph") or "")) < 60 for item in sections):
         raise ValueError("Published D1 Blog post has an incomplete section: " + slug)
+    sections = dedupe_section_paragraphs(sections)
 
     published = _date(post.get("published_at")) or _date(post.get("updated")) or _date(post.get("updated_at"))
     modified = _date(post.get("updated")) or _date(post.get("updated_at")) or published
@@ -233,4 +235,5 @@ def enrich(document, post, origin="https://xuyibottles.com"):
         scripts += '<script type="application/ld+json">' + json.dumps(
             faq, ensure_ascii=False, separators=(",", ":")).replace("<", r"\u003c") + '</script>'
     return document.replace("</head>", metadata + scripts + "</head>", 1)
+
 

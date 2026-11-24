@@ -335,8 +335,9 @@ def build_url(path,title,content):
      related_start='<section class="section section--soft blog-related">'
      if related_start in main:main=main.replace(related_start,sources_section+related_start,1)
      else:main+=sources_section
-   from blog_geo_evidence import render as render_blog_geo_evidence
-   main=render_blog_geo_evidence(main,route,"en")
+   # GEO evidence is rendered only from explicit, source-reviewed article
+   # fields. Do not append the legacy heuristic block: it duplicated the
+   # article and could cut numeric context in the middle of a sentence.
   # Capacity, oz-class, material options and model-specific comparison content
   # are rendered into product detail bodies before the page is written.
   from scripts.source_catalog_capacity_oz import enrich_catalog_body,source_body_enrichment
@@ -731,4 +732,5 @@ for _d1_post in BUILD_STATE.get("blogPosts",[]):
  if _slug in BLOG_POSTS and isinstance(_d1_post.get("sections"),list) and len(_d1_post["sections"])>=2:
   BLOG_POSTS[_slug]={**BLOG_POSTS[_slug],**_d1_post}
 ARTICLES=[(post["slug"],post["title"],post["description"]) for post in reversed(list(BLOG_POSTS.values()))]
+
 

@@ -301,37 +301,6 @@ def _update_blog_keywords(page,keywords):
         return meta.sub(replacement,page,count=1)
     return page.replace("</head>",replacement+"</head>",1)
 
-def _update_blog_geo_schema(page,route,locale):
-    from blog_geo_evidence import payload
-    item=payload(route,page,locale)
-    if not item:
-        return page
-    citations=[{"@type":"CreativeWork","name":source["label"],"url":source["url"]} for source in item["sources"]]
-    facts=item.get("facts") or []
-    def update(match):
-        try:obj=json.loads(match.group(2))
-        except (ValueError,TypeError):return match.group(0)
-        nodes=obj.get("@graph",[]) if isinstance(obj,dict) and isinstance(obj.get("@graph"),list) else [obj]
-        changed=False
-        for node in nodes:
-            if not isinstance(node,dict) or node.get("@type") not in {"BlogPosting","Article"}:
-                continue
-            if not node.get("citation"):
-                node["citation"]=citations
-                changed=True
-            if facts:
-                props=node.get("additionalProperty") or []
-                if isinstance(props,dict):props=[props]
-                if not isinstance(props,list):props=[]
-                if not any(isinstance(prop,dict) and prop.get("name")=="Verified figures stated in article" for prop in props):
-                    props.append({"@type":"PropertyValue","name":"Verified figures stated in article","value":"; ".join(facts)})
-                    node["additionalProperty"]=props
-                    changed=True
-        if not changed:return match.group(0)
-        payload_json=json.dumps(obj,ensure_ascii=False,separators=(",",":")).replace("<",r"\u003c")
-        return match.group(1)+payload_json+match.group(3)
-    return JSONLD.sub(update,page)
-
 def _update_blog_breadcrumb(page,breadcrumb):
     def update(match):
         try:obj=json.loads(match.group(2))
@@ -343,6 +312,23 @@ def _update_blog_breadcrumb(page,breadcrumb):
                 if node!=breadcrumb:
                     node.clear();node.update(breadcrumb);changed=True
         if not changed:return match.group(0)
+        payload=json.dumps(obj,ensure_ascii=False,separators=(",",":")).replace("<",r"\u003c")
+        return match.group(1)+payload+match.group(3)
+    return JSONLD.sub(update,page)
+
+def _remove_schema_type(page,schema_type):
+    """Remove stale nodes before rebuilding a visible-page schema contract."""
+    def update(match):
+        try:obj=json.loads(match.group(2))
+        except (ValueError,TypeError):return match.group(0)
+        if isinstance(obj,dict) and obj.get("@type")==schema_type:
+            return ""
+        graph=obj.get("@graph") if isinstance(obj,dict) else None
+        if not isinstance(graph,list):return match.group(0)
+        filtered=[node for node in graph if not (isinstance(node,dict) and node.get("@type")==schema_type)]
+        if len(filtered)==len(graph):return match.group(0)
+        if not filtered:return ""
+        obj["@graph"]=filtered
         payload=json.dumps(obj,ensure_ascii=False,separators=(",",":")).replace("<",r"\u003c")
         return match.group(1)+payload+match.group(3)
     return JSONLD.sub(update,page)
@@ -375,12 +361,15 @@ def add_at_render(page,route,locale):
         breadcrumb,faq=_blog_nodes(page,route,locale)
         page=_update_blog_breadcrumb(page,breadcrumb)
         page=_update_blog_keywords(page,_localized_blog_keywords(page,locale))
-        page=_update_blog_geo_schema(page,route,locale)
+        # Rebuild FAQPage strictly from visible translated answers. This also
+        # removes an old empty/wrong-language FAQ node left by a prior shell.
+        page=_remove_schema_type(page,"FAQPage")
         types,_=_existing_schema(page)
         if "BreadcrumbList" not in types:nodes.append(breadcrumb)
-        if faq and "FAQPage" not in types:nodes.append(faq)
+        if faq:nodes.append(faq)
     if not nodes:return page
     payload=json.dumps({"@context":"https://schema.org","@graph":nodes},
                        ensure_ascii=False,separators=(",",":")).replace("<",r"\u003c")
     tag='<script type="application/ld+json">'+payload+'</script>'
     return page.replace("</head>",tag+"</head>",1)
+

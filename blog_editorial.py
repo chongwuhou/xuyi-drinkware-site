@@ -4,6 +4,7 @@ import re
 from site_renderer import BUILD_STATE, ROOT, e, photo, intro, SITE_ORIGIN
 
 from blog_catalog_source import load_guides
+from blog_content_normalization import dedupe_section_paragraphs
 GUIDES = {post["slug"]:post for post in load_guides(ROOT)}
 STATIC_GUIDE_UPDATED = {slug: str(post.get("updated") or "") for slug, post in GUIDES.items()}
 # D1 is the source of truth for published Blog copy. Existing static slugs
@@ -193,12 +194,13 @@ def ensure_related_guides(route, body):
 
 def render_article(slug):
     post=GUIDES[slug]
+    sections=dedupe_section_paragraphs(post["sections"])
     related=[GUIDES[s] for s in post["related"]]
     h=intro("Blog / Buying Guide",post["title"],post["description"])
     h+='<section class="section blog-editorial"><div class="shell">'
     h+='<div class="blog-detail__cover">'+photo(cover_path(slug),post["title"]+" | XUYI plastic drinkware buyer guide",loading="eager",aspect_ratio="3/2")+'</div>'
     h+='<div class="blog-editorial__layout"><aside class="blog-editorial__aside"><div class="blog-toc"><span class="eyebrow">IN THIS GUIDE</span><nav aria-label="Article sections">'
-    for item in post["sections"]:
+    for item in sections:
         h+='<a href="#'+anchor(item["heading"])+'">'+e(item["heading"])+'</a>'
     h+='</nav><a class="blog-toc__quote" href="/contact/#inquiry">Discuss your project →</a></div></aside>'
     updated=article_modified_date(slug,post)
@@ -213,7 +215,7 @@ def render_article(slug):
     for tip in post["checklist"][:3]:h+='<li>'+e(tip)+'</li>'
     h+='</ul></div>'
     from blog_editorial_inline import english_note
-    for index,section in enumerate(post["sections"]):
+    for index,section in enumerate(sections):
         h+='<section class="blog-section" id="'+anchor(section["heading"])+'"><h2>'+e(section["heading"])+'</h2><p>'+render_copy(section["paragraph"])+english_note(slug,index)+render_product_notes(post,index,'en')+'</p></section>'
     if post.get("inline_links"):
         h+='<nav class="blog-buyer-matrix__links blog-inline-links" aria-label="Related reading">'
@@ -226,12 +228,16 @@ def render_article(slug):
     h+=render_depth_evidence(slug)
     h+='<section class="blog-checklist"><h2>Buyer checklist</h2><p>Use these points when comparing a factory sample, artwork approval and purchase quotation.</p><ul>'
     for tip in post["checklist"]:h+='<li>'+e(tip)+'</li>'
-    h+='</ul></section><section class="blog-faq"><h2>Frequently asked questions</h2>'
-    for qa in post["faqs"]:
-        h+='<details><summary>'+e(qa["question"])+'</summary><p>'+e(qa["answer"])+'</p></details>'
+    valid_faqs=[qa for qa in post.get("faqs",[]) if isinstance(qa,dict) and str(qa.get("question") or "").strip() and str(qa.get("answer") or "").strip()]
+    h+='</ul></section>'
+    if valid_faqs:
+        h+='<section class="blog-faq"><h2>Frequently asked questions</h2>'
+        for qa in valid_faqs:
+            h+='<details><summary>'+e(qa["question"])+'</summary><p>'+e(qa["answer"])+'</p></details>'
+        h+='</section>'
     context=CONTEXT_LINKS.get(slug,[])
     if context:
-        h+='</section><div class="blog-context-links"><h2>Explore XUYI products and services</h2>'
+        h+='<div class="blog-context-links"><h2>Explore XUYI products and services</h2>'
         for name,href in context:
             h+='<a href="'+e(href)+'">'+e(name)+' →</a>'
         h+='</div>'
@@ -263,11 +269,15 @@ def enrich_article_html(document, slug):
     if slug in EVIDENCE:
         blogpost["citation"]=[{"@type":"CreativeWork","name":ref["label"],"url":ref["url"]} for ref in EVIDENCE[slug]["sources"]]
     # Legacy articles also have D1-published Oct 9 dates, not just new guides.
-    faq={"@type":"FAQPage","mainEntity":[{"@type":"Question","name":qa["question"],"acceptedAnswer":{"@type":"Answer","text":qa["answer"]}} for qa in post["faqs"]]}
-    graph={"@context":"https://schema.org","@graph":[blogpost,breadcrumb,faq]}
+    valid_faqs=[qa for qa in post.get("faqs",[]) if isinstance(qa,dict) and str(qa.get("question") or "").strip() and str(qa.get("answer") or "").strip()]
+    graph_nodes=[blogpost,breadcrumb]
+    if valid_faqs:
+        graph_nodes.append({"@type":"FAQPage","mainEntity":[{"@type":"Question","name":qa["question"],"acceptedAnswer":{"@type":"Answer","text":qa["answer"]}} for qa in valid_faqs]})
+    graph={"@context":"https://schema.org","@graph":graph_nodes}
     metadata='<meta property="og:type" content="article"><meta property="article:published_time" content="'+e(post["updated"])+'"><meta property="article:modified_time" content="'+e(updated)+'">'
     metadata+='<meta name="keywords" content="'+e(", ".join([post["primary_keyword"]]+post["secondary_keywords"]))+'">'
     metadata+='<meta property="og:image" content="'+e(SITE_ORIGIN+cover_path(slug))+'">'
     metadata+='<script type="application/ld+json">'+json.dumps(graph,ensure_ascii=False,separators=(",",":")).replace("</","<\\/")+'</script>'
     return document.replace("</head>",metadata+"</head>",1)
+
 

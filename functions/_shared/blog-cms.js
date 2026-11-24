@@ -111,6 +111,20 @@ export function renderEditableParagraph(value){
   return esc(value).replace(/\[([^\]\n]{2,100})\]\(\/products\/([a-zA-Z0-9_-]{2,80})\/\)/g,
     (_,label,slug)=>'<a class="blog-editorial__product-link" href="/products/'+slug+'/">'+label+'</a>');
 }
+function dedupeSectionParagraphs(sections){
+ const seen=new Set();
+ return (Array.isArray(sections)?sections:[]).map(section=>{
+  const parts=String(section?.paragraph??'').trim().split(/\n\s*\n/).map(x=>x.trim()).filter(Boolean);
+  const kept=[];
+  for(const part of parts){
+   const key=part.replace(/\s+/g,' ').trim().toLocaleLowerCase();
+   if(key.length>=80&&seen.has(key))continue;
+   if(key)seen.add(key);
+   kept.push(part);
+  }
+  return {...section,paragraph:kept.join('\n\n')};
+ });
+}
 function verifiedEvidence(post){
  const evidence=EDITORIAL_EVIDENCE[post?.slug];
  if(!evidence)return "";
@@ -233,6 +247,7 @@ function reviewedProductNotes(post,sectionIndex){
  return out;
 }
 export function blogHtml(post){
+ const renderedSections=dedupeSectionParagraphs(post.sections);
  let body='<section class="page-intro"><div class="shell"><div class="breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / Buying Guide</div><span class="eyebrow">XUYI · PLASTIC DRINKWARE</span><h1>'+esc(post.title)+'</h1><p>'+esc(post.description)+'</p></div></section>';
  body+='<section class="section blog-editorial"><div class="shell"><div class="blog-detail__cover"><img src="'+esc(post.cover)+'" alt="'+esc(post.coverAlt||post.title)+'" width="1200" height="800" loading="eager"></div><div class="blog-editorial__layout"><aside class="blog-editorial__aside"><div class="blog-toc"><span class="eyebrow">IN THIS GUIDE</span><nav aria-label="Article sections">';
  for(let i=0;i<post.sections.length;i++)body+='<a href="#article-section-'+i+'">'+esc(post.sections[i].heading)+'</a>';
@@ -245,12 +260,13 @@ export function blogHtml(post){
      'By XUYI Bottles · Product Sourcing Editorial Team')+'</a></p>';
  body+='</nav><a class="blog-toc__quote" href="/contact/#inquiry">Discuss your project →</a></div></aside><article class="article blog-editorial__body"><div class="blog-meta"><span>BUYER RESOURCES</span><span>'+timeline+'</span></div>'+byline+'<p class="blog-lede">'+esc(post.intro)+'</p>';
  if(post.checklist?.length){body+='<div class="blog-takeaway"><strong>Before requesting a quote</strong><ul>';for(const tip of post.checklist.slice(0,3))body+='<li>'+esc(tip)+'</li>';body+='</ul></div>'}
- post.sections.forEach((section,i)=>{body+='<section class="blog-section" id="article-section-'+i+'"><h2>'+esc(section.heading)+'</h2><p>'+renderEditableParagraph(section.paragraph)+reviewedBlogParagraphNote(post,section,i)+reviewedProductNotes(post,i)+'</p></section>'});
+ renderedSections.forEach((section,i)=>{const sourceSection=post.sections[i];body+='<section class="blog-section" id="article-section-'+i+'"><h2>'+esc(section.heading)+'</h2><p>'+renderEditableParagraph(section.paragraph)+reviewedBlogParagraphNote(post,sourceSection,i)+reviewedProductNotes(post,i)+'</p></section>'});
  body+=verifiedEvidence(post);
  body+=renderBuyerDecisionTable(post);
  body+=renderDepthEvidence(post);
  if(post.checklist?.length){body+='<section class="blog-checklist"><h2>Buyer checklist</h2><ul>';for(const tip of post.checklist)body+='<li>'+esc(tip)+'</li>';body+='</ul></section>'}
- if(post.faqs?.length){body+='<section class="blog-faq"><h2>Frequently asked questions</h2>';for(const q of post.faqs)body+='<details><summary>'+esc(q.question)+'</summary><p>'+esc(q.answer)+'</p></details>';body+='</section>'}
+ const visibleFaqs=Array.isArray(post.faqs)?post.faqs.filter(q=>String(q?.question||'').trim()&&String(q?.answer||'').trim()):[];
+ if(visibleFaqs.length){body+='<section class="blog-faq"><h2>Frequently asked questions</h2>';for(const q of visibleFaqs)body+='<details><summary>'+esc(q.question)+'</summary><p>'+esc(q.answer)+'</p></details>';body+='</section>'}
  body+='<div class="blog-editorial__cta"><h2>Need a quote for a specific model?</h2><p>Send the model, expected order quantity, logo requirements and destination market. XUYI can review confirmed material and customization options.</p><a class="button" href="/contact/#inquiry">Request a Plastic Bottle Quote →</a></div>';
  // The live EN article comes from D1, unlike reviewed translated static
  // articles. Derive the extra reader link from the same shared 9-post map
@@ -415,5 +431,6 @@ export function composePage(template,body,post,route){
  }
  return html;
 }
+
 
 
