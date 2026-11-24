@@ -5,6 +5,7 @@ import { authorizedReviewedBlogBatchRequest } from "../../_shared/build-auth.js"
 import { ensureBlogSchema, listBlogPosts, sortLocalizedBlogIndexByD1Order } from "../../_shared/blog-cms.js";
 import { ensureTranslationSchema } from "../../_shared/translation.js";
 import { bumpPublishRevision, loadLanguageConfig, publicLanguages } from "../../_shared/site-settings.js";
+import { repairReviewedBlogSource } from "../../_shared/blog-source-repairs.js";
 
 const reply = (body, status = 200) => Response.json(body, {
   status,
@@ -112,6 +113,9 @@ export async function onRequestPost(context) {
   try {
     await ensureBlogSchema(db);
     await ensureTranslationSchema(db);
+    if (payload?.action === "repair-reviewed-source") {
+      return reply(await repairReviewedBlogSource(db));
+    }
     const languageConfig = await loadLanguageConfig(db);
     const locales = configuredLocales(languageConfig);
     const slugs = validatePayload(payload, locales);
