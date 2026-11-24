@@ -40,15 +40,17 @@ def test_localized_section_dedupe() -> None:
 def test_blog_faq_schema_matches_visible_answers() -> None:
     page = (
         '<html><head><title>Example</title><meta name="description" content="Example"></head><body><main>'
+        '<section id="primary-sources"><h2>Sources</h2><a href="https://www.fda.gov/source">Source</a></section>'
         '<section class="blog-faq"><h2>FAQ</h2><details><summary>Can buyers verify the model?</summary>'
         '<p>Yes. Verify the model and the approved specification before ordering.</p></details></section>'
-        '</main><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[]}</script>'
+        '</main><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","citation":[{"@type":"CreativeWork","name":"Old","url":"https://old.example/"}]},{"@type":"FAQPage","mainEntity":[]}]}</script>'
         '</body></html>'
     )
     output = add_at_render(page, "/blog/example/", "es")
     types = jsonld_types(output)
     assert types.count("FAQPage") == 1, types
     assert types.count("BreadcrumbList") == 1, types
+    assert '"name":"Old"' not in output and '"name":"Source"' in output
 
     no_faq = page.replace('<details><summary>Can buyers verify the model?</summary><p>Yes. Verify the model and the approved specification before ordering.</p></details>', "")
     output = add_at_render(no_faq, "/blog/example/", "es")

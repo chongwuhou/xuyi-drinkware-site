@@ -301,6 +301,38 @@ def _update_blog_keywords(page,keywords):
         return meta.sub(replacement,page,count=1)
     return page.replace("</head>",replacement+"</head>",1)
 
+def _visible_blog_citations(page):
+    """Read citations only from visible, source-reviewed Blog regions."""
+    body=page.split("<main",1)[-1].split("</main>",1)[0]
+    regions=[]
+    regions.extend(re.findall(r'<section\b[^>]*\bid="primary-sources"[^>]*>[\s\S]*?</section>',body,re.I))
+    regions.extend(re.findall(r'<(?:section|nav)\b[^>]*class="[^"]*\bblog-deep-dive__sources\b[^"]*"[^>]*>[\s\S]*?</(?:section|nav)>',body,re.I))
+    citations=[];seen=set()
+    for region in regions:
+        for href,label in re.findall(r'<a\b[^>]*\bhref="(https://[^"]+)"[^>]*>(.*?)</a>',region,re.I|re.S):
+            url=unescape(href).strip();name=plain(label)
+            if not url or not name or url in seen:continue
+            seen.add(url);citations.append({"@type":"CreativeWork","name":name,"url":url})
+    return citations
+
+def _update_blog_citations(page):
+    citations=_visible_blog_citations(page)
+    def update(match):
+        try:obj=json.loads(match.group(2))
+        except (ValueError,TypeError):return match.group(0)
+        nodes=obj.get("@graph",[]) if isinstance(obj,dict) and isinstance(obj.get("@graph"),list) else [obj]
+        changed=False
+        for node in nodes:
+            if not isinstance(node,dict) or node.get("@type") not in {"BlogPosting","Article"}:continue
+            if citations:
+                if node.get("citation")!=citations:node["citation"]=citations;changed=True
+            elif "citation" in node:
+                node.pop("citation",None);changed=True
+        if not changed:return match.group(0)
+        payload=json.dumps(obj,ensure_ascii=False,separators=(",",":")).replace("<",r"\u003c")
+        return match.group(1)+payload+match.group(3)
+    return JSONLD.sub(update,page)
+
 def _update_blog_breadcrumb(page,breadcrumb):
     def update(match):
         try:obj=json.loads(match.group(2))
@@ -361,6 +393,7 @@ def add_at_render(page,route,locale):
         breadcrumb,faq=_blog_nodes(page,route,locale)
         page=_update_blog_breadcrumb(page,breadcrumb)
         page=_update_blog_keywords(page,_localized_blog_keywords(page,locale))
+        page=_update_blog_citations(page)
         # Rebuild FAQPage strictly from visible translated answers. This also
         # removes an old empty/wrong-language FAQ node left by a prior shell.
         page=_remove_schema_type(page,"FAQPage")
