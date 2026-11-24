@@ -125,18 +125,7 @@ jobs:
             | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>{const j=JSON.parse(s);if(!j.success||j.result?.name!=='xuyi-drinkware-site')throw new Error('XUYI project identity mismatch');const c=j.result?.source?.config||{};if(c.production_deployments_enabled!==false||c.preview_deployment_setting!=='none')throw new Error('Disable old Git auto deploy for XUYI before enabling the CI publisher');console.log('One controlled production publisher verified')})"
       - name: Apply guarded Blog source migrations through D1/CMS
         if: steps.credential.outputs.ready == 'true'
-        id: source_migration
-        shell: bash
-        run: |
-          set +e
-          python scripts/repair_blog_source.py
-          code=$?
-          if [ "$code" -eq 2 ]; then
-            echo "bootstrap_pending=true" >> "$GITHUB_OUTPUT"
-            echo "The new guarded CMS reader will be available after this first deployment; a later run will apply the D1 migration."
-            exit 0
-          fi
-          exit "$code"
+        run: python scripts/repair_blog_source.py
       - name: Read XUYI D1 publish revision
         if: steps.credential.outputs.ready == 'true' && github.event_name == 'schedule'
         id: revision
