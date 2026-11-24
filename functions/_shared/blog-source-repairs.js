@@ -124,8 +124,9 @@ export async function repairReviewedBlogSource(db){
   }
   const faq=FAQ_REPAIRS[slug];
   if(faq){
-   if(Array.isArray(post.faqs)&&post.faqs.length===4)states.faqs[slug]="already-correct";
-   else if(post.faqs==null||(Array.isArray(post.faqs)&&post.faqs.length===0)){post.faqs=faq;states.faqs[slug]="changed";changed=true;}
+   const validFaqs=Array.isArray(post.faqs)?post.faqs.filter(item=>item&&typeof item.question==="string"&&item.question.trim()&&typeof item.answer==="string"&&item.answer.trim()):[];
+   if(validFaqs.length>=4)states.faqs[slug]="already-correct";
+   else if(post.faqs==null||Array.isArray(post.faqs)){post.faqs=faq;states.faqs[slug]="changed";changed=true;}
    else throw Error("Reviewed FAQ guard mismatch: "+slug);
   }
   if(BOILERPLATE_SLUGS.includes(slug)){
