@@ -60,7 +60,10 @@ def main() -> None:
         # A newly added Pages Function cannot exist until the first deploy of
         # this commit.  The workflow performs that one bootstrap deploy, then
         # calls this same guarded entrypoint again before the final rebuild.
-        if "A reviewed Blog batch must contain posts, translations and index cards" in str(error):
+        if (
+            "A reviewed Blog batch must contain posts, translations and index cards" in str(error)
+            or "Guarded Blog source repair did not update exactly one row per statement" in str(error)
+        ):
             print("XUYI_BLOG_SOURCE_MIGRATION_PENDING")
             raise SystemExit(2) from error
         raise

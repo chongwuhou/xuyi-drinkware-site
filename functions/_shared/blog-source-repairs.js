@@ -91,7 +91,9 @@ export async function repairReviewedBlogSource(db){
   if(item.kind==="en")statements.push(db.prepare("UPDATE xuyi_blog_posts SET content_json=?,updated_at=CURRENT_TIMESTAMP WHERE slug=? AND status='published' AND content_json=? AND ("+guard+")").bind(item.new,item.slug,item.old,...guardArgs));
   else statements.push(db.prepare("UPDATE xuyi_translation_overrides SET translated_json=?,reviewed_at=CURRENT_TIMESTAMP WHERE resource_id=? AND locale=? AND translated_json=? AND ("+guard+")").bind(item.new,item.resource,item.locale,item.old,...guardArgs));
  }
- const results=await db.batch(statements);if(results.some(row=>Number(row?.meta?.changes||0)!==1))throw Error("Guarded Blog source repair did not update exactly one row per statement");
+ const results=await db.batch(statements);
+ const counts=results.map(row=>Number(row?.meta?.changes??-1));
+ if(counts.some(value=>value!==1))throw Error("Guarded Blog source repair did not update exactly one row per statement: "+JSON.stringify(counts));
  return {success:true,sourceRepair:true,changed:changes.length,states};
 }
 
