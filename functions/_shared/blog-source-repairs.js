@@ -3,6 +3,51 @@
 // match.  It is called by the existing generic D1/CMS Blog batch entrypoint.
 const SLUG = "bicycle-shop-water-bottle-cage-fit-wholesale-buying";
 const locales = ["es", "pt", "ru", "tr"];
+const FAQ_REPAIRS = {
+ "clear-plastic-water-bottle-quality-wholesale-check":[
+  {question:"What should a buyer check before ordering clear plastic water bottles wholesale?",answer:"Inspect transparency, haze, molding marks, base stability, cap fit, seals and the approved color under the same lighting used for the sample review. Record the exact SKU and finish before comparing bulk quotes."},
+  {question:"Can a product photo prove which resin a clear bottle uses?",answer:"No. A photo can show appearance, not the resin grade or food-contact status. Ask for the exact material specification and applicable documentation for the offered assembly and destination market."},
+  {question:"Should a buyer approve a bulk order from one attractive sample?",answer:"No. Approve a production-representative sample, freeze the body, cap, seal, color and decoration details, then define receiving checks for the delivered cartons."},
+  {question:"Which clear-bottle details belong in a wholesale RFQ?",answer:"List the model, capacity, dimensions, material, cap and seal, color or clarity target, logo method, packaging, quantity, destination and the evidence required for approval."}
+ ],
+ "car-cup-holder-water-bottle-fit-wholesale-checklist":[
+  {question:"Will one reusable bottle fit every car cup holder?",answer:"No. Vehicle cup holders vary in diameter, depth, taper and surrounding clearance. Test the complete production-representative bottle in the target vehicles before using a fit claim in wholesale listings."},
+  {question:"What should a buyer measure during a cup-holder fit check?",answer:"Record the bottle base diameter, overall height, lid and handle clearance, filled stability, removal grip and any contact with the vehicle controls. Name the vehicle and holder tested with the result."},
+  {question:"Does a mounted product photo prove compatibility?",answer:"No. A photo illustrates a use context but does not verify the exact SKU, fill state or every vehicle holder. Use a signed physical sample and a documented test set."},
+  {question:"What should be frozen before a wholesale reorder?",answer:"Freeze the exact bottle, cap, seal, dimensions, color, decoration and packaging configuration. A lid or body change can alter clearance even when the catalog model name stays similar."}
+ ],
+ "recycled-plastic-water-bottle-food-contact-wholesale":[
+  {question:"Can recycled plastic be assumed food-contact safe?",answer:"No. Recycled content does not by itself prove suitability for food contact. Verify the exact resin, process, assembly and destination-market documentation before making a claim."},
+  {question:"Does recycled content guarantee the same performance as virgin resin?",answer:"No. Clarity, color, odor, impact behavior and cleaning performance depend on the specified material and process. Compare production-representative samples and the supplier's evidence for the offered SKU."},
+  {question:"What evidence should an importer request?",answer:"Request the material specification, applicable food-contact declaration or test records, component scope, production reference and any use or cleaning limits that apply to the complete bottle and closure."},
+  {question:"How should a recycled-content claim be written for a product listing?",answer:"Use only the percentage, material name and scope that the supplier has documented for the exact product. Do not turn a general recycled-material statement into a certification or safety claim."}
+ ],
+ "water-bottle-dimension-tolerance-sheet-wholesale":[
+  {question:"Why is a capacity number not enough to confirm bottle fit?",answer:"Capacity describes nominal volume, not the bottle's height, base diameter, shoulder shape, neck or cap clearance. A buyer should compare the complete dimensional record with the target shelf, bag, holder or carton."},
+  {question:"Which dimensions should a wholesale tolerance sheet include?",answer:"List the measurement point, nominal value, permitted tolerance, unit and measurement method for height, body or base diameter, neck and closure interfaces, plus any feature that affects packaging or use."},
+  {question:"Is a supplier's nominal measurement enough for approval?",answer:"No. Measure the production-representative sample and confirm the supplier's method. Keep the signed drawing or sheet with the approved SKU so future reorders can be compared consistently."},
+  {question:"How does a tolerance sheet help with repeat orders?",answer:"It gives purchasing, quality and receiving teams one agreed reference. Record any approved change separately rather than silently replacing the old dimension or treating a similar-looking bottle as identical."}
+ ],
+ "wholesale-water-bottle-cap-opening-force-checklist":[
+  {question:"How should a buyer compare bottle cap opening force?",answer:"Use the complete cap, seal and bottle assembly, define one repeatable test method, and record the sample configuration, test conditions and results. Do not compare loose caps or photos as if they were the finished product."},
+  {question:"Can the cap type alone predict opening force?",answer:"No. Thread fit, gasket compression, valve or hinge design, surface finish and the assembled bottle can all affect handling. Approve the exact closure configuration offered for production."},
+  {question:"What should a supplier include in the cap test record?",answer:"The exact SKU and closure parts, test method, sample identification, test conditions, result record and any acceptance range agreed for the intended users and market."},
+  {question:"Can one cap sample prove every production lot?",answer:"No. Keep the approved reference and define receiving or lot checks for repeat orders, especially after a material, mold, gasket or closure change."}
+ ],
+ "wholesale-water-bottle-handle-strap-test":[
+  {question:"Can a bottle handle or strap be assumed to carry the full bottle?",answer:"No. The attachment, handle, strap, cap and bottle body form one assembly. Test the offered configuration with the intended filled condition and record the result before making a carrying claim."},
+  {question:"What should a wholesale handle test cover?",answer:"Check attachment points, stitching or molded features, grip, interference with the lid, repeated handling and the condition after testing. Use the same parts and decoration as the production sample."},
+  {question:"Does bottle material alone determine strap durability?",answer:"No. Durability also depends on the attachment geometry, strap material, hardware, load path and use conditions. Request evidence for the complete assembly rather than relying on the body resin name."},
+  {question:"What belongs in the sample approval record?",answer:"Record the exact model, handle or strap parts, filled condition, test method, observed result, artwork or color variant and any care or use limit that must follow the shipment."}
+ ]
+};
+const BOILERPLATE_SLUGS = [
+ "construction-site-crew-water-bottles-bulk-procurement",
+ "bicycle-shop-water-bottle-cage-fit-wholesale-buying",
+ "university-bookstore-custom-water-bottles-wholesale",
+ "workplace-refill-station-reusable-bottle-bulk-sourcing"
+];
+const BOILERPLATE_TAIL = "Assign one accountable buyer to verify the exact evidence and record the approval before moving to the next purchasing stage. Confirm all performance or material claims against the actual assembled sample, and maintain the approved purchase specification for the destination market.";
 const ENGLISH_OLD = [
  ["Segment cycling retail customers before ordering","Buyer roster or demand forecast","Approve quantity"],
  ["Test actual bicycle cage fit and frame clearance","Signed assembled bottle sample","Approve configuration"],
@@ -65,14 +110,36 @@ function repairLocaleHtml(html,locale){
 }
 
 export async function repairReviewedBlogSource(db){
- const source=await db.prepare("SELECT status,content_json FROM xuyi_blog_posts WHERE slug=?").bind(SLUG).first();
- if(!source||source.status!=="published")throw Error("Reviewed Blog source is not published: "+SLUG);
- let post;try{post=JSON.parse(source.content_json||"")}catch{throw Error("Reviewed Blog source JSON is invalid")}
- const changes=[],states={};
- const oldEnglish=JSON.stringify(post?.buyerDecisionTable?.rows||[]);
- if(sameRows(post?.buyerDecisionTable?.rows,ENGLISH_NEW))states.en="already-correct";
- else if(sameRows(post?.buyerDecisionTable?.rows,ENGLISH_OLD)){post.buyerDecisionTable.rows=ENGLISH_NEW;states.en="changed";changes.push({kind:"en",old:source.content_json,new:JSON.stringify(post),slug:SLUG});}
- else throw Error("Reviewed table guard mismatch: en");
+ const postSlugs=[...new Set([SLUG,...Object.keys(FAQ_REPAIRS),...BOILERPLATE_SLUGS])];
+ const postPatches=new Map(),states={tables:{},faqs:{},boilerplate:{}};
+ for(const slug of postSlugs){
+  const source=await db.prepare("SELECT status,content_json FROM xuyi_blog_posts WHERE slug=?").bind(slug).first();
+  if(!source||source.status!=="published")throw Error("Reviewed Blog source is not published: "+slug);
+  let post;try{post=JSON.parse(source.content_json||"")}catch{throw Error("Reviewed Blog source JSON is invalid: "+slug)}
+  let changed=false;
+  if(slug===SLUG){
+   if(sameRows(post?.buyerDecisionTable?.rows,ENGLISH_NEW))states.tables.en="already-correct";
+   else if(sameRows(post?.buyerDecisionTable?.rows,ENGLISH_OLD)){post.buyerDecisionTable.rows=ENGLISH_NEW;states.tables.en="changed";changed=true;}
+   else throw Error("Reviewed table guard mismatch: en");
+  }
+  const faq=FAQ_REPAIRS[slug];
+  if(faq){
+   if(Array.isArray(post.faqs)&&post.faqs.length===4)states.faqs[slug]="already-correct";
+   else if(post.faqs==null||(Array.isArray(post.faqs)&&post.faqs.length===0)){post.faqs=faq;states.faqs[slug]="changed";changed=true;}
+   else throw Error("Reviewed FAQ guard mismatch: "+slug);
+  }
+  if(BOILERPLATE_SLUGS.includes(slug)){
+   const sections=Array.isArray(post.sections)?post.sections:[];
+   const occurrences=sections.reduce((sum,section)=>sum+(String(section?.paragraph||"").split(BOILERPLATE_TAIL).length-1),0);
+   if(occurrences===0||occurrences===1)states.boilerplate[slug]="already-correct";
+   else if(occurrences>1){
+    for(const section of sections)if(typeof section?.paragraph==="string")section.paragraph=section.paragraph.split("\n\n"+BOILERPLATE_TAIL).join("").split(BOILERPLATE_TAIL).join("").replace(/\n{3,}/g,"\n\n").trim();
+    states.boilerplate[slug]="changed";changed=true;
+   }
+  }
+  if(changed)postPatches.set(slug,{kind:"post",slug,old:source.content_json,new:JSON.stringify(post)});
+ }
+ const changes=[...postPatches.values()];
  const resource="page:/blog/"+SLUG+"/";
  const translations=(await db.prepare("SELECT locale,translated_json FROM xuyi_translation_overrides WHERE resource_id=? AND locale IN ('es','pt','ru','tr')").bind(resource).all()).results||[];
  const byLocale=new Map(translations.map(row=>[String(row.locale),row]));
@@ -84,11 +151,11 @@ export async function repairReviewedBlogSource(db){
  }
  if(!changes.length)return {success:true,sourceRepair:true,changed:0,states};
  const guards=[];const guardArgs=[];
- for(const item of changes){if(item.kind==="en"){guards.push("(SELECT COUNT(*) FROM xuyi_blog_posts WHERE slug=? AND status='published' AND content_json=?)");guardArgs.push(item.slug,item.old)}else{guards.push("(SELECT COUNT(*) FROM xuyi_translation_overrides WHERE resource_id=? AND locale=? AND translated_json=?)");guardArgs.push(item.resource,item.locale,item.old)}}
+ for(const item of changes){if(item.kind==="post"){guards.push("(SELECT COUNT(*) FROM xuyi_blog_posts WHERE slug=? AND status='published' AND content_json=?)");guardArgs.push(item.slug,item.old)}else{guards.push("(SELECT COUNT(*) FROM xuyi_translation_overrides WHERE resource_id=? AND locale=? AND translated_json=?)");guardArgs.push(item.resource,item.locale,item.old)}}
  const guard=guards.join("+")+"="+changes.length+" AND EXISTS (SELECT 1 FROM site_state WHERE key='publish_revision')";
  const statements=[db.prepare("UPDATE site_state SET value=CAST(CAST(value AS INTEGER)+1 AS TEXT),updated_at=CURRENT_TIMESTAMP WHERE key='publish_revision' AND ("+guard+")").bind(...guardArgs)];
  for(const item of changes){
-  if(item.kind==="en")statements.push(db.prepare("UPDATE xuyi_blog_posts SET content_json=?,updated_at=CURRENT_TIMESTAMP WHERE slug=? AND status='published' AND content_json=? AND ("+guard+")").bind(item.new,item.slug,item.old,...guardArgs));
+  if(item.kind==="post")statements.push(db.prepare("UPDATE xuyi_blog_posts SET content_json=?,updated_at=CURRENT_TIMESTAMP WHERE slug=? AND status='published' AND content_json=? AND ("+guard+")").bind(item.new,item.slug,item.old,...guardArgs));
   else statements.push(db.prepare("UPDATE xuyi_translation_overrides SET translated_json=?,reviewed_at=CURRENT_TIMESTAMP WHERE resource_id=? AND locale=? AND translated_json=? AND ("+guard+")").bind(item.new,item.resource,item.locale,item.old,...guardArgs));
  }
  const results=await db.batch(statements);
