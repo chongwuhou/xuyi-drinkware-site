@@ -123,6 +123,9 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/xuyi-drinkware-site" \
             | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>{const j=JSON.parse(s);if(!j.success||j.result?.name!=='xuyi-drinkware-site')throw new Error('XUYI project identity mismatch');const c=j.result?.source?.config||{};if(c.production_deployments_enabled!==false||c.preview_deployment_setting!=='none')throw new Error('Disable old Git auto deploy for XUYI before enabling the CI publisher');console.log('One controlled production publisher verified')})"
+      - name: Apply guarded Blog source migrations through D1/CMS
+        if: steps.credential.outputs.ready == 'true'
+        run: python scripts/repair_blog_source.py
       - name: Read XUYI D1 publish revision
         if: steps.credential.outputs.ready == 'true' && github.event_name == 'schedule'
         id: revision
@@ -193,6 +196,7 @@ jobs:
           python scripts/test_visible_catalog_schemas.py
           python scripts/test_editorial_evidence.py
           python scripts/test_editorial_d1_overrides.py
+          python scripts/test_blog_source_migrations.py
           node scripts/test_blog_dynamic_evidence.mjs
           python scripts/test_blog_listing_single_header.py
           python scripts/test_blog_pagination_source.py
@@ -218,6 +222,7 @@ jobs:
           python scripts/test_release.py
           python scripts/test_shared_templates.py
           python scripts/test_source_of_truth_policy.py
+          python scripts/test_blog_source_migrations.py
           python scripts/test_cms_seo_rebuild_policy.py
           python scripts/test_seo_multilingual_launch.py
           python scripts/test_phase2_blog_seo.py
@@ -266,6 +271,7 @@ jobs:
             exit 0
           fi
           python scripts/search_submission.py --submit
+
 
 
 
