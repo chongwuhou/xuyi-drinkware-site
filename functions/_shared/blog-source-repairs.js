@@ -155,12 +155,17 @@ export async function repairReviewedBlogSource(db){
  const guard=guards.join("+")+"="+changes.length+" AND EXISTS (SELECT 1 FROM site_state WHERE key='publish_revision')";
  const statements=[db.prepare("UPDATE site_state SET value=CAST(CAST(value AS INTEGER)+1 AS TEXT),updated_at=CURRENT_TIMESTAMP WHERE key='publish_revision' AND ("+guard+")").bind(...guardArgs)];
  for(const item of changes){
-  if(item.kind==="post")statements.push(db.prepare("UPDATE xuyi_blog_posts SET content_json=?,updated_at=CURRENT_TIMESTAMP WHERE slug=? AND status='published' AND content_json=? AND ("+guard+")").bind(item.new,item.slug,item.old,...guardArgs));
-  else statements.push(db.prepare("UPDATE xuyi_translation_overrides SET translated_json=?,reviewed_at=CURRENT_TIMESTAMP WHERE resource_id=? AND locale=? AND translated_json=? AND ("+guard+")").bind(item.new,item.resource,item.locale,item.old,...guardArgs));
+  if(item.kind==="post"){
+   const itemGuard="EXISTS (SELECT 1 FROM xuyi_blog_posts WHERE slug=? AND status='published' AND content_json=?)";
+   statements.push(db.prepare("UPDATE xuyi_blog_posts SET content_json=?,updated_at=CURRENT_TIMESTAMP WHERE slug=? AND status='published' AND content_json=? AND "+itemGuard).bind(item.new,item.slug,item.old,item.slug,item.old));
+  }else{
+   const itemGuard="EXISTS (SELECT 1 FROM xuyi_translation_overrides WHERE resource_id=? AND locale=? AND translated_json=?)";
+   statements.push(db.prepare("UPDATE xuyi_translation_overrides SET translated_json=?,reviewed_at=CURRENT_TIMESTAMP WHERE resource_id=? AND locale=? AND translated_json=? AND "+itemGuard).bind(item.new,item.resource,item.locale,item.old,item.resource,item.locale,item.old));
+  }
  }
  const results=await db.batch(statements);
  const counts=results.map(row=>Number(row?.meta?.changes??-1));
- if(counts.some(value=>value!==1))throw Error("Guarded Blog source repair did not update exactly one row per statement: "+JSON.stringify(counts));
+ if(counts[0]!==1||counts.slice(1).some(value=>value!==1))throw Error("Guarded Blog source repair did not update exactly one row per statement: "+JSON.stringify(counts));
  return {success:true,sourceRepair:true,changed:changes.length,states};
 }
 
