@@ -73,11 +73,9 @@ def main():
             section=re.search(r'<section\b[^>]*class=["\'][^"\']*\bblog-faq\b[^"\']*["\'][^>]*>(.*?)</section>',document,re.I|re.S)
             pairs=re.findall(r"<details\b[^>]*>\s*<summary>(.*?)</summary>\s*<p>(.*?)</p>\s*</details>",section.group(1),re.I|re.S) if section else []
             faqs=[item for item in parsed if item.get("@type")=="FAQPage"]
-            if pairs:
-                assert len(faqs)==1 and len(faqs[0].get("mainEntity") or [])==len(pairs),(code,slug,"FAQPage")
-                faq_pages+=1
-            else:
-                assert not faqs, (code,slug,"FAQPage without visible FAQ answers")
+            assert pairs and len(pairs)>=4,(code,slug,"complete visible Blog FAQ")
+            assert len(faqs)==1 and len(faqs[0].get("mainEntity") or [])==len(pairs),(code,slug,"FAQPage")
+            faq_pages+=1
             cover=re.search(r'<(?:div|figure)\b[^>]*class=["\'][^"\']*\bblog-(?:detail|editorial)__cover\b[^"\']*["\'][^>]*>\s*(<img\b[^>]*>)',document,re.I|re.S)
             assert cover,(code,slug,"Blog cover")
             tag=cover.group(1)
