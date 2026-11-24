@@ -23,6 +23,7 @@ assert "publicLanguages(languageConfig)" in snapshot
 assert "configuredLocales(languageConfig)" in batch
 assert "loadLanguageConfig(db)" in batch
 assert '"/api/admin/blog-batch"' in auth
+assert '"/api/admin/blog"' in auth
 assert "/api/admin/blog-batch-20261111" not in auth
 assert "if (await authorizeAdminRequest(request, env)) return true;" in auth
 assert "locale IN ('es','pt','ru','tr')" not in scheduler
@@ -40,4 +41,5 @@ assert "已配置语种的图片 ALT" in content_admin
 assert 'models.includes("2292")' not in product_seo_admin
 
 print("XUYI_DYNAMIC_LANGUAGE_AND_SINGLE_BLOG_PUBLISH_GUARDS_PASS")
+
 

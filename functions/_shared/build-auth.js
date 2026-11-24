@@ -52,7 +52,7 @@ async function verifyCloudflareProjectToken(token, env) {
 const BUILD_READ_PATHS = new Set([
   "/api/build-snapshot", "/api/publish-state",
   "/api/admin/brand-config", "/api/admin/home-banners", "/api/admin/site-config",
-  "/api/admin/pages", "/api/admin/product-content",
+  "/api/admin/pages", "/api/admin/product-content", "/api/admin/blog",
   "/api/admin/page-content", "/api/admin/page-translations"
 ]);
 
@@ -151,5 +151,6 @@ export async function authorizedReviewedFactoryCatalogCommitRequest(request, env
   if(request.method!=="POST"||new URL(request.url).pathname!=="/api/admin/factory-catalog-20261103")return false;
   return verifyCloudflareProjectToken(bearerToken(request),env);
 }
+
 
 

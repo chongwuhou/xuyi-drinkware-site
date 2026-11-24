@@ -25,6 +25,9 @@ REQUIRED=(
     "scripts/build_release.py",
     "scripts/fetch_build_snapshot.py",
     "scripts/test_pages_functions_syntax.py",
+    "scripts/blog_source_migrations.py",
+    "scripts/repair_blog_source.py",
+    "scripts/test_blog_source_migrations.py",
     "docs/XUYI_OPERATIONAL_RUNBOOK_ZH.md",
     "data/blog-guides.json",
     "data/blog-photo-corrections.json",
@@ -39,3 +42,4 @@ if bad:
 if missing:
     raise SystemExit("missing generic entrypoint: "+", ".join(missing))
 print("XUYI_REPOSITORY_HYGIENE_PASSED",len(paths),"files")
+
