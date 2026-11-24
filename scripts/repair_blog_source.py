@@ -29,6 +29,10 @@ ORIGIN = os.environ.get("SITE_ORIGIN", "https://xuyibottles.com").rstrip("/")
 TOKEN = os.environ.get("CLOUDFLARE_API_TOKEN", "")
 
 
+class BootstrapRequired(RuntimeError):
+    """The live Pages Function is older than the migration client."""
+
+
 def call(path: str, *, method: str = "GET", payload: dict | None = None) -> dict:
     if not TOKEN:
         raise RuntimeError("CLOUDFLARE_API_TOKEN is required for the D1 source migration")
@@ -50,6 +54,10 @@ def call(path: str, *, method: str = "GET", payload: dict | None = None) -> dict
             result = json.load(response)
     except urllib.error.HTTPError as error:
         detail = error.read().decode("utf-8", "replace")[:1000]
+        if error.code == 401 and path.startswith("/api/admin/"):
+            raise BootstrapRequired(
+                "The live XUYI CMS does not expose the guarded source-read route yet; deploy this revision once, then rerun the publisher."
+            ) from error
         raise RuntimeError(f"{method} {path} returned HTTP {error.code}: {detail}") from error
     if not isinstance(result, dict):
         raise RuntimeError(f"{method} {path} returned an invalid JSON object")
@@ -111,8 +119,15 @@ def repair_locales() -> dict[str, str]:
 
 
 def main() -> None:
-    english = repair_english()
-    locales = repair_locales()
+    try:
+        english = repair_english()
+        locales = repair_locales()
+    except BootstrapRequired as error:
+        # The first deployment after adding a guarded migration necessarily
+        # has to publish the new reader before it can run.  The workflow treats
+        # this explicit exit code as a safe bootstrap, never as a data success.
+        print("XUYI_BLOG_SOURCE_MIGRATION_BOOTSTRAP_PENDING", error)
+        raise SystemExit(2)
     print("XUYI_BLOG_SOURCE_MIGRATION", json.dumps({"english": english, "locales": locales}, ensure_ascii=False, sort_keys=True))
 
 
