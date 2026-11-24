@@ -18,6 +18,7 @@ from blog_source_migrations import (  # noqa: E402
 
 
 def main() -> None:
+    assert set(LOCALIZED_BICYCLE_TABLES) == {"es", "pt", "ru", "tr"}
     post = {"buyerDecisionTable": {"rows": deepcopy(__import__("blog_source_migrations").ENGLISH_BICYCLE_TABLE_OLD)}}
     assert repair_english_table(post) == "changed"
     assert post["buyerDecisionTable"]["rows"] == ENGLISH_BICYCLE_TABLE_NEW
