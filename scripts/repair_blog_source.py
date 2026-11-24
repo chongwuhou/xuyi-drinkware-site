@@ -10,12 +10,14 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 import urllib.error
 import urllib.request
 
 
 TOKEN = os.environ.get("CLOUDFLARE_API_TOKEN", "")
 ORIGIN = os.environ.get("SITE_ORIGIN", "https://xuyibottles.com").rstrip("/")
+ALLOW_BOOTSTRAP = "--allow-bootstrap" in sys.argv[1:]
 
 
 def write_output(name: str, value: object) -> None:
@@ -60,7 +62,7 @@ def main() -> None:
         # A newly added Pages Function cannot exist until the first deploy of
         # this commit.  The workflow performs that one bootstrap deploy, then
         # calls this same guarded entrypoint again before the final rebuild.
-        if (
+        if ALLOW_BOOTSTRAP and (
             "A reviewed Blog batch must contain posts, translations and index cards" in str(error)
             or "Guarded Blog source repair did not update exactly one row per statement" in str(error)
         ):

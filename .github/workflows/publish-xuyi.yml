@@ -128,7 +128,7 @@ jobs:
         shell: bash
         run: |
           set +e
-          python scripts/repair_blog_source.py
+          python scripts/repair_blog_source.py --allow-bootstrap
           code=$?
           set -e
           if [ "$code" -eq 2 ]; then
